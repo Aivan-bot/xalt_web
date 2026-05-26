@@ -39,6 +39,6 @@ export default function (config) {
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
     templateFormats: ["md", "njk", "html"],
-    markdownTemplateEngine: false,
+    markdownTemplateEngine: 'njk',
   };
 }
