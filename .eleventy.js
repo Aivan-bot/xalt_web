@@ -1,8 +1,10 @@
 export default function (config) {
   // Passthrough file copy
-  config.addPassthroughCopy("./css");
-  config.addPassthroughCopy("./js");
-  config.addPassthroughCopy("./images/**/*");
+  config.addPassthroughCopy({
+    "./css": "css",
+    "./js": "js",
+    "./images": "images",
+  });
   
   // Template engine
   config.setTemplateFormats("md,njk,html");
