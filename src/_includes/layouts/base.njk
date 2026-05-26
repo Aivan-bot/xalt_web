@@ -12,133 +12,148 @@
 </head>
 <body>
 
-<!-- HEADER -->
+<!-- ===== HEADER ===== -->
 <header class="header">
   <div class="hi">
-    <a href="{{ site.url }}">
-      <span class="logo"><span class="lx">XALT</span><span class="ld"></span></span>
+    <!-- Logo -->
+    <a href="{{ site.url }}" class="logo" aria-label="{{ site.name }} Startseite">
+      <span class="lx">{{ site.name }}</span>
+      <span class="ld"></span>
     </a>
-    <nav class="nn" id="mainNav">
+
+    <!-- Desktop Navigation -->
+    <nav class="nn" id="mainNav" aria-label="Hauptnavigation">
       <div class="ni">
         <span class="nl">Leistungen <span class="d">▾</span></span>
         <div class="drop">
-          <a href="/leistungen/atlassian-beratung/">Atlassian Beratung</a>
-          <a href="/leistungen/digitale-transformation/">Digitale Transformation</a>
-          <a href="/leistungen/agile-coaching/">Agile Transformation</a>
-          <a href="/leistungen/platform-engineering/">Platform Engineering</a>
-          <a href="/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
+          <a href="{{ site.url }}/leistungen/atlassian-beratung/">Atlassian Beratung</a>
+          <a href="{{ site.url }}/leistungen/digitale-transformation/">Digitale Transformation</a>
+          <a href="{{ site.url }}/leistungen/agile-coaching/">Agile Transformation</a>
+          <a href="{{ site.url }}/leistungen/platform-engineering/">Platform Engineering</a>
+          <a href="{{ site.url }}/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
         </div>
       </div>
       <div class="ni">
         <span class="nl">Lösungen <span class="d">▾</span></span>
         <div class="drop">
-          <a href="/loesungen/digital-workplace/">Digital Workplace</a>
-          <a href="/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
-          <a href="/loesungen/cloud-infrastruktur/">Cloud Infrastruktur</a>
+          <a href="{{ site.url }}/loesungen/digital-workplace/">Digital Workplace</a>
+          <a href="{{ site.url }}/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
+          <a href="{{ site.url }}/loesungen/cloud-infrastruktur/">Cloud Infrastruktur</a>
         </div>
       </div>
-      <a href="/blog/" class="nl">Blog</a>
+      <a href="{{ site.url }}/blog/" class="nl">Blog</a>
       <div class="ni">
         <span class="nl">Ressourcen <span class="d">▾</span></span>
         <div class="drop">
-          <a href="/ressourcen/whitepaper/">Whitepaper</a>
-          <a href="/ressourcen/webinar/">Webinar</a>
-          <a href="/ressourcen/dokumentation/">Dokumentation</a>
+          <a href="{{ site.url }}/ressourcen/whitepaper/">Whitepaper</a>
+          <a href="{{ site.url }}/ressourcen/webinar/">Webinar</a>
+          <a href="{{ site.url }}/ressourcen/dokumentation/">Dokumentation</a>
         </div>
       </div>
       <div class="ni">
         <span class="nl">Unternehmen <span class="d">▾</span></span>
         <div class="drop">
-          <a href="/unternehmen/ueber-uns/">Über uns</a>
-          <a href="/unternehmen/karriere/">Karriere & Jobs</a>
-          <a href="/unternehmen/unsere-teams/">Unser Team</a>
+          <a href="{{ site.url }}/unternehmen/ueber-uns/">Über uns</a>
+          <a href="{{ site.url }}/unternehmen/karriere/">Karriere & Jobs</a>
+          <a href="{{ site.url }}/unternehmen/unsere-teams/">Unser Team</a>
         </div>
       </div>
     </nav>
+
+    <!-- Header Actions (Desktop: Search, Language, CTA) -->
     <div class="ha">
-      <span class="srch">⌕</span>
-      <span class="lang">🌐</span>
-      <a href="/kontakt/" class="cta">Kontakt</a>
+      <span class="srch" aria-label="Suche">⌕</span>
+      <span class="lang" aria-label="Sprache wählen">🌐</span>
+      <a href="{{ site.url }}/kontakt/" class="cta">Kontakt</a>
     </div>
-    <button class="mt" id="menuToggle" aria-expanded="false">
-      <span class="ml"></span><span class="ml"></span><span class="ml"></span>
+
+    <!-- Mobile Hamburger Button -->
+    <button class="mt" id="menuToggle" aria-expanded="false" aria-controls="mobileDrop" aria-label="Menü öffnen">
+      <span class="ml"></span>
+      <span class="ml"></span>
+      <span class="ml"></span>
     </button>
   </div>
-  <div class="drop" id="mobileDrop" style="display:none">
-    <a href="/leistungen/atlassian-beratung/">Atlassian Beratung</a>
-    <a href="/leistungen/digitale-transformation/">Digitale Transformation</a>
-    <a href="/leistungen/agile-coaching/">Agile Transformation</a>
-    <a href="/leistungen/platform-engineering/">Platform Engineering</a>
-    <a href="/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
-    <a href="/loesungen/digital-workplace/">Digital Workplace</a>
-    <a href="/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
-    <a href="/leistungen/atlassian-cloud-migration/">Cloud Infrastruktur</a>
-    <a href="/blog/">Blog</a>
-    <a href="/ressourcen/whitepaper/">Whitepaper</a>
-    <a href="/ressourcen/webinar/">Webinar</a>
-    <a href="/unternehmen/ueber-uns/">Über uns</a>
-    <a href="/unternehmen/karriere/">Karriere & Jobs</a>
-    <a href="/kontakt/">Kontakt</a>
+
+  <!-- Mobile Menu Dropdown (flat link list) -->
+  <div class="drop" id="mobileDrop" role="dialog" aria-label="Mobile Navigation" style="display:none">
+    <a href="{{ site.url }}/leistungen/atlassian-beratung/">Atlassian Beratung</a>
+    <a href="{{ site.url }}/leistungen/digitale-transformation/">Digitale Transformation</a>
+    <a href="{{ site.url }}/leistungen/agile-coaching/">Agile Transformation</a>
+    <a href="{{ site.url }}/leistungen/platform-engineering/">Platform Engineering</a>
+    <a href="{{ site.url }}/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
+    <a href="{{ site.url }}/loesungen/digital-workplace/">Digital Workplace</a>
+    <a href="{{ site.url }}/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
+    <a href="{{ site.url }}/loesungen/cloud-infrastruktur/">Cloud Infrastruktur</a>
+    <a href="{{ site.url }}/blog/">Blog</a>
+    <a href="{{ site.url }}/ressourcen/whitepaper/">Whitepaper</a>
+    <a href="{{ site.url }}/ressourcen/webinar/">Webinar</a>
+    <a href="{{ site.url }}/ressourcen/dokumentation/">Dokumentation</a>
+    <a href="{{ site.url }}/unternehmen/ueber-uns/">Über uns</a>
+    <a href="{{ site.url }}/unternehmen/karriere/">Karriere & Jobs</a>
+    <a href="{{ site.url }}/unternehmen/unsere-teams/">Unser Team</a>
+    <a href="{{ site.url }}/kontakt/">Kontakt</a>
   </div>
 </header>
 
-<!-- MAIN CONTENT -->
+<!-- ===== MAIN CONTENT ===== -->
 {{ content }}
 
-<!-- FOOTER -->
+<!-- ===== FOOTER ===== -->
 <footer class="ft">
   <div class="fgr">
     <div class="fcol">
       <h4>Leistungen</h4>
-      <a href="/leistungen/atlassian-beratung/">DevOps Transformation</a>
-      <a href="/leistungen/agile-coaching/">Agiles Projekt Management</a>
-      <a href="/leistungen/platform-engineering/">Continuous Integration & Delivery</a>
-      <a href="/leistungen/digitale-transformation/">Digitalisierung von Geschäftsprozessen</a>
-      <a href="/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
+      <a href="{{ site.url }}/leistungen/atlassian-beratung/">DevOps Transformation</a>
+      <a href="{{ site.url }}/leistungen/agile-coaching/">Agiles Projekt Management</a>
+      <a href="{{ site.url }}/leistungen/platform-engineering/">Continuous Integration &amp; Delivery</a>
+      <a href="{{ site.url }}/leistungen/digitale-transformation/">Digitalisierung von Geschäftsprozessen</a>
+      <a href="{{ site.url }}/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
     </div>
     <div class="fcol">
-      <h4>Produkte & Lösungen</h4>
-      <a href="/loesungen/digital-workplace/">Confluence Beratung</a>
-      <a href="/loesungen/prozess-digitalisierung/">IT Service Management</a>
-      <a href="/loesungen/cloud-infrastruktur/">Managed Atlassian Hosting</a>
-      <a href="/apps/app-support/">App & Plugin Support</a>
+      <h4>Produkte &amp; Lösungen</h4>
+      <a href="{{ site.url }}/loesungen/digital-workplace/">Confluence Beratung</a>
+      <a href="{{ site.url }}/loesungen/prozess-digitalisierung/">IT Service Management</a>
+      <a href="{{ site.url }}/loesungen/cloud-infrastruktur/">Managed Atlassian Hosting</a>
+      <a href="{{ site.url }}/apps/app-support/">App &amp; Plugin Support</a>
     </div>
     <div class="fcol">
       <h4>Ressourcen</h4>
-      <a href="/ressourcen/success-stories/">Success Stories</a>
-      <a href="/ressourcen/case-studies/">Case Study</a>
-      <a href="/ressourcen/webinar/">Webinar</a>
-      <a href="/ressourcen/dokumentation/">Dokumentation</a>
+      <a href="{{ site.url }}/ressourcen/success-stories/">Success Stories</a>
+      <a href="{{ site.url }}/ressourcen/case-studies/">Case Study</a>
+      <a href="{{ site.url }}/ressourcen/webinar/">Webinar</a>
+      <a href="{{ site.url }}/ressourcen/dokumentation/">Dokumentation</a>
     </div>
     <div class="fcol">
       <h4>Unternehmen</h4>
-      <a href="/unternehmen/ueber-uns/">Über uns</a>
-      <a href="/unternehmen/karriere/">Karriere & Jobs</a>
-      <a href="/unternehmen/unsere-teams/">Unser Team</a>
-      <a href="/newsletter/">Team XALT Newsletter</a>
+      <a href="{{ site.url }}/unternehmen/ueber-uns/">Über uns</a>
+      <a href="{{ site.url }}/unternehmen/karriere/">Karriere &amp; Jobs</a>
+      <a href="{{ site.url }}/unternehmen/unsere-teams/">Unser Team</a>
+      <a href="{{ site.url }}/newsletter/">Team XALT Newsletter</a>
     </div>
     <div class="fcol">
       <h4>APPs</h4>
-      <a href="/apps/container8/">Container8 - DevSecOps</a>
-      <a href="/apps/advanced-issue-sync/">Advanced Issue Sync</a>
-      <a href="/apps/image-gallery/">Advanced Image Gallery</a>
-      <a href="/apps/intranet/">Intranet mit Confluence</a>
+      <a href="{{ site.url }}/apps/container8/">Container8 - DevSecOps</a>
+      <a href="{{ site.url }}/apps/advanced-issue-sync/">Advanced Issue Sync</a>
+      <a href="{{ site.url }}/apps/image-gallery/">Advanced Image Gallery</a>
+      <a href="{{ site.url }}/apps/intranet/">Intranet mit Confluence</a>
     </div>
   </div>
   <div class="ftb">
     <div class="soc">
-      <a href="#">📷</a>
-      <a href="#">🔗</a>
+      <a href="#" aria-label="Instagram">📷</a>
+      <a href="#" aria-label="LinkedIn">🔗</a>
     </div>
-    <p style="font-size:14px;color:var(--dim)">© 2026 XALT</p>
+    <p>© 2026 {{ site.name }}</p>
   </div>
   <div class="ftl">
-    <a href="/datenschutz/">Datenschutz</a>
-    <a href="/cookie-einstellungen/">Cookie-Einstellungen</a>
-    <a href="/impressum/">Impressum</a>
+    <a href="{{ site.url }}/datenschutz/">Datenschutz</a>
+    <a href="{{ site.url }}/cookie-einstellungen/">Cookie-Einstellungen</a>
+    <a href="{{ site.url }}/impressum/">Impressum</a>
   </div>
 </footer>
 
+<!-- Site JS -->
 <script src="{{ site.url }}/js/main.js" type="module" defer></script>
 </body>
 </html>
