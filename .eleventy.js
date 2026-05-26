@@ -29,7 +29,7 @@ export default function (config) {
   return {
     dir: {
       input: "src",
-      output: "dist",
+      output: "docs",
       includes: "_includes",
       data: "_data",
     },
