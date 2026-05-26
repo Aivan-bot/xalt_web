@@ -1,0 +1,30 @@
+<div class="header">
+  <nav class="container header-nav" aria-label="Hauptnavigation">
+    <a href="/" class="header-logo">
+      <span class="logo-xalt">X</span>ALT
+      <span class="logo-divider"></span>
+    </a>
+    
+    <button class="header-menu-toggle" aria-label="Menü öffnen" aria-expanded="false">
+      <span class="menu-line menu-line-1"></span>
+      <span class="menu-line menu-line-2"></span>
+      <span class="menu-line menu-line-3"></span>
+    </button>
+
+    <ul class="header-links">
+      {% for item in site.nav %}
+      <li class="nav-item">
+        <a href="{{ item.url }}" class="nav-link {% if currentPage == item.label %}nav-link--active{% endif %}">
+          {% if item.active %}<span class="nav-dot"></span>{% endif %}
+          <span>{{ item.label }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <a href="mailto:info@xalt.de" class="header-cta">
+      <span class="cta-dot"></span>
+      <span>Kontakt</span>
+    </a>
+  </nav>
+</div>

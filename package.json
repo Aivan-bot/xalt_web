@@ -1,0 +1,17 @@
+{
+  "name": "xalt-web",
+  "version": "1.0.0",
+  "description": "xalt.de — Modern website powered by 11ty",
+  "type": "module",
+  "scripts": {
+    "dev": "eleventy --serve --incremental",
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,32 @@
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="logo-xalt">X</span>ALT
+      <div class="footer-tagline">
+        Atlassian Beratung & Digitale Transformation
+      </div>
+    </div>
+    <div class="footer-links">
+      <div class="footer-section">
+        <h4>Navigation</h4>
+        {% for item in site.nav %}
+        <a href="{{ item.url }}">{{ item.label }}</a>
+        {% endfor %}
+      </div>
+      <div class="footer-section">
+        <h4>Rechtliches</h4>
+        {% for link in site.footer.links %}
+        <a href="{{ link.url }}">{{ link.label }}</a>
+        {% endfor %}
+      </div>
+      <div class="footer-section">
+        <h4>Kontakt</h4>
+        <a href="mailto:info@xalt.de">info@xalt.de</a>
+        <a href="tel:+491234567890">+49 123 456 7890</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <span>© {{ "now" | date: "YYYY" }} XALT. Alle Rechte vorbehalten.</span>
+  </div>
+</footer>

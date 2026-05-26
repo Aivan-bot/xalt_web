@@ -1,0 +1,34 @@
+{
+  "title": "XALT",
+  "subtitle": "Atlassian Beratung & Digitale Transformation",
+  "description": "XALT unterstützt Unternehmen bei der digitalen Transformation mit maßgeschneiderten Atlassian-Lösungen, Agile Coaching und Platform Engineering.",
+  "url": "",
+  "domain": "xalt.de",
+  "version": "2.0.0",
+  "tagline": "Atlassian Beratung, Digitale Transformation, Agile & Platform Engineering",
+  "nav": [
+    { "label": "Leistungen", "url": "/leistungen/" },
+    { "label": "Lösungen", "url": "/loesungen/" },
+    { "label": "Blog", "url": "/blog/" },
+    { "label": "Ressourcen", "url": "/ressourcen/" },
+    { "label": "Unternehmen", "url": "/unternehmen/" },
+    { "label": "Apps", "url": "/apps/" }
+  ],
+  "footer": {
+    "links": [
+      { "label": "Impressum", "url": "/impressum/" },
+      { "label": "Datenschutz", "url": "/datenschutz/" }
+    ]
+  },
+  "colors": {
+    "bg": "#0B0F1A",
+    "cardBg": "#111827",
+    "cardBgHover": "#1E293B",
+    "accent": "#00E5FF",
+    "accentHover": "#00B4D8",
+    "text": "#E5E7EB",
+    "headlines": "#FFFFFF",
+    "meta": "#6B7280",
+    "border": "#1E293B"
+  }
+}
