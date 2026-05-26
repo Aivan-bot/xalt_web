@@ -1,4 +1,7 @@
 export default function (config) {
+  // Only read from src directory - ignore everything else
+  config.setUseGitIgnore(false);
+  
   // Passthrough file copy
   config.addPassthroughCopy({
     "./css": "css",
@@ -26,13 +29,16 @@ export default function (config) {
   return {
     dir: {
       input: "src",
-      output: "dist",
+      output: "docs",
       includes: "_includes",
       data: "_data",
     },
+    // Ignore all .md except in src/
+    pathPrefix: "/",
     // Use ES modules
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
     templateFormats: ["md", "njk", "html"],
+    markdownTemplateEngine: false,
   };
 }
