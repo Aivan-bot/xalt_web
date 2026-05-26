@@ -3,7 +3,7 @@ dist/
 
 # Dependencies
 node_modules/
-package-lock.json
+# package-lock.json needs to be in repo for npm ci
 
 # OS Files
 .DS_Store
