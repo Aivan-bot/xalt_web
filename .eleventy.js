@@ -1,5 +1,3 @@
-import { eleventy } from '@11ty/eleventy';
-
 export default function (config) {
   // Passthrough file copy
   config.addPassthroughCopy("./css");
