@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ description }}">
-  <meta name="theme-color" content="#0B0F1A">
   <title>{{ title }}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +11,134 @@
   <link rel="stylesheet" href="{{ site.url }}/css/main.css">
 </head>
 <body>
-  {{ content | safe }}
-  <script src="{{ site.url }}/js/main.js" type="module" defer></script>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="hi">
+    <a href="{{ site.url }}">
+      <span class="logo"><span class="lx">XALT</span><span class="ld"></span></span>
+    </a>
+    <nav class="nn" id="mainNav">
+      <div class="ni">
+        <span class="nl">Leistungen <span class="d">▾</span></span>
+        <div class="drop">
+          <a href="/leistungen/atlassian-beratung/">Atlassian Beratung</a>
+          <a href="/leistungen/digitale-transformation/">Digitale Transformation</a>
+          <a href="/leistungen/agile-coaching/">Agile Transformation</a>
+          <a href="/leistungen/platform-engineering/">Platform Engineering</a>
+          <a href="/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
+        </div>
+      </div>
+      <div class="ni">
+        <span class="nl">Lösungen <span class="d">▾</span></span>
+        <div class="drop">
+          <a href="/loesungen/digital-workplace/">Digital Workplace</a>
+          <a href="/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
+          <a href="/loesungen/cloud-infrastruktur/">Cloud Infrastruktur</a>
+        </div>
+      </div>
+      <a href="/blog/" class="nl">Blog</a>
+      <div class="ni">
+        <span class="nl">Ressourcen <span class="d">▾</span></span>
+        <div class="drop">
+          <a href="/ressourcen/whitepaper/">Whitepaper</a>
+          <a href="/ressourcen/webinar/">Webinar</a>
+          <a href="/ressourcen/dokumentation/">Dokumentation</a>
+        </div>
+      </div>
+      <div class="ni">
+        <span class="nl">Unternehmen <span class="d">▾</span></span>
+        <div class="drop">
+          <a href="/unternehmen/ueber-uns/">Über uns</a>
+          <a href="/unternehmen/karriere/">Karriere & Jobs</a>
+          <a href="/unternehmen/unsere-teams/">Unser Team</a>
+        </div>
+      </div>
+    </nav>
+    <div class="ha">
+      <span class="srch">⌕</span>
+      <span class="lang">🌐</span>
+      <a href="/kontakt/" class="cta">Kontakt</a>
+    </div>
+    <button class="mt" id="menuToggle" aria-expanded="false">
+      <span class="ml"></span><span class="ml"></span><span class="ml"></span>
+    </button>
+  </div>
+  <div class="drop" id="mobileDrop" style="display:none">
+    <a href="/leistungen/atlassian-beratung/">Atlassian Beratung</a>
+    <a href="/leistungen/digitale-transformation/">Digitale Transformation</a>
+    <a href="/leistungen/agile-coaching/">Agile Transformation</a>
+    <a href="/leistungen/platform-engineering/">Platform Engineering</a>
+    <a href="/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
+    <a href="/loesungen/digital-workplace/">Digital Workplace</a>
+    <a href="/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
+    <a href="/leistungen/atlassian-cloud-migration/">Cloud Infrastruktur</a>
+    <a href="/blog/">Blog</a>
+    <a href="/ressourcen/whitepaper/">Whitepaper</a>
+    <a href="/ressourcen/webinar/">Webinar</a>
+    <a href="/unternehmen/ueber-uns/">Über uns</a>
+    <a href="/unternehmen/karriere/">Karriere & Jobs</a>
+    <a href="/kontakt/">Kontakt</a>
+  </div>
+</header>
+
+<!-- MAIN CONTENT -->
+{{ content }}
+
+<!-- FOOTER -->
+<footer class="ft">
+  <div class="fgr">
+    <div class="fcol">
+      <h4>Leistungen</h4>
+      <a href="/leistungen/atlassian-beratung/">DevOps Transformation</a>
+      <a href="/leistungen/agile-coaching/">Agiles Projekt Management</a>
+      <a href="/leistungen/platform-engineering/">Continuous Integration & Delivery</a>
+      <a href="/leistungen/digitale-transformation/">Digitalisierung von Geschäftsprozessen</a>
+      <a href="/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
+    </div>
+    <div class="fcol">
+      <h4>Produkte & Lösungen</h4>
+      <a href="/loesungen/digital-workplace/">Confluence Beratung</a>
+      <a href="/loesungen/prozess-digitalisierung/">IT Service Management</a>
+      <a href="/loesungen/cloud-infrastruktur/">Managed Atlassian Hosting</a>
+      <a href="/apps/app-support/">App & Plugin Support</a>
+    </div>
+    <div class="fcol">
+      <h4>Ressourcen</h4>
+      <a href="/ressourcen/success-stories/">Success Stories</a>
+      <a href="/ressourcen/case-studies/">Case Study</a>
+      <a href="/ressourcen/webinar/">Webinar</a>
+      <a href="/ressourcen/dokumentation/">Dokumentation</a>
+    </div>
+    <div class="fcol">
+      <h4>Unternehmen</h4>
+      <a href="/unternehmen/ueber-uns/">Über uns</a>
+      <a href="/unternehmen/karriere/">Karriere & Jobs</a>
+      <a href="/unternehmen/unsere-teams/">Unser Team</a>
+      <a href="/newsletter/">Team XALT Newsletter</a>
+    </div>
+    <div class="fcol">
+      <h4>APPs</h4>
+      <a href="/apps/container8/">Container8 - DevSecOps</a>
+      <a href="/apps/advanced-issue-sync/">Advanced Issue Sync</a>
+      <a href="/apps/image-gallery/">Advanced Image Gallery</a>
+      <a href="/apps/intranet/">Intranet mit Confluence</a>
+    </div>
+  </div>
+  <div class="ftb">
+    <div class="soc">
+      <a href="#">📷</a>
+      <a href="#">🔗</a>
+    </div>
+    <p style="font-size:14px;color:var(--dim)">© 2026 XALT</p>
+  </div>
+  <div class="ftl">
+    <a href="/datenschutz/">Datenschutz</a>
+    <a href="/cookie-einstellungen/">Cookie-Einstellungen</a>
+    <a href="/impressum/">Impressum</a>
+  </div>
+</footer>
+
+<script src="{{ site.url }}/js/main.js" type="module" defer></script>
 </body>
 </html>

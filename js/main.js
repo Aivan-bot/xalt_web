@@ -1,89 +1,44 @@
-// XALT Website v2 — Minimal JS for Static Site
-// Mobile menu, smooth scroll, intersection observer
+// XALT Website v2 — Mobile Menu, Animations, Scroll
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Mobile menu toggle
-  const menuToggle = document.querySelector('.header-menu-toggle');
-  const headerLinks = document.querySelector('.header-links');
   
-  if (menuToggle && headerLinks) {
+  // === MOBILE MENU ===
+  const menuToggle = document.getElementById('menuToggle');
+  const mainNav = document.getElementById('mainNav');
+  const mobileDrop = document.getElementById('mobileDrop');
+  
+  if (menuToggle && mobileDrop) {
     menuToggle.addEventListener('click', () => {
-      const isOpen = menuToggle.getAttribute('aria-expanded') === 'true';
-      
+      const isOpen = mobileDrop.style.display === 'flex';
+      mobileDrop.style.display = isOpen ? 'none' : 'flex';
+      mobileDrop.style.flexDirection = 'column';
+      mainNav.classList.toggle('open', !isOpen);
       menuToggle.setAttribute('aria-expanded', !isOpen);
-      
-      if (!isOpen) {
-        headerLinks.style.display = 'flex';
-        headerLinks.style.flexDirection = 'column';
-        headerLinks.style.position = 'absolute';
-        headerLinks.style.top = '72px';
-        headerLinks.style.left = '0';
-        headerLinks.style.right = '0';
-        headerLinks.style.background = 'var(--bg)';
-        headerLinks.style.padding = '24px';
-        headerLinks.style.borderBottom = '1px solid var(--border)';
-        headerLinks.style.zIndex = '999';
-        headerLinks.style.animation = 'fadeIn 0.3s ease-out';
-      } else {
-        headerLinks.style.display = 'none';
-      }
-    });
-    
-    // Close menu on window resize
-    window.addEventListener('resize', () => {
-      if (window.innerWidth > 768) {
-        headerLinks.style.display = 'flex';
-        headerLinks.style.flexDirection = 'row';
-        headerLinks.style.position = 'static';
-        headerLinks.style.animation = 'none';
-      } else {
-        headerLinks.style.display = 'none';
-      }
     });
   }
   
-  // Smooth scroll for anchor links
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', (e) => {
-      const target = document.querySelector(anchor.getAttribute('href'));
-      if (target) {
-        e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth' });
-      }
-    });
+  // Close menu on resize
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768 && mobileDrop) {
+      mobileDrop.style.display = 'none';
+      mainNav?.classList.remove('open');
+    }
   });
-  
-  // Intersection Observer for fade-in animations
+
+  // === INTERSECTION OBSERVER (Fade-in Animation) ===
   const observerOptions = {
     threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
+    rootMargin: '0px 0px -30px 0px'
   };
   
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        entry.target.style.opacity = '1';
-        entry.target.style.transform = 'translateY(0)';
+        entry.target.classList.add('vis');
         observer.unobserve(entry.target);
       }
     });
   }, observerOptions);
   
-  // Observe all cards and sections
-  document.querySelectorAll('.card, .section-header, .cta-content').forEach((el, i) => {
-    el.style.opacity = '0';
-    el.style.transform = 'translateY(20px)';
-    el.style.transition = `opacity 0.6s ease-out ${i * 0.1}s, transform 0.6s ease-out ${i * 0.1}s`;
-    observer.observe(el);
-  });
-  
-  // Add fadeIn keyframe if not exists
-  const style = document.createElement('style');
-  style.textContent = `
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-  `;
-  document.head.appendChild(style);
+  document.querySelectorAll('.fani').forEach(el => observer.observe(el));
 });

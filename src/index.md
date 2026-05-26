@@ -2,231 +2,251 @@
 layout: base
 title: "XALT — Atlassian Beratung & Digitale Transformation"
 description: "XALT unterstützt Unternehmen bei der digitalen Transformation mit maßgeschneiderten Atlassian-Lösungen, Agile Coaching und Platform Engineering."
-eleventyNavigation:
-  key: home
-  order: 0
+site_url: /xalt_web
 ---
 
-<div class="hero">
-  <div class="container hero-content">
-    <div class="hero-badge">
-      <span class="pulse"></span>
-      <span>Atlassian Platinum Partner 2026</span>
-    </div>
-    <h1>
-      Wir lassen Ihre
-      <span class="accent-gradient">IT-Vision</span>
-      Wirklichkeit werden
-    </h1>
-    <p class="hero-subtitle">
-      Die Welt der IT ist im Wandel. Technologische Neuerungen erfordern 
-      immer schnellere Anpassungen und eine agile Arbeitsweise, um den Anschluss 
-      an IhreMitwettbewerber nicht zu verpassen.
-    </p>
-    <div class="hero-actions">
-      <a href="/leistungen/" class="btn btn-primary">
-        <span>Leistungen entdecken</span>
-        <span class="btn-arrow">→</span>
-      </a>
-      <a href="mailto:info@xalt.de" class="btn btn-outline">
-        <span>Kontakt aufnehmen</span>
-      </a>
-    </div>
-    <div class="hero-trust">
-      <span>Vertraut von führenden Unternehmen:</span>
-      <div class="logos">
-        <div class="logo-placeholder">BBV</div>
-        <div class="logo-placeholder">BSH</div>
-        <div class="logo-placeholder">DAVIS</div>
-        <div class="logo-placeholder">DNB</div>
-        <div class="logo-placeholder">EEX</div>
-        <div class="logo-placeholder">Otto</div>
+<!-- ===== HERO SECTION ===== -->
+<section class="hero">
+  <div class="si">
+    <div class="hc">
+      <div class="ht">
+        <span class="htag">ATLASSIAN STRATEGY REVIEW</span>
+        <h1>Sind Ihre Atlassian-Tools wirklich optimal im Einsatz?</h1>
+        <p class="hdesc">Steigern Sie die Effizienz von Jira, Confluence und Co. mit einer maßgeschneiderten Atlassian-Strategie und erhöhen Sie den ROI Ihres Atlassian Toolstacks.</p>
+        <a href="{{ page.url }}/strategy-review/" class="hcta"><span>Atlassian Strategy Review</span> <span class="arr">→</span></a>
+      </div>
+      <div class="hg">
+        <div class="chart-ph">📊</div>
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<div class="container">
-  <section class="services">
-    <div class="section-header">
-      <span class="section-tag">Leistungen</span>
-      <h2>Unsere Expertise für Ihren Erfolg</h2>
-    </div>
-    <div class="card-grid">
-      <div class="card">
-        <div class="card-icon">🎯</div>
-        <div class="card-body">
-          <h3><a href="/leistungen/atlassian-beratung/">Atlassian Beratung</a></h3>
-          <p>Maßgeschneiderte Beratung für Jira, Confluence und die gesamte Atlassian-Plattform. Wir optimieren Ihre Workflows und steigern die Effizienz Ihres Teams.</p>
-          <div class="card-tags">
-            <span class="tag">Jira</span>
-            <span class="tag">Confluence</span>
-            <span class="tag">Strategisch</span>
-          </div>
-          <a href="/leistungen/atlassian-beratung/" class="card-link">Mehr erfahren <span>→</span></a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-icon">🚀</div>
-        <div class="card-body">
-          <h3><a href="/leistungen/digitale-transformation/">Digitale Transformation</a></h3>
-          <p>Von der Analyse bis zur Umsetzung begleiten wir Sie auf dem Weg in die digitale Zukunft. Pragmatisch, messbar und nachhaltig.</p>
-          <div class="card-tags">
-            <span class="tag">Prozesse</span>
-            <span class="tag">Agil</span>
-            <span class="tag">Change</span>
-          </div>
-          <a href="/leistungen/digitale-transformation/" class="card-link">Mehr erfahren <span>→</span></a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-icon">⚡</div>
-        <div class="card-body">
-          <h3><a href="/leistungen/agile-coaching/">Agile Transformation</a></h3>
-          <p>Wir coachen Ihre Teams und Führungskräfte hin zu agiler Arbeitsweise. Von Scrum über Kanban bis hin zu hybriden Ansätzen.</p>
-          <div class="card-tags">
-            <span class="tag">Scrum</span>
-            <span class="tag">Kanban</span>
-            <span class="tag">Coaching</span>
-          </div>
-          <a href="/leistungen/agile-coaching/" class="card-link">Mehr erfahren <span>→</span></a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-icon">🛠️</div>
-        <div class="card-body">
-          <h3><a href="/leistungen/platform-engineering/">Platform Engineering</a></h3>
-          <p>Enterprise Platform Architecture und Toolchain-Design. Wir bauen Ihre DevOps-Plattform mit Jira, Bitbucket und GitHub.</p>
-          <div class="card-tags">
-            <span class="tag">DevOps</span>
-            <span class="tag">CI/CD</span>
-            <span class="tag">Cloud</span>
-          </div>
-          <a href="/leistungen/platform-engineering/" class="card-link">Mehr erfahren <span>→</span></a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-icon">🏗️</div>
-        <div class="card-body">
-          <h3><a href="/leistungen/atlassian-cloud-migration/">Cloud Migration</a></h3>
-          <p>Professionelle Migration Ihrer On-Premise-Instance in die Atlassian Cloud. Sicher, schnell und ohne Datenverlust.</p>
-          <div class="card-tags">
-            <span class="tag">Cloud</span>
-            <span class="tag">Server</span>
-            <span class="tag">Migrationsplan</span>
-          </div>
-          <a href="/leistungen/atlassian-cloud-migration/" class="card-link">Mehr erfahren <span>→</span></a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-icon">📊</div>
-        <div class="card-body">
-          <h3><a href="/leistungen/strategy-review/">Strategy Review</a></h3>
-          <p>Sind Ihre Atlassian-Tools wirklich optimal im Einsatz? Wir analysieren Ihre Instance und identifizieren Optimierungs-Potenziale.</p>
-          <div class="card-tags">
-            <span class="tag">Audit</span>
-            <span class="tag">ROI</span>
-            <span class="tag">Roadmap</span>
-          </div>
-          <a href="/leistungen/strategy-review/" class="card-link">Mehr erfahren <span>→</span></a>
-        </div>
+<!-- ===== KUNDEN LOGO CAROUSEL ===== -->
+<section class="logo-s">
+  <div class="si">
+    <p class="lh">Einige unserer Kunden</p>
+    <div class="lcar">
+      <div class="lcar-in">
+        <span class="li">BBV</span>
+        <span class="li">BSH</span>
+        <span class="li">DAV</span>
+        <span class="li">DNB</span>
+        <span class="li">EEX</span>
+        <span class="li">estos</span>
+        <span class="li">Fath</span>
+        <span class="li">akdb</span>
+        <span class="li">Otto</span>
+        <span class="li">Weltbild</span>
+        <span class="li">fictiv</span>
+        <span class="li">plixxent</span>
+        <!-- Duplizieren für Endlos-Carousel -->
+        <span class="li">BBV</span>
+        <span class="li">BSH</span>
+        <span class="li">DAV</span>
+        <span class="li">DNB</span>
+        <span class="li">EEX</span>
+        <span class="li">estos</span>
+        <span class="li">Fath</span>
+        <span class="li">akdb</span>
+        <span class="li">Otto</span>
+        <span class="li">Weltbild</span>
+        <span class="li">fictiv</span>
+        <span class="li">plixxent</span>
       </div>
     </div>
-  </section>
-</div>
+  </div>
+</section>
 
-<div class="container">
-  <section class="partners">
-    <div class="section-header">
-      <span class="section-tag">Partnerschaft</span>
-      <h2>XALT × Blueflag Security</h2>
-      <p class="section-subtitle">
-        AI Agent Compliance for the Enterprise — DevSecOps + AI Governance
-      </p>
-      <div class="partnership-badge">
-        <div class="partner-icons">XALT ⟷ Blueflag</div>
-        <span class="badge-secure">DevSecOps + Zero Trust</span>
+<!-- ===== FEATURED CASE STUDY ===== -->
+<section class="feat">
+  <div class="si">
+    <div class="fc">
+      <div class="fi">📈</div>
+      <div class="fco">
+        <span class="fb-label">Case Study</span>
+        <h3>Digitales Rechnungsmanagement mit Jira</h3>
+        <p>XALTs digitales Rechnungsmanagement mit Jira steigerte die Effizienz durch automatisierte Prozesse, verbesserte Nachverfolgbarkeit und papierloses Arbeiten.</p>
+        <a href="https://xalt.de" class="blink"><span>Mehr erfahren</span> <span>→</span></a>
       </div>
-      <a href="/partnerships/blueflag/" class="btn btn-primary">
-        <span>Partnership entdecken</span>
-        <span class="btn-arrow">→</span>
-      </a>
     </div>
-  </section>
-</div>
+  </div>
+</section>
 
-<div class="container">
-  <section class="insights">
-    <div class="section-header">
-      <span class="section-tag">Blog & Insights</span>
+<!-- ===== BLOG GRID ===== -->
+<section class="section">
+  <div class="si">
+    <div class="sh">
+      <span class="st">Blog & Insights</span>
       <h2>Aktuelles aus der XALT-Welt</h2>
     </div>
-    <div class="card-grid insights-grid">
-      <div class="card card-featured">
-        <div class="card-body">
-          <div class="post-meta">
-            <span>Autor: Marcel Wänke</span>
-            <span class="dot">·</span>
-            <span>Senior Atlassian AI Consultant</span>
-          </div>
-          <h3><a href="/blog/atlassian-datennutzung-ki/">Atlassian ändert Datennutzung für KI ab 17.08.2026: Was du als Admin prüfen musst</a></h3>
-          <p>Atlassian baut KI-Erlebnisse wie Rovo konsequent aus, aber die Implikationen für Enterprise-Kunden werden häufig unterschätzt. Was heißt das für Ihre Datennutzung?</p>
-          <div class="card-tags">
-            <span class="tag red">Wichtig</span>
-            <span class="tag">KI</span>
-            <span class="tag">Compliance</span>
-          </div>
+    <div class="bgrid">
+      <div class="bcard">
+        <div class="bi">🎓</div>
+        <div class="bco">
+          <div class="bmeta"><span>XALT Team</span></div>
+          <h3><a href="https://xalt.de">Atlassian Team '26 Recap: Der Aufbruch zur AI-nativen Organisation</a></h3>
+          <p>Stell dir vor, dein Unternehmen hätte ein perfektes Gedächtnis. Jede Entscheidung, jeder Code-Schnipsel und jedes…</p>
         </div>
       </div>
-      <div class="card">
-        <div class="card-body">
-          <div class="post-meta">
-            <span>XALT Team</span>
-          </div>
-          <h3><a href="/blog/agentic-coding-workflow/">Agentic Coding in der Praxis: 10 Schritte mit Failsafe</a></h3>
-          <p>Agentic Coding ohne Halluzinationsdrama: Session-Start, 10 disziplinierte Schritte, Failsafes pro Schritt — der XALT-Workflow für KI-gestütztes Coding.</p>
-          <div class="card-tags">
-            <span class="tag">AI</span>
-            <span class="tag">Coding</span>
-            <span class="tag">Workflow</span>
-          </div>
+      <div class="bcard">
+        <div class="bi">🛡️</div>
+        <div class="bco">
+          <div class="bmeta"><span>Richard Richter</span><span>·</span><span>Agile Coach & AI Ambassador</span></div>
+          <h3><a href="https://xalt.de">Agentic AI sicher steuern: Zero Trust und Compliance</a></h3>
+          <p>KI-Agenten – oder lassen Sie sie. Mit Zero Trust und Compliance auch die digitale Transformation meistern.</p>
         </div>
       </div>
-      <div class="card">
-        <div class="card-body">
-          <div class="post-meta">
-            <span>XALT Team</span>
-          </div>
-          <h3><a href="/blog/partner-of-the-year/">XALT ist Finalist für Atlassian Partner of the Year 2026</a></h3>
-          <p>Atlassian hat die Finalisten der Partner Awards 2026 bekannt gegeben — und XALT ist dabei! Bedeutung für den Public Sector in DACH.</p>
-          <div class="card-tags">
-            <span class="tag green">Awards</span>
-            <span class="tag">Partner</span>
-            <span class="tag">Government</span>
-          </div>
+      <div class="bcard">
+        <div class="bi">💻</div>
+        <div class="bco">
+          <div class="bmeta"><span>XALT Team</span></div>
+          <h3><a href="https://xalt.de">Agentic Coding in der Praxis: 10 Schritte mit Failsafe</a></h3>
+          <p>Agentic Coding ohne Halluzinationsdrama: Sessions, 10 Schritte, Failsafes — der XALT-Workflow für KI-Coding.</p>
+        </div>
+      </div>
+      <div class="bcard">
+        <div class="bi">📋</div>
+        <div class="bco">
+          <div class="bmeta"><span>XALT Team</span></div>
+          <h3><a href="https://xalt.de">IT Asset Management: Kosten identifizieren</a></h3>
+          <p>Wie IT-Leiter unnötige Kosten durch präzise Erfassung von Softwarelizenzen und Geräten identifizieren.</p>
+        </div>
+      </div>
+      <div class="bcard">
+        <div class="bi">🏆</div>
+        <div class="bco">
+          <div class="bmeta"><span>Atlassian Awards</span></div>
+          <h3><a href="https://xalt.de">XALT ist Finalist für Partner of the Year 2026</a></h3>
+          <p>Atlassian hat die Finalisten bekannt gegeben — XALT ist dabei: Bedeutung für den Public Sector in DACH.</p>
+        </div>
+      </div>
+      <div class="bcard">
+        <div class="bi">🤖</div>
+        <div class="bco">
+          <div class="bmeta"><span>Marcel Wänke</span><span>·</span><span>Senior Atlassian AI Consultant</span></div>
+          <h3><a href="https://xalt.de">Atlassian ändert Datennutzung für KI ab 17.08.2026</a></h3>
+          <p>Was Atillons KI-Strategie für Enterprise-Kunden bedeutet. Inklusive Checkliste für Admins.</p>
         </div>
       </div>
     </div>
-    <div class="section-cta">
-      <a href="/blog/" class="btn btn-outline btn-medium">Alle Artikel ansehen →</a>
-    </div>
-  </section>
-</div>
+  </div>
+</section>
 
-<div class="container">
-  <section class="cta-section">
-    <div class="cta-content">
-      <div class="cta-pulse"></div>
-      <h2>ATLASSIAN STRATEGY REVIEW</h2>
-      <p class="section-subtitle">
-        Sind Ihre Atlassian-Tools wirklich optimal im Einsatz?<br>
-        Steigern Sie die Effizienz von Jira, Confluence und Co. mit einer 
-        maßgeschneiderten Atlassian-Strategie.
-      </p>
-      <a href="/leistungen/strategy-review/" class="btn btn-primary btn-large">
-        <span>Jetzt Strategie-Review vereinbaren</span>
-        <span class="btn-arrow">→</span>
-      </a>
+<!-- ===== WHITEPAPER CTA 1 ===== -->
+<section class="wp">
+  <div class="wp-in">
+    <div class="wtxt">
+      <span class="st">Whitepaper</span>
+      <h3>Guide in die Atlassian Cloud</h3>
+      <p>Die Vorteile von Cloud Services sind bekannt und werden mittlerweile in unzähligen Praxisbeispielen nachgewiesen. Dennoch zögern manche Unternehmen, ihren Umstieg in die Cloud voranzutreiben.</p>
+      <a href="https://xalt.de" class="hcta"><span>Zum Download</span> <span class="arr">→</span></a>
     </div>
-  </section>
-</div>
+    <div class="wimg">📄</div>
+  </div>
+</section>
+
+<!-- ===== VISION SECTION ===== -->
+<section class="vis">
+  <div class="si">
+    <p class="vis-h">Wir lassen Ihre IT-Vision Wirklichkeit werden</p>
+    <p class="vis-s">Die Welt der IT is im Wandel. Technologische Neuerungen erforder immer schnellere Anpassungen und eine agile Arbeitsweise, um den Anschluss an Ihre Mitwettbewerber nicht zu verpassen. Wir bei XALT hab uns das zur Aufgabe gmacht, Sie auf Ihrem Weg in die Digitale Transformation zu begleite und mit unseren Maßgeschneiderten IT-Lösungen nachhaltich Ihr Unternehemerfolg beizutrage.</p>
+    <div class="vcols">
+      <div class="vi">
+        <div class="vi-content">
+          <h4>Atlassian Beratung & Digitale Transformation</h4>
+          <p>Wir unterstitze Ihr Unternehmen bei de effizienter Verwendong Atlassian Tools wie Jira und Confluence.</p>
+          <a class="blink"><span>Mehr erfahren</span> <span>→</span></a>
+        </div>
+      </div>
+      <div class="vi">
+        <div class="vi-content">
+          <h4>Cloud Migration & Infrastruktur</h4>
+          <p>Professionelle Migration Ihrer On-Premise-Instance in die Atlassian Cloud. Sicher, schnell und ohni Datenverlust.</p>
+          <a class="blink"><span>Mehr erfahren</span> <span>→</span></a>
+        </div>
+      </div>
+      <div class="vi">
+        <div class="vi-content">
+          <h4>DevOps Beratung & Platform Engineering</h4>
+          <p>Enterprise Platform Architecture und Toolchain Design. Wir baue Ihre DevOps-Plattform mit Jira, Bitbucket und GitHub.</p>
+          <a class="blink"><span>Mehr erfahren</span> <span>→</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PARTNER CAROUSEL ===== -->
+<section class="psec">
+  <div class="psi">
+    <p class="pht">Unsere Partner</p>
+    <div class="pls">
+      <span class="pl">K15t</span>
+      <span class="pl">Blueflag</span>
+      <span class="pl">Atlassian</span>
+      <span class="pl">GitHub</span>
+      <span class="pl">Bitbucket</span>
+      <span class="pl">Confluence</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CORE COMPETENCIES ===== -->
+<section class="comp">
+  <div class="si">
+    <!-- Block 1: Digital Workplace -->
+    <div class="cblk">
+      <div class="cimg">📚</div>
+      <div class="ctxt">
+        <span class="fb-label">Digital Workplace mit Confluence</span>
+        <h3>Bringen Sie Ihre Mitarbeiter, Teams und Partner näher zusammen</h3>
+        <p>Unsere digitalen Workplace-Lösungen bringen Sie, Ihre Mitarbeiter und Ihre externen Partner zusammen. Egal ob Cloud oder On-Premise, lokal oder im Rechenzentrum.</p>
+        <a href="https://xalt.de" class="blink"><span>Zur Digital Workplace Lösung</span> <span>→</span></a>
+      </div>
+    </div>
+    <!-- Block 2: Jira Prozessdigitalisierung -->
+    <div class="cblk">
+      <div class="cimg">⚡</div>
+      <div class="ctxt">
+        <span class="fb-label">Digitalisierung und Automatisierung mit Jira</span>
+        <h3>Bringen Sie Ihre Mitarbeiter, Teams und Partner näher zusammen</h3>
+        <p>Unsere digitalen Workplace-Lösungen bringen Sie, Ihre Mitarbeiter und Ihre externen Partner zusammen. Egal ob Cloud oder On-Premise, lokal oder im Rechenzentrum.</p>
+        <a href="https://xalt.de" class="blink"><span>Prozesse digitalisiere</span> <span>→</span></a>
+      </div>
+    </div>
+    <!-- Block 3: Container8 -->
+    <div class="cblk">
+      <div class="cimg">🚀</div>
+      <div class="ctxt">
+        <span class="fb-label">Container8 Developer Experience Platform</span>
+        <h3>Bringen Sie Ihre digitalen Produkte schneller auf den Markt</h3>
+        <p>Verbesser Sie Ihre Dev-Experienz mit unserer Plattform für Software-Entwicklung, Automatisierung und Cloud-Infrastruktur. Container8 biete sichere, agile Tools für modern Entwickler-Teams.</p>
+        <a href="https://xalt.de" class="blink"><span>Mehr über Container8 erfahre</span> <span>→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHITEPAPER CTA 2 ===== -->
+<section class="wp">
+  <div class="wp-in">
+    <div class="wimg">📄</div>
+    <div class="wtxt">
+      <span class="st">Whitepaper</span>
+      <h3>6 Change Management Erkenntnisse aus der Praxis</h3>
+      <p>Der Erfolg einer Digitalisierungsstrategie hängt nicht nur von den implementierten Lösungen, sondern maßgabilich vom Change Management ab.</p>
+      <a href="https://xalt.de" class="hcta"><span>Zum Download</span> <span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== UEBER UNS ===== -->
+<section class="section" style="text-align:center;padding:80px 0;background:rgba(29,177,165,0.03)">
+  <div class="si">
+    <span class="st">Unternehmen</span>
+    <h2>Über XALT</h2>
+    <p style="max-width:600px;margin:16px auto 32px;color:var(--mute);font-size:18px;">Transform your business. DevOps and Atlassian Consulting.</p>
+    <a href="https://xalt.de" class="hcta"><span>Mehrüber XALT</span> <span class="arr">→</span></a>
+  </div>
+</section>
