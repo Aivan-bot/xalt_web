@@ -2,6 +2,9 @@
 layout: base
 title: "XALT — Atlassian Beratung & Digitale Transformation"
 description: "XALT unterstützt Unternehmen bei der digitalen Transformation mit maßgeschneiderten Atlassian-Lösungen, Agile Coaching und Platform Engineering."
+eleventyNavigation:
+  key: home
+  order: 0
 ---
 
 <div class="hero">
