@@ -1,8 +1,7 @@
 export default function (config) {
-  // Only read from src directory - ignore everything else
   config.setUseGitIgnore(false);
-  
-  // Passthrough file copy
+
+  // PASST: D'output-Struktur muess im docs/ Root lige (nid docs/pages/)
   config.addPassthroughCopy({
     "./css": "css",
     "./js": "js",
@@ -10,19 +9,25 @@ export default function (config) {
     "./sitemap.xml": "sitemap.xml",
     "./xalt_sitemap.md": "xalt_sitemap.md",
   });
-  
-  // Template engine
-  config.setTemplateFormats("md,njk,html");
 
-  // Layout aliases
+  config.setTemplateFormats("md,njk,html");
   config.addLayoutAlias("base", "layouts/base.njk");
+  config.addLayoutAlias("null", "null");
+
+  // Filter: remove 'pages/' prefix from output paths
+  config.addFilter("eleventyOutputPath", (path) => {
+    // src/pages/foo/index.md → foo/index.html  (no pages/)
+    if (path.startsWith("pages/")) {
+      return path.replace("pages/", "");
+    }
+    return path;
+  });
 
   // Shortcodes
   config.addNunjucksShortcode("include", (file) => {
     return file;
   });
 
-  // Filters
   config.addFilter("readtime", (str) => {
     const words = str.split(" ").length;
     return Math.ceil(words / 200);
@@ -35,12 +40,18 @@ export default function (config) {
       includes: "_includes",
       data: "_data",
     },
-    // Ignore all .md except in src/
     pathPrefix: "/",
-    // Use ES modules
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
     templateFormats: ["md", "njk", "html"],
-    markdownTemplateEngine: 'njk',
+    markdownTemplateEngine: "njk",
+    filters: {
+      eleventyOutputPath: (path) => {
+        if (path && path.startsWith("pages/")) {
+          return path.replace("pages/", "");
+        }
+        return path;
+      },
+    },
   };
 }

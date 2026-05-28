@@ -1,8 +1,7 @@
 ---
 layout: base
-title: "XALT — Atlassian Beratung & Digitale Transformation"
+title: "Startseite — XALT Atlassian Beratung & Digitale Transformation"
 description: "XALT unterstützt Unternehmen bei der digitalen Transformation mit maßgeschneiderten Atlassian-Lösungen, Agile Coaching und Platform Engineering."
-site_url: /xalt_web
 ---
 
 <!-- ===== 1. HERO SECTION ===== -->
@@ -13,7 +12,7 @@ site_url: /xalt_web
         <span class="htag">ATLASSIAN STRATEGY REVIEW</span>
         <h1>Sind Ihre Atlassian-Tools wirklich optimal im Einsatz?</h1>
         <p class="hdesc">Steigern Sie die Effizienz von Jira, Confluence und der gesamten Atlassian-Toolchain. Mit unserer Atlassian-Strategie maximieren Sie den ROI Ihres Toolstacks und befreien Ihre Teams von ineffizienten Prozessen.</p>
-        <a href="https://xalt.de/kontakt/" class="hcta" aria-label="Atlassian Strategy Review buchen">
+        <a href="{{ site.url }}/loesungen/strategy-review/" class="hcta" aria-label="Atlassian Strategy Review buchen">
           <span>Atlassian Strategy Review</span>
           <span class="arr" aria-hidden="true">→</span>
         </a>
@@ -31,32 +30,22 @@ site_url: /xalt_web
     <p class="lh">Vertrauen von führenden Unternehmen</p>
     <div class="lcar" role="list">
       <div class="lcar-in">
-        <!-- Original-Set -->
-        <span class="li" role="listitem">BBV</span>
-        <span class="li" role="listitem">BSH</span>
-        <span class="li" role="listitem">DAV</span>
-        <span class="li" role="listitem">DNB</span>
-        <span class="li" role="listitem">EEX</span>
-        <span class="li" role="listitem">estos</span>
-        <span class="li" role="listitem">Fath</span>
-        <span class="li" role="listitem">akdb</span>
-        <span class="li" role="listitem">Otto</span>
-        <span class="li" role="listitem">Weltbild</span>
-        <span class="li" role="listitem">fictiv</span>
-        <span class="li" role="listitem">plixxent</span>
-        <!-- Duplikat für Endlos-Carousel -->
-        <span class="li" role="listitem">BBV</span>
-        <span class="li" role="listitem">BSH</span>
-        <span class="li" role="listitem">DAV</span>
-        <span class="li" role="listitem">DNB</span>
-        <span class="li" role="listitem">EEX</span>
-        <span class="li" role="listitem">estos</span>
-        <span class="li" role="listitem">Fath</span>
-        <span class="li" role="listitem">akdb</span>
-        <span class="li" role="listitem">Otto</span>
-        <span class="li" role="listitem">Weltbild</span>
-        <span class="li" role="listitem">fictiv</span>
-        <span class="li" role="listitem">plixxent</span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2022/09/BBV.svg" alt="BBV"></span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2022/09/BSH.svg" alt="BSH"></span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2022/09/DAV.svg" alt="DAV"></span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2022/09/DNB.svg" alt="DNB"></span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2022/09/EEX.svg" alt="EEX"></span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2022/09/estos.svg" alt="estos"></span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2022/06/Fath-logo-vector.svg" alt="Fath"></span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2024/05/akdb-logo-header.svg" alt="akdb"></span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2022/09/Otto.svg" alt="Otto"></span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2022/09/Weltbild.svg" alt="Weltbild"></span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2022/09/fictiv.svg" alt="fictiv"></span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2022/09/plixxent.svg" alt="plixxent"></span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2022/09/HBPO.svg" alt="HBPO"></span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2022/09/KVB.svg" alt="KVB"></span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2022/09/Disney.svg" alt="Disney"></span>
+        <span class="li" role="listitem"><img src="{{ site.url }}/images/2022/09/Nasa.svg" alt="NASA"></span>
       </div>
     </div>
   </div>
@@ -71,7 +60,7 @@ site_url: /xalt_web
         <span class="fb-label">Case Study</span>
         <h3>Digitales Rechnungsmanagement mit Jira</h3>
         <p>Wie ein mittelständischer Konzern mit XALT sein Rechnungsmanagement komplett digitalisiert hat: Von manuellen Prozessen zu automatisierten Workflows mit Jira. Die Ergebnisse? 40 % weniger Durchlaufzeit, papierlose Abläufe und 100 % Rückverfolgbarkeit aller Finanztickets.</p>
-        <a href="https://xalt.de" class="blink" aria-label="Mehr zur digitalen Rechnungsmanagement Case Study erfahren">
+        <a href="{{ site.url }}/case-studies/digitales-rechnungsmanagement/" class="blink" aria-label="Mehr zur digitalen Rechnungsmanagement Case Study erfahren">
           <span>Mehr erfahren</span>
           <span class="arr" aria-hidden="true">→</span>
         </a>
@@ -92,7 +81,7 @@ site_url: /xalt_web
         <div class="bi" aria-hidden="true">🎓</div>
         <div class="bco">
           <div class="bmeta"><span>XALT Team</span></div>
-          <h3><a href="https://xalt.de/blog/team-26-recap-ai">Atlassian Team '26 Recap: Der Aufbruch zur AI-nativen Organisation</a></h3>
+          <h3><a href="{{ site.url }}/blog/team-26-recap/">Atlassian Team '26 Recap: Der Aufbruch zur AI-nativen Organisation</a></h3>
           <p>Stell dir vor, dein Unternehmen hätte ein perfektes Gedächtnis. Jede Entscheidung, jeder Code-Schnipsel und jedes Meeting – all das wird zum Wissen, das jeden Tag wächst.</p>
         </div>
       </article>
@@ -100,7 +89,7 @@ site_url: /xalt_web
         <div class="bi" aria-hidden="true">🛡️</div>
         <div class="bco">
           <div class="bmeta"><span>Richard Richter</span><span>·</span><span>Agile Coach &amp; AI Ambassador</span></div>
-          <h3><a href="https://xalt.de/blog/agentic-ai-zero-trust">Agentic AI sicher steuern: Zero Trust und Compliance</a></h3>
+          <h3><a href="{{ site.url }}/blog/agentic-ai-zero-trust/">Agentic AI sicher steuern: Zero Trust und Compliance</a></h3>
           <p>KI-Agenten autonom handeln lassen oder präzise steuern? Mit Zero-Trust-Architektur und Compliance by Design meistert Ihre Organisation die KI-Transformation sicher.</p>
         </div>
       </article>
@@ -108,7 +97,7 @@ site_url: /xalt_web
         <div class="bi" aria-hidden="true">💻</div>
         <div class="bco">
           <div class="bmeta"><span>XALT Team</span></div>
-          <h3><a href="https://xalt.de/blog/agentic-coding-praxis">Agentic Coding in der Praxis: 10 Schritte mit Failsafe</a></h3>
+          <h3><a href="{{ site.url }}/blog/agentic-coding-praxis/">Agentic Coding in der Praxis: 10 Schritte mit Failsafe</a></h3>
           <p>Agentic Coding ohne Halluzinationsdrama: Sessions, 10 Schritte, Failsafes — der XALT-Workflow für professionelles KI-Coding in Ihrem Unternehmen.</p>
         </div>
       </article>
@@ -116,7 +105,7 @@ site_url: /xalt_web
         <div class="bi" aria-hidden="true">📋</div>
         <div class="bco">
           <div class="bmeta"><span>XALT Team</span></div>
-          <h3><a href="https://xalt.de/blog/it-asset-management-kosten">IT Asset Management: Kosten identifizieren und senken</a></h3>
+          <h3><a href="{{ site.url }}/blog/it-asset-management-kosten/">IT Asset Management: Kosten identifizieren und senken</a></h3>
           <p>Wie IT-Leiter unnötige Kosten durch präzise Erfassung von Softwarelizenzen und Geräten identifizieren und bis zu 30 % der IT-Budgets einsparen.</p>
         </div>
       </article>
@@ -124,7 +113,7 @@ site_url: /xalt_web
         <div class="bi" aria-hidden="true">🏆</div>
         <div class="bco">
           <div class="bmeta"><span>Atlassian Awards</span></div>
-          <h3><a href="https://xalt.de/blog/partner-of-the-year-2026">XALT ist Finalist für Partner of the Year 2026</a></h3>
+          <h3><a href="{{ site.url }}/blog/partner-of-the-year-2026/">XALT ist Finalist für Partner of the Year 2026</a></h3>
           <p>Atlassian hat die FINALISTEN bekannt gegeben — XALT ist dabei: Bedeutung für den PUBLIC SECTOR in DACH, Community Contributions und Innovation Awards.</p>
         </div>
       </article>
@@ -132,7 +121,7 @@ site_url: /xalt_web
         <div class="bi" aria-hidden="true">🤖</div>
         <div class="bco">
           <div class="bmeta"><span>Marcel Wänke</span><span>·</span><span>Senior Atlassian AI Consultant</span></div>
-          <h3><a href="https://xalt.de/blog/atlassian-ki-datennutzung">Atlassian ändert Datennutzung für KI ab 17.08.2026</a></h3>
+          <h3><a href="{{ site.url }}/blog/atlassian-ki-datennutzung/">Atlassian ändert Datennutzung für KI ab 17.08.2026</a></h3>
           <p>Was Atikos KI-Strategie für Enterprise-Kunden bedeutet. Inklusive Checkliste für Admins: Was müssen Sie jetzt tun, um Ihre Daten zu schützen?</p>
         </div>
       </article>
@@ -147,7 +136,7 @@ site_url: /xalt_web
       <span class="st">Whitepaper</span>
       <h3>6 Erkenntnisse aus der XALT Studie</h3>
       <p>Der Erfolg einer Digitalisierungsstrategie hängt nicht nur von den implementierten Lösungen, sondern maßgeblich vom Change Management ab. In unserer aktuellen Studie mit über 300 teilnehmenden Unternehmen haben wir die wichtigsten Hebel identifiziert.</p>
-      <a href="https://xalt.de" class="hcta" aria-label="Whitepaper zur Change Management Studie herunterladen">
+      <a href="{{ site.url }}/ressourcen/whitepaper-cloud/" class="hcta" aria-label="Whitepaper zur Change Management Studie herunterladen">
         <span>Zur Studie</span>
         <span class="arr" aria-hidden="true">→</span>
       </a>
@@ -168,7 +157,7 @@ site_url: /xalt_web
         <div class="bi" aria-hidden="true">📚</div>
         <div class="bco">
           <div class="bmeta"><span>Digital Workplace</span></div>
-          <h3><a href="https://xalt.de">Ihr moderner Digital Workplace mit Confluence</a></h3>
+          <h3><a href="{{ site.url }}/loesungen/confluence/">Ihr moderner Digital Workplace mit Confluence</a></h3>
           <p>Unsere digitalen Workplace-Lösungen bringen Sie, Ihre Mitarbeiter und Ihre externen Partner zusammen. Egal ob Cloud oder On-Premise, lokal oder im Rechenzentrum.</p>
         </div>
       </article>
@@ -176,7 +165,7 @@ site_url: /xalt_web
         <div class="bi" aria-hidden="true">⚡</div>
         <div class="bco">
           <div class="bmeta"><span>Prozess Digitalisierung</span></div>
-          <h3><a href="https://xalt.de">Automatisierung und Digitalisierung mit Jira</a></h3>
+          <h3><a href="{{ site.url }}/loesungen/digitalisierung/">Automatisierung und Digitalisierung mit Jira</a></h3>
           <p>Bringen Sie Ihre Workflows auf das nächste Level. Von der Anforderung bis zur Ausführung – wir digitalisieren Ihre Geschäftsprozesse mit Jira und der gesamten Atlassian Suite.</p>
         </div>
       </article>
@@ -184,7 +173,7 @@ site_url: /xalt_web
         <div class="bi" aria-hidden="true">🚀</div>
         <div class="bco">
           <div class="bmeta"><span>Container8 DX Platform</span></div>
-          <h3><a href="https://xalt.de">Ihre Developer Experience Platform</a></h3>
+          <h3><a href="{{ site.url }}/apps/container8/">Ihre Developer Experience Platform</a></h3>
           <p>Verbessern Sie Ihre Dev-Experienced mit unserer Plattform für Software-Entwicklung, Automatisierung und Cloud-Infrastruktur. Container8 bietet sichere, agile Tools für moderne Entwickler-Teams.</p>
         </div>
       </article>
@@ -202,7 +191,7 @@ site_url: /xalt_web
         <div class="vi-content">
           <h4>Atlassian Beratung</h4>
           <p>Wir unterstützen Ihr Unternehmen bei der effizienten Verwendung von Atlassian Tools wie Jira, Confluence und Bitbucket.</p>
-          <a href="https://xalt.de" class="blink" aria-label="Mehr über Atlassian Beratung erfahren">
+          <a href="{{ site.url }}/leistungen/atlassian-beratung/" class="blink" aria-label="Mehr über Atlassian Beratung erfahren">
             <span>Mehr erfahren</span>
             <span class="arr" aria-hidden="true">→</span>
           </a>
@@ -212,7 +201,7 @@ site_url: /xalt_web
         <div class="vi-content">
           <h4>Cloud Migration</h4>
           <p>Professionelle Migration Ihrer On-Premise-Instance in die Atlassian Cloud. Sicher, schnell und ohne Datenverlust.</p>
-          <a href="https://xalt.de" class="blink" aria-label="Mehr über Cloud Migration erfahren">
+          <a href="{{ site.url }}/loesungen/cloud-migration/" class="blink" aria-label="Mehr über Cloud Migration erfahren">
             <span>Mehr erfahren</span>
             <span class="arr" aria-hidden="true">→</span>
           </a>
@@ -222,7 +211,7 @@ site_url: /xalt_web
         <div class="vi-content">
           <h4>Platform Engineering</h4>
           <p>Enterprise Platform Architecture und Toolchain Design. Wir bauen Ihre DevOps-Plattform mit Jira, Bitbucket und GitHub.</p>
-          <a href="https://xalt.de" class="blink" aria-label="Mehr über Platform Engineering erfahren">
+          <a href="{{ site.url }}/leistungen/devops-services/" class="blink" aria-label="Mehr über Platform Engineering erfahren">
             <span>Mehr erfahren</span>
             <span class="arr" aria-hidden="true">→</span>
           </a>
@@ -256,7 +245,7 @@ site_url: /xalt_web
     <span class="st">Unternehmen</span>
     <h2>Über XALT</h2>
     <p style="max-width:620px;margin:16px auto 32px;color:var(--mute);font-size:18px;line-height:1.8">XALT ist ein führenden Partner für Atlassian-Beratung und digitale Transformation. Unser Expertenteam unterstützt mittelständische Unternehmen und Konzerne bei der Optimierung ihrer Atlassian-Toolchains, der Cloud-Migration und dem Aufbau moderner Arbeitsweisen.</p>
-    <a href="https://xalt.de" class="hcta" aria-label="Mehr über XALT erfahren">
+    <a href="{{ site.url }}/unternehmen/ueber-uns/" class="hcta" aria-label="Mehr über XALT erfahren">
       <span>Mehr über XALT</span>
       <span class="arr" aria-hidden="true">→</span>
     </a>
