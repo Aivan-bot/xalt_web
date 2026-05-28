@@ -1,28 +1,26 @@
 ---
 layout: base
 title: "Lösungen — XALT"
-description: "Unsere Lösungen — XALT Business Consulting, Agile Beratung und IT-Dienstleistungen."
+description: "XALT Lösungen: Strategie-Review, Cloud-Migration, Managed Hosting und mehr."
+category: "loesungen"
 ---
-<section class="section" style="padding:80px 0">
-  <div class="si">
-    <span class="st">Lösungen</span>
-    <h1>Unsere Lösungen</h1>
-    <p class="hdesc">XALT bietet maßgeschneiderte Lösungen für Ihre digitale Transformation.</p>
+
+<section style="padding: 4rem 2rem; background: linear-gradient(135deg, var(--bg-surface), var(--bg-elevated));">
+  <div style="max-width: 1100px; margin: 0 auto; text-align: center;">
+    <span class="htag" style="color: var(--primary); font-size: 0.9rem; letter-spacing: 3px;">LÖSUGE</span>
+    <h1 style="font-size: 3rem; font-weight: 800; margin: 1rem 0;">XALT Lösungen</h1>
+    <p style="color: var(--mute); font-size: 1.15rem; max-width: 800px; margin: 0 auto; line-height: 1.7;">Vo de strategischen Beratung über Cloud-Migration bis hin zu individuellen Apps: XLT bietet umfassende Lösungen för Ihre digitale Zukunft.</p>
   </div>
 </section>
-<section style="padding-bottom:80px">
-  <div class="si">
-    <div class="bgrid">
-<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/jira/" style="color:var(--primary)">Jira Beratung</a></span></div><span class="desc">Experten für Jira Software und Jira Service Management.</span></div></article>
-<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/confluence/" style="color:var(--primary)">Confluence Beratung</a></span></div><span class="desc">Wissensmanagement und Collaboration mit Confluence.</span></div></article>
-<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/cloud-services/" style="color:var(--primary)">Cloud Services</a></span></div><span class="desc">Atlassian Cloud Services und Migration.</span></div></article>
-<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/cloud-migration/" style="color:var(--primary)">Cloud Migration</a></span></div><span class="desc">Migration von Server und Data Center in die Cloud.</span></div></article>
-<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/it-sm/" style="color:var(--primary)">IT Service Management</a></span></div><span class="desc">Effizientes ITSM mit Jira Service Managament.</span></div></article>
-<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/projektportfoliomanagement/" style="color:var(--primary)">Projektportfoliomanagement</a></span></div><span class="desc">Prozessoptimierung und Digitalisierung.</span></div></article>
-<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/change-management/" style="color:var(--primary)">Change Management</a></span></div><span class="desc">Strategisches Change Management.</span></div></article>
-<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/hosting/" style="color:var(--primary)">Hosting & Betrieb</a></span></div><span class="desc">Professionelles Hosting und Betrieb.</span></div></article>
-<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/schulungen/" style="color:var(--primary)">Schulungen</a></span></div><span class="desc">Professionelle Schulungen für Jira und Confluence.</span></div></article>
-
+<section style="padding: 3rem 2rem;">
+  <div style="max-width: 1100px; margin: 0 auto;">
+    <div class="bgrid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+      <a href="/loesungen/jira/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem; border-left: 4px solid var(--primary);"><h3>Jira Optimierung</h3><p style="color: var(--mute);">Optimierte Workflows, Boards und Automation.</p></div></a>
+      <a href="/loesungen/confluence/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem; border-left: 4px solid var(--primary);"><h3>Confluence Strategie</h3><p style="color: var(--mute);">Zentrale Wissesplattform mit optimierte Spaces.</p></div></a>
+      <a href="/loesungen/cloud-migration/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem; border-left: 4px solid var(--primary);"><h3>Cloud Migration</h3><p style="color: var(--mute);">Sicherer Umzug i d Cloud mit XLT Expertise.</p></div></a>
+      <a href="/loesungen/hosting/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem; border-left: 4px solid var(--primary);"><h3>Managed Hosting</h3><p style="color: var(--mute);">24/7 Support und Monitoring.</p></div></a>
+      <a href="/loesungen/it-service-management/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem; border-left: 4px solid var(--primary);"><h3>IT Service Management</h3><p style="color: var(--mute);">Service Desk, Incident & Change Management.</p></div></a>
+      <a href="/loesungen/changemanagement/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem; border-left: 4px solid var(--primary);"><h3>Change Management</h3><p style="color: var(--mute);">Change mit Atlassian-Integration.</p></div></a>
     </div>
   </div>
 </section>
