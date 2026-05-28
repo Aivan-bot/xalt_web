@@ -1,7 +1,67 @@
 {
-  "url": "https://xalt.de",
   "name": "XALT",
   "description": "Atlassian Beratung & Digitale Transformation",
+  "url": "/xalt_web",
+  "lang": "de",
   "email": "info@xalt.de",
-  "language": "de"
+  "nav": [
+    { "label": "Startseite", "url": "/xalt_web/" },
+    { "label": "Leistungen", "url": "/xalt_web/leistungen/", "active": false, "dropdown": [
+      { "label": "Atlassian Beratung", "url": "/xalt_web/leistungen/atlassian-beratung/" },
+      { "label": "DevOps Services", "url": "/xalt_web/leistungen/devops-services/" },
+      { "label": "Agile Transformierung", "url": "/xalt_web/leistungen/agile-coaching/" }
+    ]},
+    { "label": "Lösungen", "url": "/xalt_web/loesungen/", "active": false, "dropdown": [
+      { "label": "Jira Beratung", "url": "/xalt_web/loesungen/jira/" },
+      { "label": "Confluence Beratung", "url": "/xalt_web/loesungen/confluence/" },
+      { "label": "Cloud Services", "url": "/xalt_web/loesungen/cloud-services/" },
+      { "label": "Cloud Migration", "url": "/xalt_web/loesungen/cloud-migration/" },
+      { "label": "Cloud Adoption Assessment", "url": "/xalt_web/loesungen/cloud-adoption/" },
+      { "label": "Lizenzmanagement", "url": "/xalt_web/loesungen/licenzmanagement/" },
+      { "label": "IT Service Management", "url": "/xalt_web/loesungen/it-sm/" },
+      { "label": "Projektportfoliomanagement", "url": "/xalt_web/loesungen/projektportfoliomanagement/" },
+      { "label": "Change Management", "url": "/xalt_web/loesungen/change-management/" },
+      { "label": "Digitalisierung", "url": "/xalt_web/loesungen/digitalisierung/" },
+      { "label": "CI/CD", "url": "/xalt_web/loesungen/ci-cd/" },
+      { "label": "Automated Testing", "url": "/xalt_web/loesungen/testing/" },
+      { "label": "Hosting &amp; Betrieb", "url": "/xalt_web/loesungen/hosting/" },
+      { "label": "Schulungen", "url": "/xalt_web/loesungen/schulungen/" },
+      { "label": "Strategy Review", "url": "/xalt_web/loesungen/strategy-review/" }
+    ]},
+    { "label": "Case Studies", "url": "/xalt_web/case-studies/", "active": false },
+    { "label": "Apps", "url": "/xalt_web/apps/", "active": false, "dropdown": [
+      { "label": "Marketplace Übersicht", "url": "/xalt_web/apps/" },
+      { "label": "Advanced Issue Sync", "url": "/xalt_web/apps/advanced-issue-sync/" },
+      { "label": "Advanced Image Gallery", "url": "/xalt_web/apps/advanced-image-gallery/" },
+      { "label": "Advanced Menu Maker", "url": "/xalt_web/apps/menu-maker/" },
+      { "label": "Jira Sync", "url": "/xalt_web/apps/jira-sync/" },
+      { "label": "Self Service", "url": "/xalt_web/apps/self-service/" },
+      { "label": "Customer Support Portal", "url": "/xalt_web/apps/customer-support/" },
+      { "label": "XAAM", "url": "/xalt_web/apps/xaam/" },
+      { "label": "Container8", "url": "/xalt_web/apps/container8/" },
+      { "label": "Business Dashboards", "url": "/xalt_web/apps/dashboards/" }
+    ]},
+    { "label": "Ressourcen", "url": "/xalt_web/ressourcen/", "active": false, "dropdown": [
+      { "label": "Whitepaper", "url": "/xalt_web/ressourcen/whitepaper/" },
+      { "label": "Webinar", "url": "/xalt_web/ressourcen/webinar/" },
+      { "label": "Dokumentation", "url": "/xalt_web/ressourcen/dokumentation/" }
+    ]},
+    { "label": "Unternehmen", "url": "/xalt_web/unternehmen/", "active": false, "dropdown": [
+      { "label": "Über uns", "url": "/xalt_web/unternehmen/ueber-uns/" },
+      { "label": "Team Consulting", "url": "/xalt_web/unternehmen/team-consulting/" },
+      { "label": "Team DevOps", "url": "/xalt_web/unternehmen/team-devops/" },
+      { "label": "Team Marketing & Sales", "url": "/xalt_web/unternehmen/team-marketing/" },
+      { "label": "Team Operations", "url": "/xalt_web/unternehmen/team-operations/" },
+      { "label": "XALT Kultur", "url": "/xalt_web/unternehmen/kultur/" },
+      { "label": "Karriere", "url": "/xalt_web/unternehmen/karriere/" }
+    ]},
+    { "label": "Blog", "url": "/xalt_web/blog/" },
+    { "label": "Kontakt", "url": "/xalt_web/kontakt/", "active": false }
+  ],
+  "footer": {
+    "links": [
+      { "label": "Datenschutz", "url": "/xalt_web/datenschutz/" },
+      { "label": "Impressum", "url": "/xalt_web/impressum/" }
+    ]
+  }
 }

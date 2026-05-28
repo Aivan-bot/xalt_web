@@ -1,101 +1,28 @@
 ---
 layout: base
-title: "Lösungen - XALT"
-description: "Umfassende Lösungen für digitale Transformation, Cloud-Migration und digitale Workplace."
+title: "Lösungen — XALT"
+description: "Unsere Lösungen — XALT Business Consulting, Agile Beratung und IT-Dienstleistungen."
 ---
-
-<!-- ===== HERO ===== -->
-<section class="hero" aria-label="Lösungen">
+<section class="section" style="padding:80px 0">
   <div class="si">
-    <div class="hc">
-      <div class="ht">
-        <span class="htag">LÖSUNGEN</span>
-        <h1>Unsere Lösungen</h1>
-        <p class="hdesc">Maßgeschneiderte Atlassian-Lösungen für mittelständische Unternehmen und Konzerne. Von Digital Workplace über Cloud Migration bis hin zu automatisierten Workflows.</p>
-        <a href="{{ site.url }}/kontakt/" class="hcta"><span>Lösung anfragen</span><span class="arr" aria-hidden="true">→</span></a>
-      </div>
-      <div class="hg" aria-hidden="true"><div class="chart-ph">💡</div></div>
-    </div>
+    <span class="st">Lösungen</span>
+    <h1>Unsere Lösungen</h1>
+    <p class="hdesc">XALT bietet maßgeschneiderte Lösungen für Ihre digitale Transformation.</p>
   </div>
 </section>
-<!-- ===== CARD GRID ===== -->
-<section class="section" aria-label="Lösungen">
+<section style="padding-bottom:80px">
   <div class="si">
-    <div class="sh"><span class="st">Unsere Lösungen</span><h2>Lösungen nach Kategorie</h2></div>
     <div class="bgrid">
-    <div class="card-link">
-      <div class="card-icon" aria-hidden="true">📚</div>
-      <h3><a href="{{ site.url }}{{ site.url }}/loesungen/digital-workplace//">Digital Workplace</a></h3>
-      <p>Moderne digitale Workplace-Lösungen mit Confluence und Jira.</p>
-    </div>
-
-    <div class="card-link">
-      <div class="card-icon" aria-hidden="true">⚡</div>
-      <h3><a href="{{ site.url }}{{ site.url }}/loesungen/prozess-digitalisierung//">Prozess Digitalisierung</a></h3>
-      <p>Automatisierung und Digitalisierung mit Jira und Atlassian Suite.</p>
-    </div>
-
-    <div class="card-link">
-      <div class="card-icon" aria-hidden="true">☁️</div>
-      <h3><a href="{{ site.url }}{{ site.url }}/loesungen/cloud-infrastruktur//">Cloud Infrastruktur</a></h3>
-      <p>Native Cloud Services und Migration auf Atlassian Cloud.</p>
-    </div>
-
-    <div class="card-link">
-      <div class="card-icon" aria-hidden="true">🛡️</div>
-      <h3><a href="{{ site.url }}{{ site.url }}/loesungen/it-service-management//">IT Service Management</a></h3>
-      <p>ITSM-Lösungen mit Jira Service Management.</p>
-    </div>
-
-    <div class="card-link">
-      <div class="card-icon" aria-hidden="true">📊</div>
-      <h3><a href="{{ site.url }}{{ site.url }}/loesungen/projektportfoliomanagement//">Projekt & Portfolio Management</a></h3>
-      <p>Projekte und Portfolios mit Jira effizient steuern.</p>
-    </div>
-
-    <div class="card-link">
-      <div class="card-icon" aria-hidden="true">🔄</div>
-      <h3><a href="{{ site.url }}{{ site.url }}/loesungen/changemanagement//">Change Management</a></h3>
-      <p>Unternehmen sicher durch digitale Transformation begleiten.</p>
-    </div>
-
-    <div class="card-link">
-      <div class="card-icon" aria-hidden="true">🔍</div>
-      <h3><a href="{{ site.url }}{{ site.url }}/loesungen/digitalisierung//">Digitalisierung</a></h3>
-      <p>Geschäftsprozesse digital und automatisiert gestalten.</p>
-    </div>
-
-    <div class="card-link">
-      <div class="card-icon" aria-hidden="true">🔄</div>
-      <h3><a href="{{ site.url }}{{ site.url }}/loesungen/continuous-integration//">Continuous Integration & Delivery</a></h3>
-      <p>CI/CD mit Atlassian-Bitbucket-Gateway.</p>
-    </div>
-
-    <div class="card-link">
-      <div class="card-icon" aria-hidden="true">🧪</div>
-      <h3><a href="{{ site.url }}{{ site.url }}/loesungen/automated-testing//">Automated Testing</a></h3>
-      <p>Automatisierte Tests für Atlassian-Applikationen.</p>
-    </div>
-
-    <div class="card-link">
-      <div class="card-icon" aria-hidden="true">🖥️</div>
-      <h3><a href="{{ site.url }}{{ site.url }}/loesungen/hosting//">Managed Hosting</a></h3>
-      <p>Professionelles Hosting und Betrieb von Atlassian Applikationen.</p>
-    </div>
-
-    <div class="card-link">
-      <div class="card-icon" aria-hidden="true">🎓</div>
-      <h3><a href="{{ site.url }}{{ site.url }}/loesungen/schulungen//">Schulungen</a></h3>
-      <p>Atlassian-Schulungen für Administratoren und Endanwender.</p>
-    </div>
-
-    <div class="card-link">
-      <div class="card-icon" aria-hidden="true">🧩</div>
-      <h3><a href="{{ site.url }}{{ site.url }}/apps//">App Marketplace</a></h3>
-      <p>Erweiterte Apps und Plugins für Atlassian-Produkte.</p>
-    </div>
+<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/jira/" style="color:var(--primary)">Jira Beratung</a></span></div><span class="desc">Experten für Jira Software und Jira Service Management.</span></div></article>
+<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/confluence/" style="color:var(--primary)">Confluence Beratung</a></span></div><span class="desc">Wissensmanagement und Collaboration mit Confluence.</span></div></article>
+<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/cloud-services/" style="color:var(--primary)">Cloud Services</a></span></div><span class="desc">Atlassian Cloud Services und Migration.</span></div></article>
+<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/cloud-migration/" style="color:var(--primary)">Cloud Migration</a></span></div><span class="desc">Migration von Server und Data Center in die Cloud.</span></div></article>
+<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/it-sm/" style="color:var(--primary)">IT Service Management</a></span></div><span class="desc">Effizientes ITSM mit Jira Service Managament.</span></div></article>
+<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/projektportfoliomanagement/" style="color:var(--primary)">Projektportfoliomanagement</a></span></div><span class="desc">Prozessoptimierung und Digitalisierung.</span></div></article>
+<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/change-management/" style="color:var(--primary)">Change Management</a></span></div><span class="desc">Strategisches Change Management.</span></div></article>
+<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/hosting/" style="color:var(--primary)">Hosting & Betrieb</a></span></div><span class="desc">Professionelles Hosting und Betrieb.</span></div></article>
+<article class="bcard"><div class="bi" aria-hidden="true">🌐</div><div class="bco"><div class="bmeta"><span>🔗 <a href="{{ site.url }}/loesungen/schulungen/" style="color:var(--primary)">Schulungen</a></span></div><span class="desc">Professionelle Schulungen für Jira und Confluence.</span></div></article>
 
     </div>
   </div>
 </section>
-
