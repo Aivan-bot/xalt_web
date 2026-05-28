@@ -7,6 +7,8 @@ export default function (config) {
     "./css": "css",
     "./js": "js",
     "./images": "images",
+    "./sitemap.xml": "sitemap.xml",
+    "./xalt_sitemap.md": "xalt_sitemap.md",
   });
   
   // Template engine
