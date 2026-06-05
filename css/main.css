@@ -130,10 +130,11 @@ img{max-width:100%;height:auto;display:block}
 .lcar{overflow:hidden;position:relative}
 .lcar-in{display:flex;gap:80px;animation:sl 60s linear infinite;width:max-content}
 .lcar-in:hover{animation-play-state:paused}
-.li{display:flex;align-items:center;justify-content:center;padding:16px 20px;opacity:0.4;transition:opacity var(--tr),transform var(--tr);flex-shrink:0}
+.li{display:flex;align-items:center;justify-content:center;padding:16px 20px;transition:opacity var(--tr),transform var(--tr);flex-shrink:0}
+.li{opacity:0.35}
 .li:hover{opacity:1;transform:scale(1.1)}
-.li img{max-height:42px;width:auto;display:block;filter:grayscale(100%) brightness(0.9);transition:filter var(--tr)}
-.li:hover img{filter:grayscale(0%) brightness(1)}
+.li img{max-height:42px;width:auto;display:block;filter:brightness(9) saturate(0);transition:filter var(--tr)}
+.li:hover img{filter:none}
 @keyframes sl{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 
 /* ===== CTA SECTION ===== */
