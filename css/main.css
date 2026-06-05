@@ -132,7 +132,7 @@ img{max-width:100%;height:auto;display:block}
 .lcar-in:hover{animation-play-state:paused}
 .li{display:flex;align-items:center;justify-content:center;padding:16px 20px;transition:transform var(--tr);flex-shrink:0}
 .li:hover{transform:scale(1.1)}
-.li img{height:62.5px;max-width:100px;width:auto;display:block}
+.li img{max-height:52px;max-width:100px;width:auto;height:auto;object-fit:contain;display:block}
 @keyframes sl{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 
 /* ===== CTA SECTION ===== */
