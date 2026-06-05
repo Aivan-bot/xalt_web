@@ -5,7 +5,7 @@ export default function (config) {
   config.addPassthroughCopy({
     "./css": "css",
     "./js": "js",
-    "./images": "images",
+    "./src/images": "images",
     "./sitemap.xml": "sitemap.xml",
     "./xalt_sitemap.md": "xalt_sitemap.md",
   });

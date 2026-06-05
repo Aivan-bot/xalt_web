@@ -36,7 +36,7 @@ category: "home"
       <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Weltbild.svg" alt="Weltbild" style="max-height:36px;opacity:0.7"></span>
       <span class="li"><img src="{{ site.baseurl }}/images/2022/09/fictiv.svg" alt="fictiv" style="max-height:36px;opacity:0.7"></span>
       <span class="li"><img src="{{ site.baseurl }}/images/2022/09/plixxent.svg" alt="plixxent" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/akdb-logo-header.svg" alt="akdb" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2024/05/akdb-logo-header.svg" alt="akdb" style="max-height:36px;opacity:0.7"></span>
       <span class="li"><img src="{{ site.baseurl }}/images/2022/09/HBPO.svg" alt="HBPO" style="max-height:36px;opacity:0.7"></span>
       <span class="li"><img src="{{ site.baseurl }}/images/2022/09/KVB.svg" alt="KVB" style="max-height:36px;opacity:0.7"></span>
       <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Nasa.svg" alt="NASA" style="max-height:36px;opacity:0.7"></span>
@@ -53,7 +53,7 @@ category: "home"
       <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Weltbild.svg" alt="Weltbild" style="max-height:36px;opacity:0.7"></span>
       <span class="li"><img src="{{ site.baseurl }}/images/2022/09/fictiv.svg" alt="fictiv" style="max-height:36px;opacity:0.7"></span>
       <span class="li"><img src="{{ site.baseurl }}/images/2022/09/plixxent.svg" alt="plixxent" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/akdb-logo-header.svg" alt="akdb" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2024/05/akdb-logo-header.svg" alt="akdb" style="max-height:36px;opacity:0.7"></span>
       <span class="li"><img src="{{ site.baseurl }}/images/2022/09/HBPO.svg" alt="HBPO" style="max-height:36px;opacity:0.7"></span>
       <span class="li"><img src="{{ site.baseurl }}/images/2022/09/KVB.svg" alt="KVB" style="max-height:36px;opacity:0.7"></span>
       <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Nasa.svg" alt="NASA" style="max-height:36px;opacity:0.7"></span>
