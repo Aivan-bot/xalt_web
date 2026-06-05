@@ -130,9 +130,9 @@ img{max-width:100%;height:auto;display:block}
 .lcar{overflow:hidden;position:relative}
 .lcar-in{display:flex;gap:80px;animation:sl 60s linear infinite;width:max-content}
 .lcar-in:hover{animation-play-state:paused}
-.li{display:flex;align-items:center;justify-content:center;padding:4px 8px;transition:transform var(--tr);flex-shrink:0}
+.li{display:flex;align-items:center;justify-content:center;padding:8px 12px;transition:transform var(--tr);flex-shrink:0}
 .li:hover{transform:scale(1.1)}
-.li img{width:80px;height:40px;display:block}
+.li img{width:133px;height:83px;display:block}
 @keyframes sl{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 
 /* ===== CTA SECTION ===== */
@@ -190,7 +190,7 @@ img{max-width:100%;height:auto;display:block}
   .hero{padding:60px 0 40px}
   .section{padding:60px 0}
   .lcar-in{gap:36px}
-  .li img{width:60px;height:30px}
+  .li img{width:80px;height:50px}
   .lh{font-size:12px;margin-bottom:20px}
   .lcar::before,.lcar::after{width:50px}
 }
