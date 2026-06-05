@@ -125,7 +125,7 @@ img{max-width:100%;height:auto;display:block}
 .bcard p{font-size:13px;color:var(--mute);line-height:1.6}
 
 /* ===== LOGO CAROUSEL ===== */
-.logo-s{padding:60px 0;border-top:1px solid var(--brd);border-bottom:1px solid var(--brd);background:rgba(255,255,255,0.01)}
+.logo-s{padding:60px 0;border-top:1px solid var(--brd);border-bottom:1px solid var(--brd);background:rgba(255,255,255,0.06)}
 .lh{text-align:center;font-size:14px;color:var(--dim);margin-bottom:32px;font-weight:500;letter-spacing:0.02em}
 .lcar{overflow:hidden;position:relative}
 .lcar-in{display:flex;gap:80px;animation:sl 60s linear infinite;width:max-content}
