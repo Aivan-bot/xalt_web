@@ -14,7 +14,7 @@ image: /images/2022/09/xalt_-logo-Platinum-Solution-Partner-white.png
 
 <section style="padding-bottom:40px">
   <div class="si">
-    <img src="/images/2022/09/xalt_-logo-Platinum-Solution-Partner-white.png" alt="Atlassian Platinum Partner" style="width:100%;max-height:400px;object-fit:contain;justify-content:center;">
+    <img src="{{ site.baseurl }}/images/2022/09/xalt_-logo-Platinum-Solution-Partner-white.png" alt="Atlassian Platinum Partner" style="width:100%;max-height:400px;object-fit:contain;justify-content:center;">
   </div>
 </section>
 

@@ -1,7 +1,8 @@
 {
   "name": "XALT",
   "description": "Atlassian Beratung & Digitale Transformation",
-  "url": "",
+  "url": "https://aivan-bot.github.io/xalt_web",
+  "baseurl": "/xalt_web",
   "lang": "de",
   "email": "info@xalt.de",
   "year": "2026",

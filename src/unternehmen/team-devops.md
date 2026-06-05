@@ -14,7 +14,7 @@ image: /images/2024/11/xalt_consulting-logo-DevOps-Consulting.png
 
 <section style="padding-bottom:40px">
   <div class="si">
-    <img src="/images/2024/11/xalt_consulting-logo-DevOps-Consulting.png" alt="DevOps Consulting" style="width:100%;max-height:400px;object-fit:contain;justify-content:center;">
+    <img src="{{ site.baseurl }}/images/2024/11/xalt_consulting-logo-DevOps-Consulting.png" alt="DevOps Consulting" style="width:100%;max-height:400px;object-fit:contain;justify-content:center;">
   </div>
 </section>
 
