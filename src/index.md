@@ -25,39 +25,39 @@ category: "home"
   <div class="lh">Vertraut von führenden Unternehmen in der DACH-Region</div>
   <div class="lcar">
     <div class="lcar-in">
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/BBV.svg" alt="BBV" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/BSH.svg" alt="BSH" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/DAV.svg" alt="DAV" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/DNB.svg" alt="DNB" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/EEX.svg" alt="EEX" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/estos.svg" alt="estos" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Fath.svg" alt="Fath" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Otto.svg" alt="Otto" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Weltbild.svg" alt="Weltbild" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/fictiv.svg" alt="fictiv" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/plixxent.svg" alt="plixxent" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2024/05/akdb-logo-header.svg" alt="akdb" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/HBPO.svg" alt="HBPO" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/KVB.svg" alt="KVB" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Nasa.svg" alt="NASA" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Disney.svg" alt="Disney" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/BBV.svg" alt="BBV"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/BSH.svg" alt="BSH"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/DAV.svg" alt="DAV"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/DNB.svg" alt="DNB"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/EEX.svg" alt="EEX"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/estos.svg" alt="estos"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Fath.svg" alt="Fath"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Otto.svg" alt="Otto"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Weltbild.svg" alt="Weltbild"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/fictiv.svg" alt="fictiv"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/plixxent.svg" alt="plixxent"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2024/05/akdb-logo-header.svg" alt="akdb"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/HBPO.svg" alt="HBPO"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/KVB.svg" alt="KVB"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Nasa.svg" alt="NASA"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Disney.svg" alt="Disney"></span>
       <!-- Duplicate for seamless scroll -->
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/BBV.svg" alt="BBV" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/BSH.svg" alt="BSH" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/DAV.svg" alt="DAV" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/DNB.svg" alt="DNB" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/EEX.svg" alt="EEX" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/estos.svg" alt="estos" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Fath.svg" alt="Fath" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Otto.svg" alt="Otto" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Weltbild.svg" alt="Weltbild" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/fictiv.svg" alt="fictiv" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/plixxent.svg" alt="plixxent" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2024/05/akdb-logo-header.svg" alt="akdb" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/HBPO.svg" alt="HBPO" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/KVB.svg" alt="KVB" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Nasa.svg" alt="NASA" style="max-height:36px;opacity:0.7"></span>
-      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Disney.svg" alt="Disney" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/BBV.svg" alt="BBV"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/BSH.svg" alt="BSH"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/DAV.svg" alt="DAV"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/DNB.svg" alt="DNB"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/EEX.svg" alt="EEX"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/estos.svg" alt="estos"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Fath.svg" alt="Fath"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Otto.svg" alt="Otto"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Weltbild.svg" alt="Weltbild"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/fictiv.svg" alt="fictiv"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/plixxent.svg" alt="plixxent"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2024/05/akdb-logo-header.svg" alt="akdb"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/HBPO.svg" alt="HBPO"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/KVB.svg" alt="KVB"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Nasa.svg" alt="NASA"></span>
+      <span class="li"><img src="{{ site.baseurl }}/images/2022/09/Disney.svg" alt="Disney"></span>
     </div>
   </div>
 </section>
