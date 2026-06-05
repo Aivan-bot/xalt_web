@@ -1,7 +1,7 @@
 ---
 layout: base
 title: "Advanced Menu Maker — XALT"
-description: "Custom navigation und menu builder för Confluence."
+description: "Custom navigation und menu builder für Confluence."
 category: "apps"
 ---
 
@@ -10,16 +10,16 @@ category: "apps"
     <div class="ht">
       <span class="htag" style="color: var(--primary); font-size: 0.9rem; letter-spacing: 3px;">APP</span>
       <h1 style="font-size: 3rem; font-weight: 800; margin: 1rem 0;">Advanced Menu Maker</h1>
-      <p style="font-size: 1.2rem; color: var(--mute); max-width: 650px; line-height: 1.7;">Custom navigation und menu builder för Confluence mit XALT.</p>
+      <p style="font-size: 1.2rem; color: var(--mute); max-width: 650px; line-height: 1.7;">Custom navigation und menu builder für Confluence mit XALT.</p>
     </div>
   </div>
 </section>
 
 <section style="padding: 4rem 2rem;">
   <div style="max-width: 900px; margin: 0 auto;">
-<h2>Navigation & Menu för Confluence</h2>
+<h2>Navigation & Menu für Confluence</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XLT's Advanced Menu Maker erstellt benutzerdefiniertti Navigation und Menüs för Confluence mit Drag-and-Drop-Ease und visuellem Editor.
+XLT's Advanced Menu Maker erstellt benutzerdefinierttin Navigation und Menüs für Confluence mit Drag-and-Drop-Ease und visuellem Editor.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">App anfrage</a>

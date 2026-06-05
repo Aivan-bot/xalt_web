@@ -17,7 +17,7 @@ category: "ressourcen"
     <h2 style="margin-bottom: 2rem;">Whitepapers</h2>
     <div class="bgrid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
       <a href="/ressourcen/whitepaper-cloud/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem;"><h3>Cloud Migration Guide</h3><p style="color: var(--mute);">42 Site Cloud-Migrations-Erfahrig. Download.</p></div></a>
-      <a href="/ressourcen/whitepaper-5gruende/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem;"><h3>5 Gründe für Cloud</h3><p style="color: var(--mute);">Top 5 Gründe för Atlassian Cloud Adoption.</p></div></a>
+      <a href="/ressourcen/whitepaper-5gruende/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem;"><h3>5 Gründe für Cloud</h3><p style="color: var(--mute);">Top 5 Gründe für Atlassian Cloud Adoption.</p></div></a>
       <a href="/ressourcen/whitepaper-security/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem;"><h3>Cloud Security</h3><p style="color: var(--mute);">Security Framework und Best Practices.</p></div></a>
       <a href="/ressourcen/whitepaper-service/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem;"><h3>ITSM Whitepaper</h3><p style="color: var(--mute);">IT Service Management Best Practices.</p></div></a>
     </div>

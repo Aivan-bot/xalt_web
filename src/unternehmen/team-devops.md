@@ -21,7 +21,7 @@ image: /images/2024/11/xalt_consulting-logo-DevOps-Consulting.png
 <section style="padding-bottom:60px">
   <div class="si">
     <h2>Wer wir sind</h2>
-    <p>Das DevOps-Team bei XALT wurde 2019 als eigene Geschäftseinheit gegründet. Grund war die wachsende Nachfrage aus dem Mittelstand und der öffentlichen Hand nach einer durchgängigen DevOps-Strategie: nicht nur „Tool X mit Tool Y verbinden", sondern echte CI/CD-Pipelines, IaC, GitOps und Multi-Cloud-Management.</p>
+    <p>Das DevOps-Team bein XALT wurde 2019 als eigene Geschäftseinheit gegründet. Grund war die wachsende Nachfrage aus dem Mittelstand und der öffentlichen Hand nach einer durchgängigen DevOps-Strategie: nicht nur „Tool X mit Tool Y verbinden", sondern echte CI/CD-Pipelines, IaC, GitOps und Multi-Cloud-Management.</p>
     <p>Unser Team setzt sich zusammen aus Senior Cloud Architects (AWS, Azure, GCP), DevOps Engineers (Jenkins, GitHub Actions, Bitbucket Pipelines, GitLab CI), Kubernetes-Experten (EKS, AKS, GKE), Terraform- und Pulumi-Spezialisten sowie Identity- und Security Engineers. 60 % unserer Entwickler sind Atlassian Cloud Certified; weitere Halte Zertifizierungen von AWS, HashiCorp, Microsoft und CNCF.</p>
 
     <h2>Unsere Kernkompetenzen</h2>

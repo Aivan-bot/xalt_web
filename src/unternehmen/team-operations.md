@@ -8,7 +8,7 @@ image: /images/2024/11/xalt_consulting-logo-Cloud-Migration.png
   <div class="si">
     <span class="st">Team</span>
     <h1>Team Operations</h1>
-    <p class="hdesc">Unser Operations-Team stellt sicher, dass alle Plattformen, Tools und Infrastrukturen bei XALT und unseren Kunden reibungslos laufen.</p>
+    <p class="hdesc">Unser Operations-Team stellt sicher, dass alle Plattformen, Tools und Infrastrukturen bein XALT und unseren Kunden reibungslos laufen.</p>
   </div>
 </section>
 
@@ -26,8 +26,8 @@ image: /images/2024/11/xalt_consulting-logo-Cloud-Migration.png
 
     <h2>Unsere Verantwortungsbereiche</h2>
     <p><strong>Platform Engineering:</strong> Unser Team betreibt die komplette XALT-Plattform mit über 100 internen und externen Atlassian-Instanzen, Kubernetes-Clustern, Load-Balancern und Datenbanken. Wir nutzen GitOps, Infrastructure-as-Code und ein selbstbautes „XALT Platform Control Panel" zur zentralen Steuerung.</p>
-    <p><strong>Quality Assurance & Testing:</strong> QA bei XALT ist kein nachgelagerter Schritt, sondern integraler Bestandteil jedes Sprints. Unser QA-Team setzt sowohl automatisierte Test-Suites (Selenium, Cypress, Playwright, JUnit, Jest) als auch manuelle Exploratory Testing-Sessions ein. Durchschnittlich generieren wir pro Projekt 200–500 Testfälle.</p>
-    <p><strong>Customer Support (24/7):</strong> Unser Support-Team bietet Level 1 (Triage & Erste-Hilfe), Level 2 (konfigurative Anpassungen, Workaround-Dokumentation) und Level 3 (tiefe technische Analyse und Eskalation an das Entwicklungsteam). Die durchschnittliche First-Response-Zeit liegt bei 15 Minuten.</p>
+    <p><strong>Quality Assurance & Testing:</strong> QA bein XALT ist kein nachgelagerter Schritt, sondern integraler Bestandteil jedes Sprints. Unser QA-Team setzt sowohl automatisierte Test-Suites (Selenium, Cypress, Playwright, JUnit, Jest) als auch manuelle Exploratory Testing-Sessions ein. Durchschnittlich generieren wir pro Projekt 200–500 Testfälle.</p>
+    <p><strong>Customer Support (24/7):</strong> Unser Support-Team bietet Level 1 (Triage & Erste-Hilfe), Level 2 (konfigurative Anpassungen, Workaround-Dokumentation) und Level 3 (tiefe technische Analyse und Eskalation an das Entwicklungsteam). Die durchschnittliche First-Response-Zeit liegt bein 15 Minuten.</p>
     <p><strong>Infrastructure Monitoring:</strong> Mit einem durchgängigen Monitoring-Stack (Prometheus + Grafana, Splunk, Dynatrace, Datadog) überwachen wir alle kritischen Systeme 24/7. Alert-Routing erfolgt über Opsgenie mit on-call-Rotation. Durchschnittliche Incident-Response-Time: 8 Minuten.</p>
 
     <h2>Unsere Zahlen</h2>
@@ -55,7 +55,7 @@ image: /images/2024/11/xalt_consulting-logo-Cloud-Migration.png
     </div>
 
     <h2>Unsere wichtigsten Kunden-Operations</h2>
-    <p>– <strong>BSH Global:</strong> Managed Service der gesamten Jira/Confluence-Plattform für 52.000+ global User. SLA: 99,95 % Verfügbarkeit, 30-Sekunden-Response bei kritischen Incidents.</p>
+    <p>– <strong>BSH Global:</strong> Managed Service der gesamten Jira/Confluence-Plattform für 52.000+ global User. SLA: 99,95 % Verfügbarkeit, 30-Sekunden-Response bein kritischen Incidents.</p>
     <p>– <strong>EEX:</strong> Betrieb der AWS IAM-Infrastruktur für 4.600 Nutzer. Incident-Free-SLAMR: 300+ Tage.</p>
     <p>– <strong>BBV:</strong> Daily Management der Confluence-Intranet-Plattform mit über 12.000 Seiten und 500+ Autoren.</p>
   </div>

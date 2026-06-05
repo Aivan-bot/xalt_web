@@ -17,10 +17,10 @@ category: "case-studies"
 
 <section style="padding: 4rem 2rem;">
   <div style="max-width: 900px; margin: 0 auto;">
-<h2>Change Management för ERP-Implementierung</h2>
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Herausforderig:</strong> Es Industrieunternehme führt en nuovo ERP-Plattform i. Die Mitarbeiter-Akzeptanz isch s Hauptproblem gsi.</p>
+<h2>Change Management für ERP-Implementierung</h2>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Herausforderig:</strong> Es Industrieunternehme führt en nuovo ERP-Plattform i. Die Mitarbeiter-Akzeptanz ist s Hauptproblem gsi.</p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Lösung:</strong> XALT erstellet es umfassend Change Management Plan mit Schuunge, Kommunikation und Support.</p>
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Ergebnisse:</strong> 95% Adoption innerhalb vo 3 Müned, nur 5% zuessätzlichi Schulige, Positivs Feedback vo 90% vo de Mitarbeiter.</p>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Ergebnisse:</strong> 95% Adoption innerhalb vo 3 Müned, nur 5% zuessätzlichin Schulige, Positivs Feedback vo 90% vo de Mitarbeiter.</p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Change Management anfordere</a>
     </div>

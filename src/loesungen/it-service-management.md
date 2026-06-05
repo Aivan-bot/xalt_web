@@ -21,13 +21,13 @@ ITSM mit Jira Service Management: Service Desk, Incident, Problem & Change Manag
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>ITSM neu gedacht</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Jira Service Management macht es möglich, Ihr komplettes ITSM in enere modernen Plattform abzubilde. XALT berät Sie bei de Umsetzung vun Service Desks, Incident- und Problem-Management, Change-Workflows und Knowledge-Bases.
+Jira Service Management macht es möglich, Ihr komplettes ITSM in enere modernen Plattform abzubilde. XALT berät Sie bein der Umsetzung vun Service Desks, Incident- und Problem-Management, Change-Workflows und Knowledge-Bases.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
 Unser ITSM-Beratung deckt de kompletten Bereich ab: vom Aufbau vom Service Desk mit benutzerfreundliche Self-Service-Portalen, über d Konfiguration vo SLAs und Priorisierungen, bis hin zur Integration mit bestehende Monitoring- und Ticketing-System.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Unsärer Erfahrung nach kan en guet konfigurirts Jira_SM d Ticket-Bearbeitigszit um bis zu 50% reduzieren und d Zufriedenheit vo Ihre interne Kunde signifikant steigere. Plus: Sie gwinnen volle Duerchsicht über Ihre IT-Prozess und KPIs.
+Unsärer Erfahrung nach kan en guet konfigurirts Jira_SM d Ticket-Bearbeitigszit um bis zu 50% reduzieren und d Zufriedenheit von Ihren interne Kunde signifikant steigere. Plus: Sie gwinnen volle Duerchsicht über Ihre IT-Prozess und KPIs.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">ITSM-Beratung anfordere</a>

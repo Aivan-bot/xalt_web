@@ -17,10 +17,10 @@ category: "case-studies"
 
 <section style="padding: 4rem 2rem;">
   <div style="max-width: 900px; margin: 0 auto;">
-<h2>IAM-Lösung för Grossunternehmen</h2>
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Herausforderig:</strong> Gross Unternehmen het Problem mit Identity und Access Management über mehreri IT-Systeme hinweg.</p>
+<h2>IAM-Lösung für Grossunternehmen</h2>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Herausforderig:</strong> Gross Unternehmen het Problem mit Identity und Access Management über mehrerin IT-Systeme hinweg.</p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Lösung:</strong> XLT implementieret XLT Advanced Access Management (XAAM) als zentrales IAM-Tool mit Jira as Workflow-Engine.</p>
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Ergebnisse:</strong> 90% schnäller Provisionierung, vollständig Audit Trails, 80% wedrri manuell Berichtigigsanfrager, 100% Compliance.</p>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Ergebnisse:</strong> 90% schnäller Provisionierung, vollständig Audit Trails, 80% wedrrin manuell Berichtigigsanfrager, 100% Compliance.</p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">IAM-Lösig anfordere</a>
     </div>

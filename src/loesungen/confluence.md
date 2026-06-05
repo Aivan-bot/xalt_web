@@ -21,13 +21,13 @@ Confluence als zentrale Wissensplattform mit optimerete Spasse, Permissione und 
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Wissensmanagement werd unterschätzt</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Confluence isch s perfekt Werkzeug für Wissensmanagement -- aber nur wenn s richtig iisert und gnützt wirt. XALT helptd Ihne e Wisseschplattform uf z boue wo Ihre Teams wirklich nutzed, nid dass d Sitte zom digitale Schrankfach wird.
+Confluence ist s perfekt Werkzeug für Wissensmanagement -- aber nur wenn s richtig iisert und gnützt wirt. XALT helptd Ihne e Wisseschplattform uf z boue wo Ihre Teams wirklich nutzed, nid dass d Sitte zum digitale Schrankfach wird.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Unsere Confluence-Beratig deckt de komplett Bereich ab: Space-Design und -Struktur, Permissione und Berechtigige, Templates und Konventione, Plugin-Integration und Customizing, sowi Migration und Konfiguration.
+Unsere Confluence-Beratig deckt de komplett Bereich ab: Space-Design und -Struktur, Permissione und Berechtigige, Templates und Konventione, Plugin-Integration und Customizing, sowin Migration und Konfiguration.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Bsigss Fachmerk leged mir uf de Adoption -- also wie guet Ihre Teams die neui Plattform aannehmed. Denn wie mer wüssed: d bescht Technologie bringt wenig, wenn kei eine se gnützt. Deshalb kombiniere mir technischi Exzellenz mit Change Management und Schulig.
+Bsigss Fachmerk leged mir uf de Adoption -- also wie guet Ihre Teams die neuin Plattform aannehmed. Denn wie mer wüssed: d bescht Technologie bringt wenig, wenn kein eine se gnützt. Deshalb kombiniere mir technischin Exzellenz mit Change Management und Schulig.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Confluence-Beratig anfordere</a>

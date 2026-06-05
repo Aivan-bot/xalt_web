@@ -1,7 +1,7 @@
 ---
 layout: base
 title: "Unser Team — XALT"
-description: "XALT Team: Zertifizierata Atlassian-Experte mit über 15 Jahre Erfahrung i de digitalen Transformation."
+description: "XALT Team: Zertifizierata Atlassian-Experte mit über 15 Jahre Erfahrung in der digitalen Transformation."
 category: "unternehmen"
 ---
 
@@ -18,7 +18,7 @@ category: "unternehmen"
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Unsere Expertise</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XALT Team besteht us zertifiziera Atlassian-Experte mit umfangreicher Erfahrung i verschiedene Branchene. Wir bringe strategischi und technische Expertise für Ihre Optimierung mit.
+XALT Team besteht us zertifiziera Atlassian-Experte mit umfangreicher Erfahrung in verschiedene Branchene. Wir bringe Strategieschin und technische Expertise für Ihre Optimierung mit.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Team kennenlernen</a>

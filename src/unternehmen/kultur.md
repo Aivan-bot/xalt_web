@@ -18,7 +18,7 @@ category: "unternehmen"
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Unsere Kultur</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Bi XALT arbeite mer mit Leidenschaft. Mir wüsse das Innovation und Partnerschaft zäme gehören.
+Bin XALT arbeite mer mit Leidenschaft. Mir wüsse das Innovation und Partnerschaft zäme gehören.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/unternehmen/karriere/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Offene Positione</a>

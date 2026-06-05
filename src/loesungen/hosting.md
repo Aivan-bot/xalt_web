@@ -21,13 +21,13 @@ XALT Managed Hosting für Jira und Confluence inklusive 24/7 Support, Backups un
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Hosting uf XALT-Level</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XALT Managed Hosting bietet Ihne alle Vor teil es hauseigenes Setups ohni de betriebliche Aufwand. Ihre Atlassian-Instance wird hochverfügbar und redundat betrieben, mit automatische Backups und Disaster Recovery.
+XALT Managed Hosting bietet Ihne alle Vor teil es hauseigenes Setups ohnin der betriebliche Aufwand. Ihre Atlassian-Instance wird hochverfügbar und redundat betrieben, mit automatische Backups und Disaster Recovery.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Unser Hosting-Spezialisierungen umfassen: garantierte 99.9% SLA-Uptime, tägliche Backups mit 30-Tage-Rollback-Funktion, automatische Sicherheits-Patches und Versions-Updates, proaktives Monitoring mit Alerting bei Anomalien, und dedizierten Support uf Deutsch.
+Unser Hosting-Spezialisierungen umfassen: garantierte 99.9% SLA-Uptime, tägliche Backups mit 30-Tage-Rollback-Funktion, automatische Sicherheits-Patches und Versions-Updates, proaktives Monitoring mit Alerting bein Anomalien, und dedizierten Support uf Deutsch.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XALT Managed Hosting isch d ideal Lösung für Unternehmen, die ihre Atlassian-Instanz professionell betreut wüsse wänd, aber kei eige Operations-Abteilung däruf ufbaue möchte. Unser Hosting-Pakete sind flexibel skalierbar und passte sich Ihrem Wachsen a.
+XALT Managed Hosting ist d ideal Lösung für Unternehmen, die ihre Atlassian-Instanz professionell betreut wüsse wänd, aber kein eige Operations-Abteilung däruf ufbaue möchte. Unser Hosting-Pakete sind flexibel skalierbar und passte sich Ihrem Wachsen a.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Hosting anfragen</a>

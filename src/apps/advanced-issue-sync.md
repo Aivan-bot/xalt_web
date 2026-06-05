@@ -22,9 +22,9 @@ category: "apps"
 XALT's Advanced Issue Sync erweitert die native Sync-Möglichkeiten vo Atlassian um bidirektionale Synchronisation, Field Mapping, Conflict Resolution und Real-time Sync mit Webhooks. Perfekt für Gross-Unternehmer wo Jira uf mehrere Instanze betreibe.
 </p>
 <div class="bgrid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 3rem 0;">
-  <div class="bcard" style="padding: 1.5rem;"><h4>Bidirektionale Sync</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Issues werded i Echtzeit i beide Richtig synchronisiert.</p></div>
+  <div class="bcard" style="padding: 1.5rem;"><h4>Bidirektionale Sync</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Issues werded in Echtzeit in beide Richtig synchronisiert.</p></div>
   <div class="bcard" style="padding: 1.5rem;"><h4>Field Mapping</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Flexibles Mapping zwüsche verschiedene Issue-Typen und Fellder.</p></div>
-  <div class="bcard" style="padding: 1.5rem;"><h4>Conflict Resolution</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Automatische oder manuelle Konfliktlösung bei gleichzeitigi Änderige.</p></div>
+  <div class="bcard" style="padding: 1.5rem;"><h4>Conflict Resolution</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Automatische oder manuelle Konfliktlösung bein gleichzeitigin Änderige.</p></div>
 </div>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">App anfrage</a>

@@ -26,7 +26,7 @@ category: "ressourcen"
 <li>Best Practices und Fallbeispiele</li>
 </ul>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-38 Seiten praxisnahe Empfehlungen basierend auf XLTs ITSM-Beratigungserfahrung.
+38 Seiten Praxisnahe Empfehlungen basierend auf XLTs ITSM-Beratigungserfahrung.
 </p>
 <div style="margin-top: 3rem; text-align: center;">
 <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem;">Whitepaper anfordere</a>

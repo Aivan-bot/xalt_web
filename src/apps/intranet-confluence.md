@@ -19,11 +19,11 @@ category: "apps"
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Ihr Intranet uf Confluence</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XALT's Intranet mit Confluence liefert es kompletts Intranet-Template för Ihre Organisation. Mit vordefinierte Site, Navigation und Collaboration-Tools. Started i wenige Minute mit Ihrem eigenes Corporate-Intranet.
+XALT's Intranet mit Confluence liefert es kompletts Intranet-Template für Ihre Organisation. Mit vordefinierte Site, Navigation und Collaboration-Tools. Started in wenige Minute mit Ihrem eigenes Corporate-Intranet.
 </p>
 <div class="bgrid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 3rem 0;">
-  <div class="bcard" style="padding: 1.5rem;"><h4>Template & Structure</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Vordefinierteti Intranet-Struktur mit News, Team-Seite und mee.</p></div>
-  <div class="bcard" style="padding: 1.5rem;"><h4>Navigation</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Intuitivi Navigation und Suchfunktion.</p></div>
+  <div class="bcard" style="padding: 1.5rem;"><h4>Template & Structure</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Vordefiniertetin Intranet-Struktur mit News, Team-Seite und mee.</p></div>
+  <div class="bcard" style="padding: 1.5rem;"><h4>Navigation</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Intuitivin Navigation und Suchfunktion.</p></div>
   <div class="bcard" style="padding: 1.5rem;"><h4>Collaboration</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Team-Collaboration und Knowledge Sharing.</p></div>
 </div>
     <div style="margin-top: 3rem; text-align: center;">

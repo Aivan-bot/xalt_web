@@ -21,10 +21,10 @@ Intranet und Collaboration-Plattform gebaut uf Jira und Confluence als Fundament
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Sue digitaler Arbeitsplatz fangt hie a</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XALT baut Intranet und Wissensmanagement-Plattforme wo Ihre Organisation zämebringe. Mit Confluence als Wisseschbasis, Jira als Projektsteuerig und Plugins für spezifsche Bedürfniss schaff mir en vereintigi digitalen Arbeitsplatz.
+XALT baut Intranet und Wissensmanagement-Plattforme wo Ihre Organisation zämebringe. Mit Confluence als Wisseschbasis, Jira als Projektsteuerig und Plugins für spezifsche Bedürfniss schaff mir en vereintigin digitalen Arbeitsplatz.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Unsere digitally Workplace-Lösige verbesseret d Kommunikation, reduziere Silos und gebed jedem Mitaarbet die Tools und Informatione wo er brucht um produktiv z sei. Vo de Onboarding-Experience bis zom Knowledge-Sharing deck XALT de kompletten Lebenszyklus ab.
+Unsere digitally Workplace-Lösige verbesseret d Kommunikation, reduziere Silos und gebed jedem Mitaarbet die Tools und Informatione wo er brucht um produktiv z sei. Vo de Onboarding-Experience bis zum Knowledge-Sharing deck XALT de kompletten Lebenszyklus ab.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Digital Workplace anfordere</a>

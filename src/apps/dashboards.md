@@ -19,7 +19,7 @@ category: "apps"
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Business Intelligence mit XALT</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XALT's Business Dashboards erstellt benutzerdefiniertti Dashboards mit Atlassian-Tolls för KPI-Monitoring, Reporting und Decision-Making. Real-time data visualization das Ihrem Team hilft informierti Entscheidige schnell z treffe.
+XALT's Business Dashboards erstellt benutzerdefinierttin Dashboards mit Atlassian-Tolls für KPI-Monitoring, Reporting und Decision-Making. Real-time data visualization das Ihrem Team hilft informiertin Entscheidige schnell z treffe.
 </p>
 <div class="bgrid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 3rem 0;">
   <div class="bcard" style="padding: 1.5rem;"><h4>Executive Dashboards</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Strategische KPIs für Management auf einen Blick.</p></div>

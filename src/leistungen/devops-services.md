@@ -19,22 +19,22 @@ Continuous Integration, Continuous Delivery und Infrastructure as Code -- XALT m
 
 <section style="padding: 4rem 2rem;">
   <div style="max-width: 900px; margin: 0 auto;">
-<h2>Vom Code-Änderig zom produktive System</h2>
+<h2>Vom Code-Änderig zum produktive System</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-DevOps isch mehr als e Sammlung vo Tolls -- es isch e Kultur vo de Zusammenarbeit zwüsche Entwicklig und Betrieb. XALT begleitet Sie uf dem Weg mit praktische Lösung wo sofort messbar Verbesserige bringe.
+DevOps ist mehr als e Sammlung vo Tolls -- es ist e Kultur vo de Zusammenarbeit zwüsche Entwicklig und Betrieb. XALT begleitet Sie uf dem Weg mit praktische Lösung wo sofort messbar Verbesserige bringe.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Unseri DevOps-Expertise umfasst d Optimierung vo CI/CD-Pipelines mit Jenkins, Atlassian Bamboo, GitLab CI und GitHub Actions, d Automation vo Infrastructure as Code mit Terraform und Ansible, und de Aufbau vo Container-Infrastrukture mit Docker und Kubernetes.
+Unserin DevOps-Expertise umfasst d Optimierung vo CI/CD-Pipelines mit Jenkins, Atlassian Bamboo, GitLab CI und GitHub Actions, d Automation vo Infrastructure as Code mit Terraform und Ansible, und de Aufbau vo Container-Infrastrukture mit Docker und Kubernetes.
 </p>
 <div class="bgrid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 3rem 0;">
-  <div class="bcard" style="padding: 1.5rem;"><h4>CI/CD-Pipeline Design</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Aufbau und Optimierung vo automatisierte Build-, Test- und Deployment-Pipelines für maximali Release-Gschwindigkeit.</p></div>
-  <div class="bcard" style="padding: 1.5rem;"><h4>Infrastructure as Code</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Reproduzierbar Infrastruktur mit Terraform, CloudFormation und Ansible für konsistenti und versioniert Umgebige.</p></div>
-  <div class="bcard" style="padding: 1.5rem;"><h4>Container & Kubernetes</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Mikroservice-Architektur mit Docker und Kubernetes für skaliierbar und resilienteri Anwendige.</p></div>
+  <div class="bcard" style="padding: 1.5rem;"><h4>CI/CD-Pipeline Design</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Aufbau und Optimierung vo automatisierte Build-, Test- und Deployment-Pipelines für maximalin Release-Gschwindigkeit.</p></div>
+  <div class="bcard" style="padding: 1.5rem;"><h4>Infrastructure as Code</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Reproduzierbar Infrastruktur mit Terraform, CloudFormation und Ansible für konsistentin und versioniert Umgebige.</p></div>
+  <div class="bcard" style="padding: 1.5rem;"><h4>Container & Kubernetes</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Mikroservice-Architektur mit Docker und Kubernetes für skaliierbar und resilienterin Anwendige.</p></div>
   <div class="bcard" style="padding: 1.5rem;"><h4>DevOps Culture Change</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Etablierig vo enere DevOps-Kultur mit gemeinsame Ziil, automatisierte Feedback-Schleife und kontinuierliche Verbesserung.</p></div>
 </div>
 <h2>Messbar Ergebnisse</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Unsere DevOps-Transformatione händ bei unsere Kunde durchschnittlich zu enere 65%ige Reduktion vo de Release-Zyklusziite und enere 45%ige Senkung vo de Change-Failure-Rate gführt. Mit Container8, XALTs eiigni DevSecOps-Plattform, biete mir dazu en all-in-one Lösung für sicher und effiziente Softwareentwicklig.
+Unsere DevOps-Transformatione händ bein unsere Kunde durchschnittlich zu enere 65%ige Reduktion vo de Release-Zyklusziite und enere 45%ige Senkung vo de Change-Failure-Rate gführt. Mit Container8, XALTs eiignin DevSecOps-Plattform, biete mir dazu en all-in-one Lösung für sicher und effiziente Softwareentwicklig.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">DevOps Services anfordere</a>

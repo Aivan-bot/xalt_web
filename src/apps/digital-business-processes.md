@@ -19,7 +19,7 @@ category: "apps"
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Gschäftsprozäss digitalisire mit XALT</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XLT's Digitale Gschäftsprozäss App automatisiert komplexi Gschäfts-Workflows mit Atlassian-Tolls — vo de Anfrage bis zom Abschluess. Automatisierti Genehmigungsprozess, Status-Tracking und Reporting.
+XLT's Digitale Gschäftsprozäss App automatisiert komplexin Gschäfts-Workflows mit Atlassian-Tolls — vo de Anfrage bis zum Abschluess. Automatisiertin Genehmigungsprozess, Status-Tracking und Reporting.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">App anfrage</a>

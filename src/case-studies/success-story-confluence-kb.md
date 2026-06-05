@@ -17,11 +17,11 @@ category: "case-studies"
 
 <section style="padding: 4rem 2rem;">
   <div style="max-width: 900px; margin: 0 auto;">
-<h2>Wissesplattfoem för 15000 Mitarbeiter</h2>
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Herausforderig:</strong> Es internationales Chemie-Unternehmen het verstreuts Wisse i hunderte vo E-Mail-Order und lokale Datei.
+<h2>Wissesplattfoem für 15000 Mitarbeiter</h2>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Herausforderig:</strong> Es internationales Chemie-Unternehmen het verstreuts Wisse in hunderte vo E-Mail-Order und lokale Datei.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Lösung:</strong> XALT implementieret Confluence als zentrale Wisseplattfoem mit strukturierter Taxonomie und automatisation Migration vo bestanded Dokumente.</p>
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Ergebnisse:</strong> 2000+ migrierti Artikl, 70% meh Wissezugriff, 50% wedrri doppelti Arbeit, vollständig dokumentierti Process.</p>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Ergebnisse:</strong> 2000+ migriertin Artikl, 70% meh Wissezugriff, 50% wedrrin doppeltin Arbeit, vollständig dokumentiertin Process.</p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Wisseplattform-Lösig anfordere</a>
     </div>

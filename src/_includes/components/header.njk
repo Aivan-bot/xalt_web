@@ -1,30 +1,52 @@
-<div class="header">
-  <nav class="container header-nav" aria-label="Hauptnavigation">
-    <a href="/" class="header-logo">
-      <span class="logo-xalt">X</span>ALT
-      <span class="logo-divider"></span>
+<header class="header">
+  <div class="hi">
+    <!-- Logo -->
+    <a href="/" class="logo" aria-label="XALT Startseite">
+      <span class="logo-x">X</span>ALT
+      <span class="logo-d"></span>
     </a>
-    
-    <button class="header-menu-toggle" aria-label="Menü öffnen" aria-expanded="false">
-      <span class="menu-line menu-line-1"></span>
-      <span class="menu-line menu-line-2"></span>
-      <span class="menu-line menu-line-3"></span>
+
+    <!-- Desktop Navigation -->
+    <nav class="nn" id="mainNav" aria-label="Hauptnavigation">
+      <a href="/leistungen/" class="nl">Leistungen</a>
+      <a href="/loesungen/" class="nl">Lösungen</a>
+      <a href="/blog/" class="nl">Blog</a>
+      <a href="/ressourcen/" class="nl">Ressourcen</a>
+      <a href="/unternehmen/" class="nl">Unternehmen</a>
+      <a href="/apps/" class="nl">Apps</a>
+    </nav>
+
+    <!-- Header Actions (Desktop) -->
+    <div class="ha">
+      <span class="lang active" aria-label="Deutsch">🇩🇪</span>
+      <a href="/kontakt/" class="cta">Kontakt →</a>
+    </div>
+
+    <!-- Mobile Hamburger -->
+    <button class="mt" id="menuToggle" aria-expanded="false" aria-controls="mobileDrop" aria-label="Menü öffnen">
+      <span class="ml"></span>
+      <span class="ml"></span>
+      <span class="ml"></span>
     </button>
+  </div>
 
-    <ul class="header-links">
-      {% for item in site.nav %}
-      <li class="nav-item">
-        <a href="{{ item.url }}" class="nav-link {% if currentPage == item.label %}nav-link--active{% endif %}">
-          {% if item.active %}<span class="nav-dot"></span>{% endif %}
-          <span>{{ item.label }}</span>
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-
-    <a href="mailto:info@xalt.de" class="header-cta">
-      <span class="cta-dot"></span>
-      <span>Kontakt</span>
-    </a>
-  </nav>
-</div>
+  <!-- Mobile Menu -->
+  <div id="mobileDrop" role="dialog" aria-label="Mobile Navigation">
+    <a href="/leistungen/">Leistungen</a>
+    <a href="/leistungen/atlassian-beratung/">Atlassian Beratung</a>
+    <a href="/leistungen/agile-coaching/">Agile Transformation</a>
+    <a href="/leistungen/devops-services/">DevOps Services</a>
+    <a href="/loesungen/">Lösungen</a>
+    <a href="/loesungen/digital-workplace/">Digital Workplace</a>
+    <a href="/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
+    <a href="/loesungen/cloud-infrastruktur/">Cloud Infrastruktur</a>
+    <a href="/blog/">Blog</a>
+    <a href="/ressourcen/">Ressourcen</a>
+    <a href="/unternehmen/">Unternehmen</a>
+    <a href="/unternehmen/ueber-uns/">Über uns</a>
+    <a href="/unternehmen/karriere/">Karriere</a>
+    <a href="/unternehmen/team/">Unser Team</a>
+    <a href="/apps/">Apps</a>
+    <a href="/kontakt/">Kontakt</a>
+  </div>
+</header>

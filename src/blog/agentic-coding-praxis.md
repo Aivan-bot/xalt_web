@@ -17,7 +17,7 @@ category: "blog"
 
 <section style="padding: 4rem 2rem;">
   <div style="max-width: 900px; margin: 0 auto;">
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Autor:</strong> Richard Richter, ADevOps Agile Coach & AI Ambassador bei XALT</p>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Autor:</strong> Richard Richter, ADevOps Agile Coach & AI Ambassador bein XALT</p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
 Agentic Coding ohne Halluzinationsdrama: Session-Start, 10 disziplinierte Schritte, Failsafes pro Schritt — der XALT-Workflow für produktives KI-Coding.
 </p>

@@ -1,7 +1,7 @@
 ---
 layout: base
 title: "Change Management — XALT"
-description: "XALT unterstützt Sie bi de digitale Transformation mit strukturiertem Change Management und Schulungen."
+description: "XALT unterstützt Sie bein der digitale Transformation mit strukturiertem Change Management und Schulungen."
 category: "loesungen"
 ---
 
@@ -19,12 +19,12 @@ De Schlüssel zur erfolgreiche digitale Transformation ligt in de Akzeptanz Ihre
 
 <section style="padding: 4rem 2rem;">
   <div style="max-width: 900px; margin: 0 auto;">
-<h2>Technik isch nur de halbeweg</h2>
+<h2>Technik ist nur de halbeweg</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
 De beste Jira- oder Confluence-Lösung nutzt nix, wenn Ihre Teams se nicht aanehme. XALTs Change-Management-Ansatz kombiniert Schulungen, Kommunikation und pragmatischs Undestuetzung um d Adoption sicherstelle.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Mir arbeite direkt mit Ihre Teams, identifiziere Resistenze fruei, kommuniziere de Nutz klar und sorged dafür, dass d neue Tools nid nur implementiert werdet sondern auch richtig gnützt werdet. In unsere Erfahrung isch de Change-Management-Anteil bi 70% vo de Digitalisierungsprojekte de kritischste Teil.
+Mir arbeite direkt mit Ihre Teams, identifiziere Resistenze fruei, kommuniziere de Nutz klar und sorged dafür, dass d neue Tools nid nur implementiert werdet sondern auch richtig gnützt werdet. In unsere Erfahrung ist de Change-Management-Anteil bin 70% vo de Digitalisierungsprojekte de kritischste Teil.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Change Management anfrage</a>

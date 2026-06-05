@@ -1,7 +1,7 @@
 ---
 layout: base
 title: "Atlassian Beratung — XALT"
-description: "XALT Platinum Partner berät und optimiert Ihre Jira und Confluence Infrastruktur mit strategische Atlassian-Beratige."
+description: "XALT Platinum Partner berät und optimiert Ihre Jira und Confluence Infrastruktur mit Strategiesche Atlassian-Beratige."
 category: "leistungen"
 ---
 
@@ -11,7 +11,7 @@ category: "leistungen"
       <span class="htag" style="color: var(--primary); font-size: 0.9rem; letter-spacing: 3px;">LEISTIGE</span>
       <h1 style="font-size: 3rem; font-weight: 800; margin: 1rem 0;">Atlassian Beratung</h1>
       <p style="font-size: 1.2rem; color: var(--mute); max-width: 650px; line-height: 1.7;">
-Maximiere Sie de Wert Ihre Atlassian-Investitione mit de strategische Beratung vo XALT als zertifizierter Platinum Partner.
+Maximiere Sie de Wert Ihre Atlassian-Investitione mit de Strategiesche Beratung vo XALT als zertifizierter Platinum Partner.
       </p>
     </div>
   </div>
@@ -21,20 +21,20 @@ Maximiere Sie de Wert Ihre Atlassian-Investitione mit de strategische Beratung v
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Warum XALT für Ihre Atlassian-Beratig?</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Als Platinum Certified Partner vo Atlassian verfüegt XALT über tiefsts Produktwüsse und langjährige Erfahrig mit über 500 erfolgreiche Atlassian-Projekt i de DACH-Region. Unser Betruer und Betruerine arbeite mit Ihne vor Ort a de Optimierung vonere Jira-, Confluence- und Atlassian-Cloud Infrastruktur.
+Als Platinum Certified Partner vo Atlassian verfüegt XALT über tiefsts Produktwüsse und langjährige Erfahrig mit über 500 erfolgreiche Atlassian-Projekt in der DACH-Region. Unser Betruer und Betruerine arbeite mit Ihne vor Ort a de Optimierung vonere Jira-, Confluence- und Atlassian-Cloud Infrastruktur.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Mir analysiere Ihre bestehendi Toolstack, identificere Optimierungspotenzial i Ihre Workflows und implementiere massgesehnderteti Lösung wo Ihre Teams sofort produktiver mache. Mir Approach kombiniert mit XALT deep domain expertise provides sustainable improvements that last beyond de engagement.
+Mir analysiere Ihre bestehendin Toolstack, identificere Optimierungspotenzial in Ihre Workflows und implementiere massgesehndertetin Lösung wo Ihre Teams sofort produktiver mache. Mir Approach kombiniert mit XALT deep domain expertise provides sustainable improvements that last beyond de engagement.
 </p>
 <div class="bgrid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 3rem 0;">
-  <div class="bcard" style="padding: 1.5rem;"><div style="font-size: 2rem; margin-bottom: 0.8rem;">_</div><h4>Atlassian Health Check</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Gruendliche Analyse vo Ihre aktuelle Jira/Confluence-Nutzung mit konkrete Optimierungsvorschläge.</p></div>
+  <div class="bcard" style="padding: 1.5rem;"><div style="font-size: 2rem; margin-bottom: 0.8rem;">_</div><h4>Atlassian Health Check</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Gruendliche Analyse von Ihren aktuelle Jira/Confluence-Nutzung mit konkrete Optimierungsvorschläge.</p></div>
   <div class="bcard" style="padding: 1.5rem;"><div style="font-size: 2rem; margin-bottom: 0.8rem;">_</div><h4>Konfiguration & Setup</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Professionelles Setup und Konfiguration vo Jira-Projekt, Confluence-Spaces und Workflows nach Best Practice.</p></div>
-  <div class="bcard" style="padding: 1.5rem;"><div style="font-size: 2rem; margin-bottom: 0.8rem;">_</div><h4>Migration & Upgrade</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Sicheri Migration vo Server zom Cloud oder zwüsche Deployment-Modell mit minimaler Downtime.</p></div>
+  <div class="bcard" style="padding: 1.5rem;"><div style="font-size: 2rem; margin-bottom: 0.8rem;">_</div><h4>Migration & Upgrade</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Sicherin Migration vo Server zum Cloud oder zwüsche Deployment-Modell mit minimaler Downtime.</p></div>
   <div class="bcard" style="padding: 1.5rem;"><div style="font-size: 2rem; margin-bottom: 0.8rem;">_</div><h4>Adoption & Training</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Workshops und Schulige für Ihr Team zur Maximierung vo de Produktivität mit Atlassian-Tools.</p></div>
 </div>
 <h2>Unsere Ergebnisse</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Mit unsere Atlassian-Beratige händ mir in de Vergangheit durchschnittlich eni 40%igi Verbesserung vo de Team-Effizienz und eni 60%igi Reduktion vo Ticket-Durchlauffziite erreiche. Unseri Kunde schätzed bsundere de pragmatische Approach und d eni Zusammenarbeit vor Ort.
+Mit unsere Atlassian-Beratige händ mir in de Vergangheit durchschnittlich enin 40%igin Verbesserung vo de Team-Effizienz und enin 60%igin Reduktion vo Ticket-Durchlauffziite erreiche. Unserin Kunde schätzed bsundere de pragmatische Approach und d enin Zusammenarbeit vor Ort.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Atlassian Beratung anfordere</a>

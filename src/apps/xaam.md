@@ -19,12 +19,12 @@ category: "apps"
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Enterprise IAM mit XALT</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XAAM (XALT Advanced Access Management) isch e Enterprise-Lösig för Identity und Access Management wo sich nahtlos i Atlassian integriert.
+XAAM (XALT Advanced Access Management) ist e Enterprise-Lösig für Identity und Access Management wo sich nahtlos in Atlassian integriert.
 </p>
 <div class="bgrid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 3rem 0;">
-  <div class="bcard" style="padding: 1.5rem;"><h4>Centralized IAM</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Zentrales Identity Management über alli Atlassian-Instance.</p></div>
+  <div class="bcard" style="padding: 1.5rem;"><h4>Centralized IAM</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Zentrales Identity Management über allin Atlassian-Instance.</p></div>
   <div class="bcard" style="padding: 1.5rem;"><h4>Role-Based Access</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Granulare Berechtigige basierend uf Rolle und Abteiling.</p></div>
-  <div class="bcard" style="padding: 1.5rem;"><h4>Automated Provisioning</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Automatisierti Provisionierung und De-Provisionierung.</p></div>
+  <div class="bcard" style="padding: 1.5rem;"><h4>Automated Provisioning</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Automatisiertin Provisionierung und De-Provisionierung.</p></div>
 </div>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">App anfrage</a>

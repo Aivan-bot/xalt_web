@@ -1,32 +1,18 @@
-<footer class="footer">
-  <div class="container footer-grid">
-    <div class="footer-brand">
-      <span class="logo-xalt">X</span>ALT
-      <div class="footer-tagline">
-        Atlassian Beratung & Digitale Transformation
+<footer class="ft">
+  <div class="ft-inner">
+    <div class="ft-row">
+      <div class="ft-left">
+        <span class="ft-logo"><span class="ft-logo-x">X</span>ALT</span>
+        <span class="ft-copy">© {{ site.year | default("2026") }} XALT. Alle Rechte vorbehalten.</span>
+      </div>
+      <div class="ft-links">
+        <a href="/">xalt.de</a>
+        <a href="/leistungen/">Atlassian Services</a>
+        <a href="https://linkedin.com/company/xalt" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="/kontakt/">Contact</a>
+        <a href="/impressum/">Impressum</a>
+        <a href="/datenschutz/">Cookie-Einstellungen</a>
       </div>
     </div>
-    <div class="footer-links">
-      <div class="footer-section">
-        <h4>Navigation</h4>
-        {% for item in site.nav %}
-        <a href="{{ item.url }}">{{ item.label }}</a>
-        {% endfor %}
-      </div>
-      <div class="footer-section">
-        <h4>Rechtliches</h4>
-        {% for link in site.footer.links %}
-        <a href="{{ link.url }}">{{ link.label }}</a>
-        {% endfor %}
-      </div>
-      <div class="footer-section">
-        <h4>Kontakt</h4>
-        <a href="mailto:info@xalt.de">info@xalt.de</a>
-        <a href="tel:+491234567890">+49 123 456 7890</a>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom container">
-    <span>© {{ "now" | date: "YYYY" }} XALT. Alle Rechte vorbehalten.</span>
   </div>
 </footer>

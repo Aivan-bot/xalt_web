@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Das Consulting-Team von XALT: 35+ Architektur- und Prozess-Experten für Enterprise-Atlassian-Beratung, BPM, Change Management und digitale Transformation.">
-  <title>Team Consulting — XALT</title>
+  <title>Team Consulting — XALT — XALT</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
-  <link rel="stylesheet" href="/xalt_web/css/main.css">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
 
@@ -16,58 +16,28 @@
 <header class="header">
   <div class="hi">
     <!-- Logo -->
-    <a href="/xalt_web" class="logo" aria-label="XALT Startseite">
-      <span class="lx">XALT</span>
-      <span class="ld"></span>
+    <a href="/" class="logo" aria-label="XALT Startseite">
+      <span class="logo-x">X</span>ALT
+      <span class="logo-d"></span>
     </a>
 
     <!-- Desktop Navigation -->
     <nav class="nn" id="mainNav" aria-label="Hauptnavigation">
-      <div class="ni">
-        <span class="nl">Leistungen <span class="d">▾</span></span>
-        <div class="drop">
-          <a href="/xalt_web/leistungen/atlassian-beratung/">Atlassian Beratung</a>
-          <a href="/xalt_web/leistungen/digitale-transformation/">Digitale Transformation</a>
-          <a href="/xalt_web/leistungen/agile-coaching/">Agile Transformation</a>
-          <a href="/xalt_web/leistungen/platform-engineering/">Platform Engineering</a>
-          <a href="/xalt_web/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
-        </div>
-      </div>
-      <div class="ni">
-        <span class="nl">Lösungen <span class="d">▾</span></span>
-        <div class="drop">
-          <a href="/xalt_web/loesungen/digital-workplace/">Digital Workplace</a>
-          <a href="/xalt_web/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
-          <a href="/xalt_web/loesungen/cloud-infrastruktur/">Cloud Infrastruktur</a>
-        </div>
-      </div>
-      <a href="/xalt_web/blog/" class="nl">Blog</a>
-      <div class="ni">
-        <span class="nl">Ressourcen <span class="d">▾</span></span>
-        <div class="drop">
-          <a href="/xalt_web/ressourcen/whitepaper/">Whitepaper</a>
-          <a href="/xalt_web/ressourcen/webinar/">Webinar</a>
-          <a href="/xalt_web/ressourcen/dokumentation/">Dokumentation</a>
-        </div>
-      </div>
-      <div class="ni">
-        <span class="nl">Unternehmen <span class="d">▾</span></span>
-        <div class="drop">
-          <a href="/xalt_web/unternehmen/ueber-uns/">Über uns</a>
-          <a href="/xalt_web/unternehmen/karriere/">Karriere & Jobs</a>
-          <a href="/xalt_web/unternehmen/unsere-teams/">Unser Team</a>
-        </div>
-      </div>
+      <a href="/leistungen/" class="nl">Leistungen</a>
+      <a href="/loesungen/" class="nl">Lösungen</a>
+      <a href="/blog/" class="nl">Blog</a>
+      <a href="/ressourcen/" class="nl">Ressourcen</a>
+      <a href="/unternehmen/" class="nl">Unternehmen</a>
+      <a href="/apps/" class="nl">Apps</a>
     </nav>
 
-    <!-- Header Actions (Desktop: Search, Language, CTA) -->
+    <!-- Header Actions (Desktop) -->
     <div class="ha">
-      <span class="srch" aria-label="Suche">⌕</span>
-      <span class="lang" aria-label="Sprache wählen">🌐</span>
-      <a href="/xalt_web/kontakt/" class="cta">Kontakt</a>
+      <span class="lang active" aria-label="Deutsch">🇩🇪</span>
+      <a href="/kontakt/" class="cta">Kontakt →</a>
     </div>
 
-    <!-- Mobile Hamburger Button -->
+    <!-- Mobile Hamburger -->
     <button class="mt" id="menuToggle" aria-expanded="false" aria-controls="mobileDrop" aria-label="Menü öffnen">
       <span class="ml"></span>
       <span class="ml"></span>
@@ -75,26 +45,27 @@
     </button>
   </div>
 
-  <!-- Mobile Menu Dropdown (flat link list) -->
-  <div class="drop" id="mobileDrop" role="dialog" aria-label="Mobile Navigation" style="display:none">
-    <a href="/xalt_web/leistungen/atlassian-beratung/">Atlassian Beratung</a>
-    <a href="/xalt_web/leistungen/digitale-transformation/">Digitale Transformation</a>
-    <a href="/xalt_web/leistungen/agile-coaching/">Agile Transformation</a>
-    <a href="/xalt_web/leistungen/platform-engineering/">Platform Engineering</a>
-    <a href="/xalt_web/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
-    <a href="/xalt_web/loesungen/digital-workplace/">Digital Workplace</a>
-    <a href="/xalt_web/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
-    <a href="/xalt_web/loesungen/cloud-infrastruktur/">Cloud Infrastruktur</a>
-    <a href="/xalt_web/blog/">Blog</a>
-    <a href="/xalt_web/ressourcen/whitepaper/">Whitepaper</a>
-    <a href="/xalt_web/ressourcen/webinar/">Webinar</a>
-    <a href="/xalt_web/ressourcen/dokumentation/">Dokumentation</a>
-    <a href="/xalt_web/unternehmen/ueber-uns/">Über uns</a>
-    <a href="/xalt_web/unternehmen/karriere/">Karriere & Jobs</a>
-    <a href="/xalt_web/unternehmen/unsere-teams/">Unser Team</a>
-    <a href="/xalt_web/kontakt/">Kontakt</a>
+  <!-- Mobile Menu -->
+  <div id="mobileDrop" role="dialog" aria-label="Mobile Navigation">
+    <a href="/leistungen/">Leistungen</a>
+    <a href="/leistungen/atlassian-beratung/">Atlassian Beratung</a>
+    <a href="/leistungen/agile-coaching/">Agile Transformation</a>
+    <a href="/leistungen/devops-services/">DevOps Services</a>
+    <a href="/loesungen/">Lösungen</a>
+    <a href="/loesungen/digital-workplace/">Digital Workplace</a>
+    <a href="/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
+    <a href="/loesungen/cloud-infrastruktur/">Cloud Infrastruktur</a>
+    <a href="/blog/">Blog</a>
+    <a href="/ressourcen/">Ressourcen</a>
+    <a href="/unternehmen/">Unternehmen</a>
+    <a href="/unternehmen/ueber-uns/">Über uns</a>
+    <a href="/unternehmen/karriere/">Karriere</a>
+    <a href="/unternehmen/team/">Unser Team</a>
+    <a href="/apps/">Apps</a>
+    <a href="/kontakt/">Kontakt</a>
   </div>
 </header>
+
 
 <!-- ===== MAIN CONTENT ===== -->
 <section class="section" style="padding:80px 0">
@@ -112,15 +83,15 @@
 <section style="padding-bottom:60px">
   <div class="si">
     <h2>Wer wir sind</h2>
-    <p>Das Consulting-Team ist das strategische Herz von XALT. Ohne unsere Berater gäbe es keine maßgeschneiderten Lösungen, keine klugen Architekturen und keinen echten Mehrwert für die Kunden. Unser Team setzt sich aus Senior- und Principal-Consultants (10–15+ Jahre Berufserfahrung), Business Analysts (Prozessmodellierung, BPMN, BPR), Change-Managern (Prosci, Kotter, Lewin) und Technical Architects (Enterprise-Architektur, TOGAF-Zertifiziert) zusammen.</p>
+    <p>Das Consulting-Team ist das Strategiesche Herz von XALT. Ohne unsere Berater gäbe es keine maßgeschneiderten Lösungen, keine klugen Architekturen und keinen echten Mehrwert für die Kunden. Unser Team setzt sich aus Senior- und Principal-Consultants (10–15+ Jahre Berufserfahrung), Business Analysts (Prozessmodellierung, BPMN, BPR), Change-Managern (Prosci, Kotter, Lewin) und Technical Architects (Enterprise-Architektur, TOGAF-Zertifiziert) zusammen.</p>
     <p>Unsere Berater haben Branchenwissen in Finanzen, Energie, Healthcare, Öffentlicher Verwaltung, Manufacturing, Insurance, Telecommunications und Media. Jede Projektzuweisung erfolgt auf Basis von passgenauer Kompetenzabstimmung: Branchen-Expertise, technische Tiefe, Soft-Skills und Sprachkompetenz.</p>
 <p><h2>Unsere Kernleistungen für Kunden</h2>
 <p><strong>Atlassian-Architektur &amp; -Strategie:</strong> Wir entwerfen Enterprise Jira- und Confluence-Architekturen auf allen Ebenen: Projects, Workflows, Permissions, Automation, App-Integration. Ziel: eine Architektur, die 5–10 Jahre skaliert – nicht nur für die nächsten sechs Monate.</p>
-<p><strong>Business Process Management:</strong> Mit Tools wie Camunda, Enterprise BPM und Jira Service Management identifizieren und optimieren wir Geschäftsprozesse von der Ist-Analyse bis zur Live-Schaltung. Unsere durchschnittliche Prozesskostenreduzierung liegt bei 25–40 %.</p>
+<p><strong>Business Process Management:</strong> Mit Tools wie Camunda, Enterprise BPM und Jira Service Management identifizieren und optimieren wir Geschäftsprozesse von der Ist-Analyse bis zur Live-Schaltung. Unsere durchschnittliche Prozesskostenreduzierung liegt bein 25–40 %.</p>
 <p><strong>Enterprise Software Integration:</strong> Jira und Confluence mit SAP, Salesforce, Oracle, ServiceNow, Jira Service Management, Microsoft 365, SharePoint und anderen Plattformen verbinden. Dazu nutzen wir XALTs eigene XAAM-Plattform sowie REST-APIs, webhooks, GraphQL-Adapter und Middleware wie Apache Kafka und MuleSoft.</p></p>
-<p><h3>Unsere Methode in drei Phasen:</h3>
+<p><h3>Unsere Methode in drein Phasen:</h3>
 <p><strong>Phase 1 – Discovery Workshop (2–4 Wochen):</strong> Wir führen 20+ Stakeholder-Interviews, analysieren Existing-Artifacts, dokumentieren Pain Points und definieren gemeinsam mit dem Kunden die Projektziele. Am Ende steht ein klares Anforderungsdokument mit Priorisierung.</p>
-<p><strong>Phase 2 – Design &amp; Prototyping (4–8 Wochen):</strong> Wir erstellen ein detailliertes Lösungskonzept, ein interaktives Prototyp (Clickable Wireframe in Jira/Confluence) und zeigen die erwarteten Prozess-Flows. Der Kunde gibt Feedback, wir iterieren. Bei positivem Go durch die Fachabteilung und das IT-Steering Committee geht die Implementierung los.</p>
+<p><strong>Phase 2 – Design &amp; Prototyping (4–8 Wochen):</strong> Wir erstellen ein detailliertes Lösungskonzept, ein interaktives Prototyp (Clickable Wireframe in Jira/Confluence) und zeigen die erwarteten Prozess-Flows. Der Kunde gibt Feedback, wir iterieren. Bein positivem Go durch die Fachabteilung und das IT-Steering Committee geht die Implementierung los.</p>
 <p><strong>Phase 3 – Implementierung &amp; Adoption (8–16 Wochen):</strong> Das eigentliche Bauprojekt wird in 2-Wochen-Sprints durchgeführt. Parallel dazu starten wir Change Management, Schulungen und Rollout-Planung. Nach Go-Live: 4 Wochen Hypercare, 3 Monate Post-Live-Begleitung, optional Managed Services.</p></p>
 <p><h2>Unsere Zahlen</h2>
 <div style="display:flex;flex-wrap:wrap;gap:32px;margin-top:24px">
@@ -146,9 +117,9 @@
 </div>
 </div></p>
 <p><h2>Berater im Porträt</h2>
-<p><strong>Dr. Andreas Kellner – Principal Architect:</strong> 18 Jahre Enterprise-Architektur, TOGAF 9.2 zertifiziert. Spezialisiert auf komplexe Jira-Architekturen über 10.000+ User. Vorher 12 Jahre als Enterprise Architect bei SAP.</p>
+<p><strong>Dr. Andreas Kellner – Principal Architect:</strong> 18 Jahre Enterprise-Architektur, TOGAF 9.2 zertifiziert. Spezialisiert auf komplexe Jira-Architekturen über 10.000+ User. Vorher 12 Jahre als Enterprise Architect bein SAP.</p>
 <p><strong>Julia Berger – Senior BPM Consultant:</strong> Spezialisiert auf BPMN-Prozessmodellierung und Jira Service Management. Hat über 80 Enterprise-Prozesse von der Analyse bis zur Automatisierung begleitet. Certified Lean Six Sigma Master Black Belt.</p>
-<p><strong>Ralf Schmidt – Change Management Lead:</strong> Prosci Certified Change Practitioner. Führt Change-Ansätze bei Enterprise-Rollouts durch. Seine Change Readiness Assessments haben bei über 50 Kunden eine Adoption-Rate von über 85 % erreicht.</p>
+<p><strong>Ralf Schmidt – Change Management Lead:</strong> Proscin Certified Change Practitioner. Führt Change-Ansätze bein Enterprise-Rollouts durch. Seine Change Readiness Assessments haben bein über 50 Kunden eine Adoption-Rate von über 85 % erreicht.</p>
 <p><strong>Mona Al-Sayed – Integration Specialist:</strong> Expertise in SAP-Integrationen, Salesforce-Verknüpfungen, Microsoft 365/M365-Migrationen und API-Design. Certified AWS Solutions Architect und SAP-ERP-Integration-Expert.</p></p>
   </div>
 </section>
@@ -156,59 +127,26 @@
 
 <!-- ===== FOOTER ===== -->
 <footer class="ft">
-  <div class="fgr">
-    <div class="fcol">
-      <h4>Leistungen</h4>
-      <a href="/xalt_web/leistungen/atlassian-beratung/">DevOps Transformation</a>
-      <a href="/xalt_web/leistungen/agile-coaching/">Agiles Projekt Management</a>
-      <a href="/xalt_web/leistungen/platform-engineering/">Continuous Integration &amp; Delivery</a>
-      <a href="/xalt_web/leistungen/digitale-transformation/">Digitalisierung von Geschäftsprozessen</a>
-      <a href="/xalt_web/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
+  <div class="ft-inner">
+    <div class="ft-row">
+      <div class="ft-left">
+        <span class="ft-logo"><span class="ft-logo-x">X</span>ALT</span>
+        <span class="ft-copy">© 2026 XALT. Alle Rechte vorbehalten.</span>
+      </div>
+      <div class="ft-links">
+        <a href="/">xalt.de</a>
+        <a href="/leistungen/">Atlassian Services</a>
+        <a href="https://linkedin.com/company/xalt" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="/kontakt/">Contact</a>
+        <a href="/impressum/">Impressum</a>
+        <a href="/datenschutz/">Cookie-Einstellungen</a>
+      </div>
     </div>
-    <div class="fcol">
-      <h4>Produkte &amp; Lösungen</h4>
-      <a href="/xalt_web/loesungen/digital-workplace/">Confluence Beratung</a>
-      <a href="/xalt_web/loesungen/prozess-digitalisierung/">IT Service Management</a>
-      <a href="/xalt_web/loesungen/cloud-infrastruktur/">Managed Atlassian Hosting</a>
-      <a href="/xalt_web/apps/app-support/">App &amp; Plugin Support</a>
-    </div>
-    <div class="fcol">
-      <h4>Ressourcen</h4>
-      <a href="/xalt_web/ressourcen/success-stories/">Success Stories</a>
-      <a href="/xalt_web/ressourcen/case-studies/">Case Study</a>
-      <a href="/xalt_web/ressourcen/webinar/">Webinar</a>
-      <a href="/xalt_web/ressourcen/dokumentation/">Dokumentation</a>
-    </div>
-    <div class="fcol">
-      <h4>Unternehmen</h4>
-      <a href="/xalt_web/unternehmen/ueber-uns/">Über uns</a>
-      <a href="/xalt_web/unternehmen/karriere/">Karriere &amp; Jobs</a>
-      <a href="/xalt_web/unternehmen/unsere-teams/">Unser Team</a>
-      <a href="/xalt_web/newsletter/">Team XALT Newsletter</a>
-    </div>
-    <div class="fcol">
-      <h4>APPs</h4>
-      <a href="/xalt_web/apps/container8/">Container8 - DevSecOps</a>
-      <a href="/xalt_web/apps/advanced-issue-sync/">Advanced Issue Sync</a>
-      <a href="/xalt_web/apps/image-gallery/">Advanced Image Gallery</a>
-      <a href="/xalt_web/apps/intranet/">Intranet mit Confluence</a>
-    </div>
-  </div>
-  <div class="ftb">
-    <div class="soc">
-      <a href="#" aria-label="Instagram">📷</a>
-      <a href="#" aria-label="LinkedIn">🔗</a>
-    </div>
-    <p>© 2026 XALT</p>
-  </div>
-  <div class="ftl">
-    <a href="/xalt_web/datenschutz/">Datenschutz</a>
-    <a href="/xalt_web/cookie-einstellungen/">Cookie-Einstellungen</a>
-    <a href="/xalt_web/impressum/">Impressum</a>
   </div>
 </footer>
 
-<!-- Site JS -->
-<script src="/xalt_web/js/main.js" type="module" defer></script>
+
+<!-- ===== JS ===== -->
+<script src="/js/main.js" type="module" defer></script>
 </body>
 </html>

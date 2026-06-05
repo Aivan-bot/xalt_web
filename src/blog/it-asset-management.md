@@ -22,7 +22,7 @@ category: "blog"
 Wie IT-Leiter unnötige Kosten durch präzise Erfassung von Softwarelizenzen und Geräten identifizieren können. Viele Unternehmen verschwenden Millionen durch unbekannte Software-Lizenzen und obsolete Geräte.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XLT's IT Asset Management-Ansatz mit Jira als zentralem Tool hilft: Vollständige Asset-Erfassung, Lizenz-Optimierung und Kosten-Zentralisierung. Die durchschnittliche Ersparnis unserer Kunden liegt bei 25-40% der IT-Budgets für Software und Hardware.
+XLT's IT Asset Management-Ansatz mit Jira als zentralem Tool hilft: Vollständige Asset-Erfassung, Lizenz-Optimierung und Kosten-Zentralisierung. Die durchschnittliche Ersparnis unserer Kunden liegt bein 25-40% der IT-Budgets für Software und Hardware.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
 Der Schlüssel liegt in der Kombination aus automatischer Asset-Erkennung, manueller Überprüfung und kontinuierlicher Überwachung. Mit XLTs Werkzeugen und Methoden können auch mittlere Unternehmen ihre IT-Kosten signifikant optimieren.

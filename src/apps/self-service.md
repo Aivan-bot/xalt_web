@@ -1,7 +1,7 @@
 ---
 layout: base
 title: "Self-Service Business Portal — XALT"
-description: "Self-service portal för business Workflows mit XALT."
+description: "Self-service portal für business Workflows mit XALT."
 category: "apps"
 ---
 
@@ -10,7 +10,7 @@ category: "apps"
     <div class="ht">
       <span class="htag" style="color: var(--primary); font-size: 0.9rem; letter-spacing: 3px;">APP</span>
       <h1 style="font-size: 3rem; font-weight: 800; margin: 1rem 0;">Self-Service Business Portal</h1>
-      <p style="font-size: 1.2rem; color: var(--mute); max-width: 650px; line-height: 1.7;">Self-service Business Portal för Gschäfts Workflows mit XALT.</p>
+      <p style="font-size: 1.2rem; color: var(--mute); max-width: 650px; line-height: 1.7;">Self-service Business Portal für Gschäfts Workflows mit XALT.</p>
     </div>
   </div>
 </section>
@@ -19,7 +19,7 @@ category: "apps"
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Ihr Business-Portal mit XALT</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XLT's Self-Service Business Portal erstellt es Self-Service-Portal för Ihre Gschäfts Workflows — vo de Ticket-Erstellig bis zur automatisierte Bearbeitung. Jede Anforderig wird automatisch verarbeitet und an de richtigi Ansprechpartner weiterraitet.
+XLT's Self-Service Business Portal erstellt es Self-Service-Portal für Ihre Gschäfts Workflows — vo de Ticket-Erstellig bis zur automatisierte Bearbeitung. Jede Anforderig wird automatist verarbeitet und an de richtigin Ansprechpartner weiterraitet.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">App anfrage</a>

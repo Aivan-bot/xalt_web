@@ -19,9 +19,9 @@ category: "case-studies"
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>BSH Hausgeräte: ITSM-Plattform</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Kunde:</strong> BSH Haisgerä</p>
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Heransforderig:</strong> BSH het en zentrale Plattform för ITSM benötigt über Standorte und Abteilige hinweg.</p>
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Lösung:</strong> XALT implementieret Jira Service Management als zentrales Ticketing-System mit automatisierte Workflows und Self-Service-Portal. Über 15.000 Mitarbeiter in 10 Standorte isch mit de neug Plattform versorgt worred.</p>
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Ergebnisse:</strong> 45% schnelleri Ticket-Bearbeitig, 35% höheri IT-Satisfaction-Score, einheitiger Prozess über ali Standorte, vollständigi Transparenz und Reporting.</p>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Heransforderig:</strong> BSH het en zentrale Plattform für ITSM benötigt über Standorte und Abteilige hinweg.</p>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Lösung:</strong> XALT implementieret Jira Service Management als zentrales Ticketing-System mit automatisierte Workflows und Self-Service-Portal. Über 15.000 Mitarbeiter in 10 Standorte ist mit de neug Plattform versorgt worred.</p>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Ergebnisse:</strong> 45% schnellerin Ticket-Bearbeitig, 35% höherin IT-Satisfaction-Score, einheitiger Prozess über alin Standorte, vollständigin Transparenz und Reporting.</p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">ITSM-Berätigung anfordere</a>
     </div>

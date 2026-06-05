@@ -1,24 +1,79 @@
 ---
 layout: base
-title: "XALT Unternehmen — Index"
-description: "XALT Unternehmen: Platinum Atlassian Partner mit 500+ erfolgreiche Projekte i de DACH-Region."
+title: "XALT Unternehmen — Über uns & Team"
+description: "XALT Unternehmen: Platinum Atlassian Partner mit über 500 erfolgreichen Projekten in der DACH-Region."
 category: "unternehmen"
 ---
 
-<section style="padding: 4rem 2rem; background: linear-gradient(135deg, var(--bg-surface), var(--bg-elevated));">
-  <div style="max-width: 1100px; margin: 0 auto; text-align: center;">
-    <span class="htag" style="color: var(--primary); font-size: 0.9rem; letter-spacing: 3px;">UNTERNEHMEN</span>
-    <h1 style="font-size: 3rem; font-weight: 800; margin: 1rem 0;">XALT Unternehmen</h1>
-    <p style="color: var(--mute); font-size: 1.15rem; max-width: 700px; margin: 0 auto; line-height: 1.7;">XALT isch es Platinum Atlassian Partner underspezialisieret i digital Transformation för d DACH-Region.</p>
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hc">
+    <div class="ht">
+      <span class="htag">Unternehmen</span>
+      <h1>Über <span>XALT</span></h1>
+      <p class="hdesc">Seit 2016 helfen und begleiten wir IT-Teams auf ihrem Weg zur Umsetzung von DevOps-Methoden, Cloud-Konzepten und agilen Workflows. Unsere Grundüberzeugung ist: Gemeinsam mit dem Kunden wachsen.</p>
+    </div>
   </div>
 </section>
-<section style="padding: 3rem 2rem;">
-  <div style="max-width: 1100px; margin: 0 auto;">
-    <div class="bgrid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
-      <a href="/unternehmen/ueber-uns/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem; border-left: 4px solid var(--primary);"><h3>Über XALT</h3><p style="color: var(--mute);">Platinum Partner mit 500+ Projekten.</p></div></a>
-      <a href="/unternehmen/team/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem; border-left: 4px solid var(--primary);"><h3>Unser Team</h3><p style="color: var(--mute);">Zertifizierta Atlassian-Experte.</p></div></a>
-      <a href="/unternehmen/kultur/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem; border-left: 4px solid var(--primary);"><h3>Kultur</h3><p style="color: var(--mute);">Innovation, Partnership und Wachstum.</p></div></a>
-      <a href="/unternehmen/karriere/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem; border-left: 4px solid var(--primary);"><h3>Karriere</h3><p style="color: var(--mute);">Werded Teil vom XALT-Team.</p></div></a>
+
+<!-- ===== ABOUT ===== -->
+<section style="padding: 60px 0">
+  <div class="si">
+    <div class="cgrid" style="padding-bottom:0">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">MISSION</div>
+          <h2>Gemeinsam mit dem Kunden wachsen</h2>
+          <p>Wir fördern den gegenseitigen Wissensaustausch und arbeiten von der ersten Minute an auf einer persönlichen Ebene zusammen. Damit entfesseln wir das volle Potenzial von IT-Teams und schaffen agile, innovative Lösungen.</p>
+          <a href="/unternehmen/ueber-uns/" class="card-cta">Mehr erfahren →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">TEAM</div>
+          <h2>Unser Team</h2>
+          <p>Vom Atlassian Berater bis hin zum Produkt Manager: Unser Team wächst stetig und setzt sich aus KollegInnen mit unterschiedlichsten Fähigkeiten und beruflichen Werdegängen zusammen.</p>
+          <a href="/unternehmen/team/" class="card-cta">Mehr erfahren →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">KULTUR</div>
+          <h2>Unsere Kultur</h2>
+          <p>Jung, divers und voller Energie. Wir fördern Diversität, Individualität und Gleichberechtigung in allen Formen. Bein uns wird zusammengearbeitet, voneinander gelernt und gemeinsam gewachsen.</p>
+          <a href="/unternehmen/kultur/" class="card-cta">Mehr erfahren →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">KARRIERE</div>
+          <h2>Karriere &amp; Jobs</h2>
+          <p>Werde Teil unseres Teams und unserer Vision. Wir suchen talentierte Menschen, die ihre Leidenschaft für Technologie und Zusammenarbeit mit uns teilen.</p>
+          <a href="/unternehmen/karriere/" class="card-cta">Offene Stellen →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<section class="cta-section">
+  <div class="cta-box" style="display:flex;justify-content:space-around;flex-wrap:wrap;gap:24px;text-align:center">
+    <div>
+      <div style="font-size:36px;font-weight:800;color:var(--accent)">500+</div>
+      <div style="color:var(--mute);font-size:14px;margin-top:4px">Projekte</div>
+    </div>
+    <div>
+      <div style="font-size:36px;font-weight:800;color:var(--accent)">100+</div>
+      <div style="color:var(--mute);font-size:14px;margin-top:4px">Kunden</div>
+    </div>
+    <div>
+      <div style="font-size:36px;font-weight:800;color:var(--accent)">50+</div>
+      <div style="color:var(--mute);font-size:14px;margin-top:4px">Teammitglieder</div>
+    </div>
+    <div>
+      <div style="font-size:36px;font-weight:800;color:var(--accent)">3</div>
+      <div style="color:var(--mute);font-size:14px;margin-top:4px">Standorte</div>
     </div>
   </div>
 </section>

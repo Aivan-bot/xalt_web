@@ -10,7 +10,7 @@ category: "unternehmen"
     <div class="ht">
       <span class="htag" style="color: var(--primary); font-size: 0.9rem; letter-spacing: 3px;">UNTERNEHMEN</span>
       <h1 style="font-size: 3rem; font-weight: 800; margin: 1rem 0;">XALT Unternehmen</h1>
-      <p style="font-size: 1.25rem; color: var(--mute); max-width: 650px; line-height: 1.7;">XALT isch Platinum Atlassian Partner mit über 15 Jahre Erfahrung in der digitalen Transformation und über 500 erfolgreiche Projekte.</p>
+      <p style="font-size: 1.25rem; color: var(--mute); max-width: 650px; line-height: 1.7;">XALT ist Platinum Atlassian Partner mit über 15 Jahre Erfahrung in der digitalen Transformation und über 500 erfolgreiche Projekte.</p>
     </div>
   </div>
 </section>
@@ -18,10 +18,10 @@ category: "unternehmen"
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Unsere Geschichte</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XALT isch 2010 i München gegründet worred mit em Ziel, Unterneme bi de Optimierung Ihre IT-Workflows zu begleite. Wir haben vo de Atlassian-Community profitiert und sind heute en Platinum Partner und Marktführer in de DACH-Region.
+XALT ist 2010 in München gegründet worred mit em Ziel, Unterneme bein der Optimierung Ihre IT-Workflows zu begleite. Wir haben vo de Atlassian-Community profitiert und sind heute en Platinum Partner und Marktführer in de DACH-Region.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Über de Jahr het sich XALT zu eme der wichtigsten Atlassian-Partner in Europa entwickelt. Uns Team besteht us über 100 Atlassian-zertifizierte Experten, di Ihr Unternehmen bi de digitalen Transformation unterstützen.
+Über de Jahr het sich XALT zu eme der wichtigsten Atlassian-Partner in Europa entwickelt. Uns Team besteht us über 100 Atlassian-zertifizierte Experten, din Ihr Unternehmen bein der digitalen Transformation unterstützen.
 </p>
 <h2>Unsere Werte</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">

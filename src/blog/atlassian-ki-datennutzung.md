@@ -17,7 +17,7 @@ category: "blog"
 
 <section style="padding: 4rem 2rem;">
   <div style="max-width: 900px; margin: 0 auto;">
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Autor:</strong> Marcel Wänke, Senior Atlassian AI Consultant bei XALT</p>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Autor:</strong> Marcel Wänke, Senior Atlassian AI Consultant bein XALT</p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
 Atlassian baut KI-Erlebnisse wie Rovo konsequent auf Nutzerdaten auf — einschließlich der Daten aus kommerziellen Instanzen. Für Atlassian Administratoren bedeutet das: Es ist Zeit zu überprüfen welche Einstellungen ihre Atlassian-Instance haben und wie sie diese beeinflussen.
 </p>
@@ -25,7 +25,7 @@ Atlassian baut KI-Erlebnisse wie Rovo konsequent auf Nutzerdaten auf — einschl
 Wir haben eine detaillierte Checkliste erstellt die alles abdeckt: Data-Export-Optionen, Privacy-Einstellungen, AI Training Data Opt-Out, DSGVO-konforme Datenhaltung, und mehr. Alle Optionen und deren Auswirkungen auf ihre Atlassian-Umgebung sind dokumentiert.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Der Checkliste wird auch einen Link zu unserem detaillierten Whitepaper enthalten. Kontaktieren Sie uns mit Fragen — wir helfen gerne bei der Umsetzung.
+Der Checkliste wird auch einen Link zu unserem detaillierten Whitepaper enthalten. Kontaktieren Sie uns mit Fragen — wir helfen gerne bein der Umsetzung.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Ki-Datenschutz-Beratig anfordere</a>

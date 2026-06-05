@@ -17,9 +17,9 @@ category: "apps"
 
 <section style="padding: 4rem 2rem;">
   <div style="max-width: 900px; margin: 0 auto;">
-<h2>IAM-Lösig för Ihre Atlassian-Landschaft</h2>
+<h2>IAM-Lösig für Ihre Atlassian-Landschaft</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XLT's Identity Management-Lösig ermöglich zentrales Identity und Access Management i de gesamten Atlassian-Landschaft mit Single Sign-On und Multi-Factor Authentication.
+XLT's Identity Management-Lösig ermöglich zentrales Identity und Access Management in der gesamten Atlassian-Landschaft mit Single Sign-On und Multi-Factor Authentication.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">App anfrage</a>

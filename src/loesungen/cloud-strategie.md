@@ -1,7 +1,7 @@
 ---
 layout: base
 title: "Cloud Strategie & Roadmap — XALT"
-description: "XALT berät Sie bei der Cloud-Strategie für Atlassian mit massgeschneiderter Roadmap."
+description: "XALT berät Sie bein der Cloud-Strategie für Atlassian mit massgeschneiderter Roadmap."
 category: "loesungen"
 ---
 
@@ -21,13 +21,13 @@ Von der Analyse bis zur Umsetzung: XALT erstellt Ihre Cloud-Strategie für Atlas
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Der Weg in dieCloud</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Ein durchdachter Cloud-Pfad isch de Schlüssel fuer en erfolgreichen Umstieg. XALT erstellt für Sie eine detaillierte Analyse Ihres Atlassian-Stacks, bewertet die Cloud-Reife und entwicklet ene Roadmap mit priorisierte Schritte.
+Ein durchdachter Cloud-Pfad ist de Schlüssel fuer en erfolgreichen Umstieg. XALT erstellt für Sie eine detaillierte Analyse Ihres Atlassian-Stacks, bewertet die Cloud-Reife und entwicklet ene Roadmap mit priorisierte Schritte.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
 Uner Cloud-Strategie umfasst: Evaluierung Ihrer aktuellen Infrastruktur und deren Cloud-Tauglichkeit, Definition Ihrer Cloud-Zielarchitektur, Erstellung einer detaillierten Migrations-Roadmap mit Priorisierung und Kostenprognose, sowie Change Management und Schulung für Ihre Teams.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Ein wichtige Aspekt isch dHybrid-Option: nicht alles muess sofort i d Cloud. XALT hilft Ihne zu verstehe, welcher Teile vo Ihre Atlassian-Landschaft am beste i d Cloud wandere und welcher besser on-premise oder i en Hybrid-Architektur bliibe solt.
+Ein wichtige Aspekt ist dHybrid-Option: nicht alles muess sofort in d Cloud. XALT hilft Ihne zu verstehe, welcher Teile von Ihren Atlassian-Landschaft am beste in d Cloud wandere und welcher besser on-premise oder in en Hybrid-Architektur bliibe solt.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Cloud Strategie anfragen</a>

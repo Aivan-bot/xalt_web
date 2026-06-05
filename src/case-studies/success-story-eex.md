@@ -17,11 +17,11 @@ category: "case-studies"
 
 <section style="padding: 4rem 2rem;">
   <div style="max-width: 900px; margin: 0 auto;">
-<h2>EEX Intranet för Börselandschaft</h2>
+<h2>EEX Intranet für Börselandschaft</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Kunde:</strong> European Energy Exchange (EEX)</p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Herausforderig:</strong> EEX benötigete es Intraenet das de komplexe Anforderige vo enere Börselandschaft gerecht wird.</p>
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Lösung:</strong> XALT bauet es massgsehnndertes Intranet uf basis vo Confluence und Jira mit gpasssti Workflows för Compliance und Reporting.</p>
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Ergebnisse:</strong> 60% schnäller Reporting-Zite, verbesserti Compliance, höhere Mitarbeiter-Engagement, vollständig dokumentiert Prozä.</p>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Lösung:</strong> XALT bauet es massgsehnndertes Intranet uf basis vo Confluence und Jira mit gpassstin Workflows für Compliance und Reporting.</p>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Ergebnisse:</strong> 60% schnäller Reporting-Zite, verbessertin Compliance, höhere Mitarbeiter-Engagement, vollständig dokumentiert Prozä.</p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Intranet-Lösig anfordere</a>
     </div>

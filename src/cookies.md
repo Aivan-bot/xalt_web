@@ -14,12 +14,12 @@ description: "Cookie-Information: Welche Cookies XALT verwendet und wie Sie dies
   <div style="max-width: 800px; margin: 0 auto; line-height: 1.8;">
 <p>Unsere Website verwendet Cookies. Das sind kleine Textdateien, die auf Ihrem Endgerät gespeichert werden. Sie dienen dazu, das Angebot technisch, sinnvoller sowie sicherer zu machen.</p>
 <h2>Welche Cookies verwenden wir?</h2>
-<h3>Technisch notwenige Cookies (Art. 6 Abs. 1 lit. f DSGVO)</h3>
+<h3>Technist notwenige Cookies (Art. 6 Abs. 1 lit. f DSGVO)</h3>
 <ul><li>Sitzungs-Cookies: Temporär, werden nach Besuch gelöscht</li><li>Cookie-Banner-Speicher: Speicherung der Cookie-Einstellungen</li></ul>
 <h3>Statistik-Cookies (Art. 6 Abs. 1 lit. a DSGVO)</h3>
 <ul><li>Analyse-Cookies: Werden nur mit Ihrer Einwilligung verwendet</li></ul>
 <h2>Wie können Sie Cookies deaktivieren?</h2>
 <p>Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben.</p>
-<p>Bei den meisten Webbrowsers ist keine Akzeptierung von Cookies abgeschaltet werden kann.</p>
+<p>Bein den meisten Webbrowsers ist keine Akzeptierung von Cookies abgeschaltet werden kann.</p>
   </div>
 </section>

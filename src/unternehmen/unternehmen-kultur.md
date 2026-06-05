@@ -16,7 +16,7 @@ category: "unternehmen"
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Unser Arbeitsklima</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Bi XALT wertet mer Innovation, Partnership und Wachstum. Mir schaffe in eme Umfeld was Kreativität und Zusammenarbeit förderet.
+Bin XALT wertet mer Innovation, Partnership und Wachstum. Mir schaffe in eme Umfeld was Kreativität und Zusammenarbeit förderet.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/unternehmen/karriere/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Offene Positione</a>

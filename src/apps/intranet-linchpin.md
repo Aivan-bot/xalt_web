@@ -1,7 +1,7 @@
 ---
 layout: base
 title: "Intranet Linchpin — XALT"
-description: "Intranet Linchpin - your hub för internal communication mit Confluence."
+description: "Intranet Linchpin - your hub für internal communication mit Confluence."
 category: "apps"
 ---
 
@@ -10,7 +10,7 @@ category: "apps"
     <div class="ht">
       <span class="htag" style="color: var(--primary); font-size: 0.9rem; letter-spacing: 3px;">APP</span>
       <h1 style="font-size: 3rem; font-weight: 800; margin: 1rem 0;">Intranet Linchpin</h1>
-      <p style="font-size: 1.2rem; color: var(--mute); max-width: 650px; line-height: 1.7;">Intranet Linchpin — das zentrale Hub för interi Kommunikation mit Confluence.</p>
+      <p style="font-size: 1.2rem; color: var(--mute); max-width: 650px; line-height: 1.7;">Intranet Linchpin — das zentrale Hub für interin Kommunikation mit Confluence.</p>
     </div>
   </div>
 </section>
@@ -19,7 +19,7 @@ category: "apps"
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Intranet Linchpin</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XLT's Intranet Linchpin isch s zentrale Hub för inneri Kommunikation. News, Team-Site, Dokumentation und Events a einer Site.
+XLT's Intranet Linchpin ist s zentrale Hub für innerin Kommunikation. News, Team-Site, Dokumentation und Events a einer Site.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">App anfrage</a>

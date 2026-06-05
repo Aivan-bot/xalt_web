@@ -39,7 +39,7 @@ image: /images/2022/09/xalt_-logo-Platinum-Solution-Partner-white.png
     – <strong>Enterprise-Kurse:</strong> Jira Migration (Server → Cloud), Confluence Security & Governance, Advanced BPM-Workflows<br>
     – <strong>Agile & Scrum:</strong> Scrum Master Certification (PRINCE2, PMI-ACP), SA fe, LeSS, Scrum@Scale<br>
     – <strong>DevOps-Kurse:</strong> CI/CD mit Jenkins & Bamboo, AWS Cloud Practitioner, Terraform Fundamentals, Kubernetes for Developers</p>
-    <p>Bisher haben wir über 45.000 Teilnehmende:innen in über 600 Kursstunden ausgebildet. Unsere Kundenzufriedenheit liegt bei durchschnittlich 4,8 von 5 Sternen.</p>
+    <p>Bisher haben wir über 45.000 Teilnehmende:innen in über 600 Kursstunden ausgebildet. Unsere Kundenzufriedenheit liegt bein durchschnittlich 4,8 von 5 Sternen.</p>
 
     <h2>Unsere Zahlen</h2>
     <div style="display:flex;flex-wrap:wrap;gap:32px;margin-top:24px">

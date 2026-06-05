@@ -17,9 +17,9 @@ category: "case-studies"
 
 <section style="padding: 4rem 2rem;">
   <div style="max-width: 900px; margin: 0 auto;">
-<h2>Prozess-Digitalisierung för d Fertigung</h2>
+<h2>Prozess-Digitalisierung für d Fertigung</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Herausforderig:</strong> Fertigungsunternehmen benötiget über 200 Gschäftsprozäss z digitalisieren, meischtens papierbasiert.</p>
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Lösung:</strong> XALT erstellet automatisierte Workflows i Jira för alli wichtigi Prozäss mit digitale Formular und Genehmige.</p>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Lösung:</strong> XALT erstellet automatisierte Workflows in Jira für allin wichtigin Prozäss mit digitale Formular und Genehmige.</p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Ergebnisse:</strong> 90% Reduktion vom Papiergebrauch, 65% schnäller Prozessziite, voellig digitaler Audit Trail, 40% Chösterersparnis.</p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Digitalisierung-Lösig anfordere</a>

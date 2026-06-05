@@ -5,120 +5,199 @@ description: "XALT ist Ihr Platinum Partner für Atlassian Beratung, Jira/Conflu
 category: "home"
 ---
 
-<section class="hero" style="background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-elevated) 100%);">
+<!-- ===== HERO ===== -->
+<section class="hero">
   <div class="hc">
     <div class="ht">
-      <span class="htag" style="color: var(--primary); font-size: 0.95rem; letter-spacing: 3px; text-transform: uppercase;">Platinum Atlassian Partner</span>
-      <h1 style="font-size: 3.5rem; font-weight: 800; line-height: 1.1; margin: 1rem 0;">
-        ATLASIAN STRATEGY REVIEW
-      </h1>
-      <p style="font-size: 1.35rem; color: var(--mute); max-width: 650px; line-height: 1.6;">
-        Sind Ihre Atlassian-Tools wirklich optimal im Einsatz? Steigern Sie die Effizienz von Jira, Confluence und Co. mit einer massgeschneiderten Atlassian-Strategie und erhöhen Sie den ROI Ihres Atlassian Toolstacks.
-      </p>
-      <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-        <a href="/leistungen/" style="background: var(--primary); color: #000; padding: 0.9rem 2.5rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.05rem;">Jetzt Strategie-Review anfordern</a>
-        <a href="/loesungen/" style="border: 2px solid var(--primary); color: var(--primary); padding: 0.9rem 2.5rem; border-radius: 8px; font-weight: 600; text-decoration: none; font-size: 1.05rem;">Unsere Lösungen ansehen</a>
-      </div>
-    </div>
-    <div class="hi">
-      <img src="/images/2024/11/xalt_consulting-logo-Atlassian-platinum-partner.png" alt="XALT Atlassian Platinum Partner" style="width: 100%; max-width: 500px; border-radius: 12px;">
-    </div>
-  </div>
-</section>
-
-<!-- Trusted by leading companies -->
-<section style="padding: 4rem 2rem; text-align: center;">
-  <h2 style="font-size: 1.2rem; color: var(--mute); text-transform: uppercase; letter-spacing: 2px; margin-bottom: 3rem;">Vertraut von führenden Unternehmen in der DACH-Region</h2>
-  <div class="bgrid" style="grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 2rem; max-width: 900px; margin: 0 auto;">
-    <div class="bcard" style="text-align: center; padding: 2rem 1rem;">
-      <img src="/images/2022/09/BBV.svg" alt="BBV" style="opacity: 0.6; filter: brightness(0) invert(0.6); max-height: 40px; width: auto;">
-    </div>
-    <div class="bcard" style="text-align: center; padding: 2rem 1rem;">
-      <img src="/images/2022/09/BSH.svg" alt="BSH" style="opacity: 0.6; filter: brightness(0) invert(0.6); max-height: 40px; width: auto;">
-    </div>
-    <div class="bcard" style="text-align: center; padding: 2rem 1rem;">
-      <img src="/images/2022/09/EEX.svg" alt="EEX" style="opacity: 0.6; filter: brightness(0) invert(0.6); max-height: 40px; width: auto;">
-    </div>
-    <div class="bcard" style="text-align: center; padding: 2rem 1rem;">
-      <img src="/images/2022/09/DNB.svg" alt="DNB" style="opacity: 0.6; filter: brightness(0) invert(0.6); max-height: 40px; width: auto;">
-    </div>
-    <div class="bcard" style="text-align: center; padding: 2rem 1rem;">
-      <img src="/images/2022/09/Otto.svg" alt="Otto" style="opacity: 0.6; filter: brightness(0) invert(0.6); max-height: 40px; width: auto;">
-    </div>
-    <div class="bcard" style="text-align: center; padding: 2rem 1rem;">
-      <img src="/images/2022/09/Disney.svg" alt="Disney" style="opacity: 0.6; filter: brightness(0) invert(0.6); max-height: 40px; width: auto;">
-    </div>
-    <div class="bcard" style="text-align: center; padding: 2rem 1rem;">
-      <img src="/images/2022/09/DB-Netz.svg" alt="DB Netz" style="opacity: 0.6; filter: brightness(0) invert(0.6); max-height: 40px; width: auto;">
-    </div>
-  </div>
-</section>
-
-<!-- Main services -->
-<section style="padding: 5rem 2rem; background: var(--bg-elevated);">
-  <div style="max-width: 1100px; margin: 0 auto;">
-    <h2 style="text-align: center; font-size: 2.2rem; margin-bottom: 1rem;">Wir lassen Ihre IT-Vision Wirklichkeit werden</h2>
-    <p style="text-align: center; color: var(--mute); font-size: 1.1rem; max-width: 700px; margin: 0 auto 3rem; line-height: 1.7;">
-      Die Welt der IT ist im Wandel. Technologische Neuerungen erfordern immer schnellere Anpassungen und eine agile Arbeitsweise um den Anschluss an Ihre Mitbewerber nicht zu verpassen. Wir bei XALT haben es uns zur Aufgabe gemacht, Sie auf Ihrem Weg in die Digitale Transformation zu begleiten.
-    </p>
-    <div class="bgrid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
-      <div class="bcard" style="padding: 2rem; text-align: left;">
-        <div style="font-size: 2.5rem; margin-bottom: 1rem;">🚀</div>
-        <h3 style="font-size: 1.3rem; margin-bottom: 0.8rem;">Atlassian Beratung</h3>
-        <p style="color: var(--mute); line-height: 1.6;">Wir unterstützen Ihr Unternehmen bei der effizienteren Verwendung Atlassian Tools wie Jira und Confluence. Mit unserer Platinum-Partner-Kompetenz optimiern wir Ihre Workflows.</p>
-        <a href="/leistungen/atlassian-beratung/" style="color: var(--primary); font-weight: 600; text-decoration: none; display: inline-block; margin-top: 1rem;">Mehr erfahren →</a>
-      </div>
-      <div class="bcard" style="padding: 2rem; text-align: left;">
-        <div style="font-size: 2.5rem; margin-bottom: 1rem;">🔄</div>
-        <h3 style="font-size: 1.3rem; margin-bottom: 0.8rem;">Digitale Transformation</h3>
-        <p style="color: var(--mute); line-height: 1.6;">Massgeschneiderte Lösungen für Ihre digitale Zukunft. Cloud-Migration, DevOps-Transformation und agile Prozessoptimierung aus einer Hand.</p>
-        <a href="/loesungen/cloud-migration/" style="color: var(--primary); font-weight: 600; text-decoration: none; display: inline-block; margin-top: 1rem;">Mehr erfahren →</a>
-      </div>
-      <div class="bcard" style="padding: 2rem; text-align: left;">
-        <div style="font-size: 2.5rem; margin-bottom: 1rem;">📊</div>
-        <h3 style="font-size: 1.3rem; margin-bottom: 0.8rem;">Atlassian Strategy Review</h3>
-        <p style="color: var(--mute); line-height: 1.6;">Analysieren Sie den aktuellen Zustand Ihrer Atlassian-Tools und erhalten Sie einen massgeschneiderten Optimierungsplan für maximale Effizienz.</p>
-        <a href="/loesungen/strategy-review/" style="color: var(--primary); font-weight: 600; text-decoration: none; display: inline-block; margin-top: 1rem;">Mehr erfahren →</a>
+      <span class="htag">Platinum Atlassian Partner</span>
+      <h1>Wir lassen Ihre <span>IT-Vision</span> Wirklichkeit werden</h1>
+      <p class="hdesc">Die Welt der IT ist im Wandel. Technologische Neuerungen erfordern immer schnellere Anpassungen und eine agile Arbeitsweise. Wir bein XALT begleiten Sie auf Ihrem Weg in die Digitale Transformation und tragen mit massgeschneiderten IT-Lösungen zu Ihrem Unternehmenserfolg bei.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <a href="/leistungen/" class="btn">Leistungen entdecken →</a>
+        <a href="/kontakt/" class="btn" style="background:transparent;color:var(--accent);border:1px solid var(--accent)">Kontakt aufnehmen</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Case Study Feature -->
-<section style="padding: 5rem 2rem;">
-  <div style="max-width: 1100px; margin: 0 auto;">
-    <h2 style="font-size: 1.8rem; margin-bottom: 2rem;">Ausgewählte Case Studies</h2>
-    <div class="bgrid" style="grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 2rem;">
-      <div class="bcard" style="overflow: hidden;">
-        <img src="/images/2024/07/xalt_Digitalisierung-Rechnungsmanagement-mit-Jira-DE.jpg" alt="Digitales Rechnungsmanagement" style="width: 100%; height: 200px; object-fit: cover;">
-        <div style="padding: 1.5rem;">
-          <h3 style="font-size: 1.2rem; margin-bottom: 0.8rem;">Zahlungsverkehr: Digitales Rechnungsmanagement mit Jira</h3>
-          <p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">XALTs digitales Rechnungsmanagement mit Jira steigerte die Effizienz durch automatisierte Prozesse, verbesserte Nachverfolgbarkeit und papierloses Arbeiten.</p>
-          <a href="/case-studies/digitales-rechnungsmanagement/" style="color: var(--primary); font-weight: 600; text-decoration: none;">Zur Case Study →</a>
+<!-- ===== LOGO CAROUSEL ===== -->
+<section class="logo-s">
+  <div class="lh">Vertraut von führenden Unternehmen in der DACH-Region</div>
+  <div class="lcar">
+    <div class="lcar-in">
+      <span class="li"><img src="/images/2022/09/BBV.svg" alt="BBV" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/BSH.svg" alt="BSH" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/DAV.svg" alt="DAV" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/DNB.svg" alt="DNB" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/EEX.svg" alt="EEX" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/estos.svg" alt="estos" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/Fath.svg" alt="Fath" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/Otto.svg" alt="Otto" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/Weltbild.svg" alt="Weltbild" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/fictiv.svg" alt="fictiv" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/plixxent.svg" alt="plixxent" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/akdb-logo-header.svg" alt="akdb" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/HBPO.svg" alt="HBPO" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/KVB.svg" alt="KVB" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/Nasa.svg" alt="NASA" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/Disney.svg" alt="Disney" style="max-height:36px;opacity:0.7"></span>
+      <!-- Duplicate for seamless scroll -->
+      <span class="li"><img src="/images/2022/09/BBV.svg" alt="BBV" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/BSH.svg" alt="BSH" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/DAV.svg" alt="DAV" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/DNB.svg" alt="DNB" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/EEX.svg" alt="EEX" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/estos.svg" alt="estos" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/Fath.svg" alt="Fath" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/Otto.svg" alt="Otto" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/Weltbild.svg" alt="Weltbild" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/fictiv.svg" alt="fictiv" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/plixxent.svg" alt="plixxent" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/akdb-logo-header.svg" alt="akdb" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/HBPO.svg" alt="HBPO" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/KVB.svg" alt="KVB" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/Nasa.svg" alt="NASA" style="max-height:36px;opacity:0.7"></span>
+      <span class="li"><img src="/images/2022/09/Disney.svg" alt="Disney" style="max-height:36px;opacity:0.7"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="section">
+  <div class="si">
+    <div class="sh">
+      <span class="st">Unsere Expertise</span>
+      <h2>Wir lassen Ihre IT-Vision Wirklichkeit werden</h2>
+      <p style="color:var(--mute);max-width:700px;margin:12px auto 0;font-size:16px;line-height:1.7">Die Welt der IT ist im Wandel. Technologische Neuerungen erfordern immer schnellere Anpassungen und eine agile Arbeitsweise. Wir bein XALT begleiten Sie auf Ihrem Weg in die Digitale Transformation.</p>
+    </div>
+    <div class="cgrid" style="padding-bottom:0">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">BERATUNG</div>
+          <h2>Atlassian Beratung</h2>
+          <p>Wir unterstützen Ihr Unternehmen bein der effizienteren Verwendung Atlassian Tools wie Jira und Confluence. Mit unserer Platinum-Partner-Kompetenz optimieren wir Ihre Workflows, führen Cloud-Migrationen durch und entwickeln individuelle Plugins.</p>
+          <a href="/leistungen/atlassian-beratung/" class="card-cta">Mehr erfahren →</a>
         </div>
       </div>
-      <div class="bcard" style="overflow: hidden;">
-        <div style="height: 200px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--primary-light), var(--bg-surface));">
-          <span style="font-size: 3rem;">📖</span>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">TRANSFORMATION</div>
+          <h2>Digitale Transformation</h2>
+          <p>Gemeinsam mit Ihnen modernisieren wir das Hosting Ihrer Apps in der Cloud und Ihre IT-Infrastruktur. Als Atlassian, AWS und Azure Partner beraten wir Sie bein der Auswahl der richtigen Technologie für Ihre Cloud-Migration.</p>
+          <a href="/loesungen/cloud-migration/" class="card-cta">Mehr erfahren →</a>
         </div>
-        <div style="padding: 1.5rem;">
-          <h3 style="font-size: 1.2rem; margin-bottom: 0.8rem;">Knowledge Management: Confluence als zentrale Wissensplattform</h3>
-          <p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Ein internationales Chemie-Unternehmen nutzte XALTs Confluence-Expertise für ein zentrales Enterprise-Wissensmanagement.</p>
-          <a href="/case-studies/success-story-confluence-kb/" style="color: var(--primary); font-weight: 600; text-decoration: none;">Zur Case Study →</a>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">DEVOPS</div>
+          <h2>DevOps Beratung</h2>
+          <p>DevOps befähigt Ihr Team, Software schneller und zuverlässiger zu entwickeln, zu testen und zu veröffentlichen. Wir beraten Sie in den Themen: Continuous Delivery, Deployment, Integration und Infrastructure as Code.</p>
+          <a href="/leistungen/devops-services/" class="card-cta">Mehr erfahren →</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Whitepaper CTA -->
-<section style="padding: 5rem 2rem; background: var(--primary); color: #000; text-align: center;">
-  <div style="max-width: 700px; margin: 0 auto;">
-    <img src="/images/2023/10/Mockup-Whitepaper-Atlassian-Cloud-Migration.png" alt="Whitepaper Cloud Migration Guide" style="max-width: 280px; margin: 0 auto 2rem; border-radius: 12px;">
-    <h2 style="font-size: 2rem; margin-bottom: 1rem;">Whitepaper: Guide in die Atlassian Cloud</h2>
-    <p style="font-size: 1.1rem; opacity: 0.9; margin-bottom: 2rem; line-height: 1.6;">
-      Die Vorteile von Cloud Services sind bekannt und werden mittlerweile in unzähligen Praxisbeispielen nachgewiesen. Dennoch zögern manche Unternehmen mit dem Umstieg in die Cloud.
-    </p>
-    <a href="/ressourcen/whitepaper-cloud/" style="background: #000; color: var(--primary); padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Zum Download</a>
+<!-- ===== FEATURED: ATLASIAN STRATEGY REVIEW ===== -->
+<section class="feat">
+  <div class="fc">
+    <div class="fcard">
+      <div class="fco">
+        <span class="flabel">Strategie &amp; Optimierung</span>
+        <h3>Atlassian Strategy Review</h3>
+        <p>Sind Ihre Atlassian-Tools wirklich optimal im Einsatz? Steigern Sie die Effizienz von Jira, Confluence und Co. mit einer massgeschneiderten Atlassian-Strategie und erhöhen Sie den ROI Ihres Atlassian Toolstacks.</p>
+        <a href="/loesungen/strategy-review/" class="card-cta">Zum Strategy Review →</a>
+      </div>
+      <div class="fimg">
+        <img src="/images/2024/09/xalt_atlassian-strategy-review-roi-increase.png" alt="Atlassian Strategy Review ROI">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CUSTOMER SUCCESS STORIES ===== -->
+<section class="section">
+  <div class="si">
+    <div class="sh">
+      <span class="st">Erfolgsgeschichten</span>
+      <h2>Customer Success Stories</h2>
+      <p style="color:var(--mute);max-width:700px;margin:12px auto 0;font-size:16px;line-height:1.7">Wir unterstützen Unternehmen und Institutionen bein der Einführung und Entwicklung von agilen IT-Lösungen. Im Mittelpunkt steht immer der Nutzen und die Zufriedenheit unserer Kunden.</p>
+    </div>
+    <div class="cgrid" style="padding-bottom:0">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">DIGITAL WORKPLACE</div>
+          <h2>Digital Workplace mit Confluence bein BSH</h2>
+          <p>BSH Digital Workplace für 60.000 Mitarbeiter mit Linchpin Intranet &amp; Confluence.</p>
+          <a href="/case-studies/success-story-bsh/" class="card-cta">Mehr erfahren →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">PROZESSE</div>
+          <h2>Projektportfoliomanagement mit Jira</h2>
+          <p>Wie EEX die Projektplanungszeit mit Jira um 50% reduzierte.</p>
+          <a href="/case-studies/success-story-eex/" class="card-cta">Mehr erfahren →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">RECHNUNGSWESEN</div>
+          <h2>Digitales Rechnungsmanagement mit Jira</h2>
+          <p>XALTs digitales Rechnungsmanagement mit Jira steigerte die Effizienz durch automatisierte Prozesse, verbesserte Nachverfolgbarkeit und papierloses Arbeiten.</p>
+          <a href="/case-studies/digitales-rechnungsmanagement/" class="card-cta">Mehr erfahren →</a>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:32px">
+      <a href="/case-studies/" class="btn">Alle Success Stories →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SOLUTIONS ===== -->
+<section class="feat" style="background:rgba(0,0,0,0.1)">
+  <div class="fc">
+    <div class="sh">
+      <span class="st">Unsere Lösungen</span>
+      <h2>Lösungen, die Ihr Unternehmen voranbringen</h2>
+    </div>
+    <div class="cgrid" style="padding-bottom:0">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">INTRANET</div>
+          <h2>Intranet mit Confluence</h2>
+          <p>Confluence als Intranet, Knowledge Base und Kollaborationsplattform – flexibel einsetzbar, skalierbar und sicher.</p>
+          <a href="/loesungen/digital-workplace/" class="card-cta">Mehr erfahren →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">PROZESSE</div>
+          <h2>Digitalisierung von Geschäftsprozessen</h2>
+          <p>Ineffiziente und schwere Prozesse bremsen Ihr Unternehmen aus. Zusammen mit Jira digitalisieren und automatisieren wir Ihre Workflows.</p>
+          <a href="/loesungen/digitalisierung/" class="card-cta">Mehr erfahren →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">PLATFORM ENGINEERING</div>
+          <h2>Container8 Developer Experience</h2>
+          <p>Bringen Sie Ihre digitalen Produkte schneller auf den Markt. Container8 ist eine hoch automatisierte DevOps-as-a-Service-Plattform.</p>
+          <a href="/loesungen/cloud-infrastruktur/" class="card-cta">Mehr erfahren →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHITEPAPER CTA ===== -->
+<section class="cta-section">
+  <div class="cta-box">
+    <img src="/images/2023/10/Mockup-Whitepaper-Atlassian-Cloud-Migration.png" alt="Whitepaper Cloud Migration Guide" style="max-width:200px;margin:0 auto 24px;border-radius:12px;border:1px solid var(--brd)">
+    <h3>Whitepaper: Guide in die Atlassian Cloud</h3>
+    <p>Die Vorteile von Cloud Services sind bekannt und werden in unzähligen Praxisbeispielen nachgewiesen. Dennoch zögern manche Unternehmen mit dem Umstieg. Unser Whitepaper zeigt Ihnen die Vorteile und gibt Ihnen eine praktische Roadmap für Ihre Cloud-Migration.</p>
+    <a href="/ressourcen/whitepaper-cloud/" class="btn">Zum Download →</a>
   </div>
 </section>

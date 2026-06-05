@@ -1,7 +1,7 @@
 ---
 layout: base
 title: "Jira & Confluence Permissions — XALT"
-description: "Advanced Permissions und Access Management för Jira und Confluence."
+description: "Advanced Permissions und Access Management für Jira und Confluence."
 category: "apps"
 ---
 
@@ -10,7 +10,7 @@ category: "apps"
     <div class="ht">
       <span class="htag" style="color: var(--primary); font-size: 0.9rem; letter-spacing: 3px;">APP</span>
       <h1 style="font-size: 3rem; font-weight: 800; margin: 1rem 0;">Jira & Confluence Permissions</h1>
-      <p style="font-size: 1.2rem; color: var(--mute); max-width: 650px; line-height: 1.7;">Advanced Permissions und Access Management för Jira und Confluence.</p>
+      <p style="font-size: 1.2rem; color: var(--mute); max-width: 650px; line-height: 1.7;">Advanced Permissions und Access Management für Jira und Confluence.</p>
     </div>
   </div>
 </section>
@@ -19,7 +19,7 @@ category: "apps"
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Advanced Permissions Management</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XLT's Permissions App bietet advanced Access Control för Jira und Confluence mit Role-Basierter Policies, Audit Logging und automatisierti Berechtigigsprüfung.
+XLT's Permissions App bietet advanced Access Control für Jira und Confluence mit Role-Basierter Policies, Audit Logging und automatisiertin Berechtigigsprüfung.
 </p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">App anfrage</a>

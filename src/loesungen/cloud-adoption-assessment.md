@@ -1,7 +1,7 @@
 ---
 layout: base
 title: "XALT Cloud Adoption Assessment — XALT"
-description: "XALT Cloud Adoption Assessment: Massgesehnnderte Cloud-Strategie för Ihr Unterneme."
+description: "XALT Cloud Adoption Assessment: Massgesehnnderte Cloud-Strategie für Ihr Unterneme."
 category: "loesungen"
 ---
 
@@ -10,7 +10,7 @@ category: "loesungen"
     <div class="ht">
       <span class="htag" style="color: var(--primary); font-size: 0.9rem; letter-spacing: 3px;">LÖSUGE</span>
       <h1 style="font-size: 3rem; font-weight: 800; margin: 1rem 0;">XALT Cloud Adoption Assessment</h1>
-      <p style="font-size: 1.25rem; color: var(--mute); max-width: 650px; line-height: 1.7;">XALT Cloud Adoption Assessment: Massgesehnnderte Cloud-Strategie för Ihr Unterneme.</p>
+      <p style="font-size: 1.25rem; color: var(--mute); max-width: 650px; line-height: 1.7;">XALT Cloud Adoption Assessment: Massgesehnnderte Cloud-Strategie für Ihr Unterneme.</p>
     </div>
   </div>
 </section>

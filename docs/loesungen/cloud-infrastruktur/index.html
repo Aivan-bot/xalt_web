@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Design und Optimierung vo Cloud Infrastruktur för Atlassian-Umgebige.">
-  <title>Cloud Infrastruktur — XALT</title>
+  <meta name="description" content="Design und Optimierung vo Cloud Infrastruktur für Atlassian-Umgebige.">
+  <title>Cloud Infrastruktur — XALT — XALT</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
-  <link rel="stylesheet" href="/xalt_web/css/main.css">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
 
@@ -16,58 +16,28 @@
 <header class="header">
   <div class="hi">
     <!-- Logo -->
-    <a href="/xalt_web" class="logo" aria-label="XALT Startseite">
-      <span class="lx">XALT</span>
-      <span class="ld"></span>
+    <a href="/" class="logo" aria-label="XALT Startseite">
+      <span class="logo-x">X</span>ALT
+      <span class="logo-d"></span>
     </a>
 
     <!-- Desktop Navigation -->
     <nav class="nn" id="mainNav" aria-label="Hauptnavigation">
-      <div class="ni">
-        <span class="nl">Leistungen <span class="d">▾</span></span>
-        <div class="drop">
-          <a href="/xalt_web/leistungen/atlassian-beratung/">Atlassian Beratung</a>
-          <a href="/xalt_web/leistungen/digitale-transformation/">Digitale Transformation</a>
-          <a href="/xalt_web/leistungen/agile-coaching/">Agile Transformation</a>
-          <a href="/xalt_web/leistungen/platform-engineering/">Platform Engineering</a>
-          <a href="/xalt_web/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
-        </div>
-      </div>
-      <div class="ni">
-        <span class="nl">Lösungen <span class="d">▾</span></span>
-        <div class="drop">
-          <a href="/xalt_web/loesungen/digital-workplace/">Digital Workplace</a>
-          <a href="/xalt_web/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
-          <a href="/xalt_web/loesungen/cloud-infrastruktur/">Cloud Infrastruktur</a>
-        </div>
-      </div>
-      <a href="/xalt_web/blog/" class="nl">Blog</a>
-      <div class="ni">
-        <span class="nl">Ressourcen <span class="d">▾</span></span>
-        <div class="drop">
-          <a href="/xalt_web/ressourcen/whitepaper/">Whitepaper</a>
-          <a href="/xalt_web/ressourcen/webinar/">Webinar</a>
-          <a href="/xalt_web/ressourcen/dokumentation/">Dokumentation</a>
-        </div>
-      </div>
-      <div class="ni">
-        <span class="nl">Unternehmen <span class="d">▾</span></span>
-        <div class="drop">
-          <a href="/xalt_web/unternehmen/ueber-uns/">Über uns</a>
-          <a href="/xalt_web/unternehmen/karriere/">Karriere & Jobs</a>
-          <a href="/xalt_web/unternehmen/unsere-teams/">Unser Team</a>
-        </div>
-      </div>
+      <a href="/leistungen/" class="nl">Leistungen</a>
+      <a href="/loesungen/" class="nl">Lösungen</a>
+      <a href="/blog/" class="nl">Blog</a>
+      <a href="/ressourcen/" class="nl">Ressourcen</a>
+      <a href="/unternehmen/" class="nl">Unternehmen</a>
+      <a href="/apps/" class="nl">Apps</a>
     </nav>
 
-    <!-- Header Actions (Desktop: Search, Language, CTA) -->
+    <!-- Header Actions (Desktop) -->
     <div class="ha">
-      <span class="srch" aria-label="Suche">⌕</span>
-      <span class="lang" aria-label="Sprache wählen">🌐</span>
-      <a href="/xalt_web/kontakt/" class="cta">Kontakt</a>
+      <span class="lang active" aria-label="Deutsch">🇩🇪</span>
+      <a href="/kontakt/" class="cta">Kontakt →</a>
     </div>
 
-    <!-- Mobile Hamburger Button -->
+    <!-- Mobile Hamburger -->
     <button class="mt" id="menuToggle" aria-expanded="false" aria-controls="mobileDrop" aria-label="Menü öffnen">
       <span class="ml"></span>
       <span class="ml"></span>
@@ -75,26 +45,27 @@
     </button>
   </div>
 
-  <!-- Mobile Menu Dropdown (flat link list) -->
-  <div class="drop" id="mobileDrop" role="dialog" aria-label="Mobile Navigation" style="display:none">
-    <a href="/xalt_web/leistungen/atlassian-beratung/">Atlassian Beratung</a>
-    <a href="/xalt_web/leistungen/digitale-transformation/">Digitale Transformation</a>
-    <a href="/xalt_web/leistungen/agile-coaching/">Agile Transformation</a>
-    <a href="/xalt_web/leistungen/platform-engineering/">Platform Engineering</a>
-    <a href="/xalt_web/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
-    <a href="/xalt_web/loesungen/digital-workplace/">Digital Workplace</a>
-    <a href="/xalt_web/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
-    <a href="/xalt_web/loesungen/cloud-infrastruktur/">Cloud Infrastruktur</a>
-    <a href="/xalt_web/blog/">Blog</a>
-    <a href="/xalt_web/ressourcen/whitepaper/">Whitepaper</a>
-    <a href="/xalt_web/ressourcen/webinar/">Webinar</a>
-    <a href="/xalt_web/ressourcen/dokumentation/">Dokumentation</a>
-    <a href="/xalt_web/unternehmen/ueber-uns/">Über uns</a>
-    <a href="/xalt_web/unternehmen/karriere/">Karriere & Jobs</a>
-    <a href="/xalt_web/unternehmen/unsere-teams/">Unser Team</a>
-    <a href="/xalt_web/kontakt/">Kontakt</a>
+  <!-- Mobile Menu -->
+  <div id="mobileDrop" role="dialog" aria-label="Mobile Navigation">
+    <a href="/leistungen/">Leistungen</a>
+    <a href="/leistungen/atlassian-beratung/">Atlassian Beratung</a>
+    <a href="/leistungen/agile-coaching/">Agile Transformation</a>
+    <a href="/leistungen/devops-services/">DevOps Services</a>
+    <a href="/loesungen/">Lösungen</a>
+    <a href="/loesungen/digital-workplace/">Digital Workplace</a>
+    <a href="/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
+    <a href="/loesungen/cloud-infrastruktur/">Cloud Infrastruktur</a>
+    <a href="/blog/">Blog</a>
+    <a href="/ressourcen/">Ressourcen</a>
+    <a href="/unternehmen/">Unternehmen</a>
+    <a href="/unternehmen/ueber-uns/">Über uns</a>
+    <a href="/unternehmen/karriere/">Karriere</a>
+    <a href="/unternehmen/team/">Unser Team</a>
+    <a href="/apps/">Apps</a>
+    <a href="/kontakt/">Kontakt</a>
   </div>
 </header>
+
 
 <!-- ===== MAIN CONTENT ===== -->
 <section class="hero" style="padding: 4rem 2rem; background: linear-gradient(135deg, var(--bg-surface), var(--bg-elevated));">
@@ -102,7 +73,7 @@
     <div class="ht">
       <span class="htag" style="color: var(--primary); font-size: 0.9rem; letter-spacing: 3px;">LOESUNGEN</span>
       <h1 style="font-size: 3rem; font-weight: 800; margin: 1rem 0;">Cloud Infrastruktur</h1>
-      <p style="font-size: 1.2rem; color: var(--mute); max-width: 650px; line-height: 1.7;">Design und Optimization vo Cloud Infrastruktur för Atlassian-Umgebige.</p>
+      <p style="font-size: 1.2rem; color: var(--mute); max-width: 650px; line-height: 1.7;">Design und Optimization vo Cloud Infrastruktur für Atlassian-Umgebige.</p>
     </div>
   </div>
 </section>
@@ -110,10 +81,10 @@
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Boue Sie Ihr Cloud Fundament mit XALT Expertise</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XLT designs scalable, secure cloud infrastructures for Atlassian deployments. Whether you need AWS, Azure, or Google Cloud, XLT helps you build the right foundation for your Jira und Confluence Instance i de Cloud.
+XLT designs scalable, secure cloud infrastructures for Atlassian deployments. Whether you need AWS, Azure, or Google Cloud, XLT helps you build the right foundation for your Jira und Confluence Instance in der Cloud.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-Our infrastructure consulting covers architecture design, performance tuning, security configuration, backup and disaster recovery planning, and cost optimization strategies to ensure your Atlassian environment runs efficiently in the cloud.
+Our infrastructure consulting covers architecture design, performance tuning, security configuration, backup and disaster recovery planning, and cost optimization Strategiees to ensure your Atlassian environment runs efficiently in the cloud.
 </p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
 Mit XALT Container8 als underying Plattform biete mir Infrastructure wo nid nur skaliierbar und sicher isch, sondern au chostegünstig und pflegeleicht. Unser Team vo Cloud-Architekten stellt sicher das Ihre Infrastruktur sich mit Ihre Unternehmen weiterentwicklet.
@@ -127,59 +98,26 @@ Mit XALT Container8 als underying Plattform biete mir Infrastructure wo nid nur 
 
 <!-- ===== FOOTER ===== -->
 <footer class="ft">
-  <div class="fgr">
-    <div class="fcol">
-      <h4>Leistungen</h4>
-      <a href="/xalt_web/leistungen/atlassian-beratung/">DevOps Transformation</a>
-      <a href="/xalt_web/leistungen/agile-coaching/">Agiles Projekt Management</a>
-      <a href="/xalt_web/leistungen/platform-engineering/">Continuous Integration &amp; Delivery</a>
-      <a href="/xalt_web/leistungen/digitale-transformation/">Digitalisierung von Geschäftsprozessen</a>
-      <a href="/xalt_web/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
+  <div class="ft-inner">
+    <div class="ft-row">
+      <div class="ft-left">
+        <span class="ft-logo"><span class="ft-logo-x">X</span>ALT</span>
+        <span class="ft-copy">© 2026 XALT. Alle Rechte vorbehalten.</span>
+      </div>
+      <div class="ft-links">
+        <a href="/">xalt.de</a>
+        <a href="/leistungen/">Atlassian Services</a>
+        <a href="https://linkedin.com/company/xalt" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="/kontakt/">Contact</a>
+        <a href="/impressum/">Impressum</a>
+        <a href="/datenschutz/">Cookie-Einstellungen</a>
+      </div>
     </div>
-    <div class="fcol">
-      <h4>Produkte &amp; Lösungen</h4>
-      <a href="/xalt_web/loesungen/digital-workplace/">Confluence Beratung</a>
-      <a href="/xalt_web/loesungen/prozess-digitalisierung/">IT Service Management</a>
-      <a href="/xalt_web/loesungen/cloud-infrastruktur/">Managed Atlassian Hosting</a>
-      <a href="/xalt_web/apps/app-support/">App &amp; Plugin Support</a>
-    </div>
-    <div class="fcol">
-      <h4>Ressourcen</h4>
-      <a href="/xalt_web/ressourcen/success-stories/">Success Stories</a>
-      <a href="/xalt_web/ressourcen/case-studies/">Case Study</a>
-      <a href="/xalt_web/ressourcen/webinar/">Webinar</a>
-      <a href="/xalt_web/ressourcen/dokumentation/">Dokumentation</a>
-    </div>
-    <div class="fcol">
-      <h4>Unternehmen</h4>
-      <a href="/xalt_web/unternehmen/ueber-uns/">Über uns</a>
-      <a href="/xalt_web/unternehmen/karriere/">Karriere &amp; Jobs</a>
-      <a href="/xalt_web/unternehmen/unsere-teams/">Unser Team</a>
-      <a href="/xalt_web/newsletter/">Team XALT Newsletter</a>
-    </div>
-    <div class="fcol">
-      <h4>APPs</h4>
-      <a href="/xalt_web/apps/container8/">Container8 - DevSecOps</a>
-      <a href="/xalt_web/apps/advanced-issue-sync/">Advanced Issue Sync</a>
-      <a href="/xalt_web/apps/image-gallery/">Advanced Image Gallery</a>
-      <a href="/xalt_web/apps/intranet/">Intranet mit Confluence</a>
-    </div>
-  </div>
-  <div class="ftb">
-    <div class="soc">
-      <a href="#" aria-label="Instagram">📷</a>
-      <a href="#" aria-label="LinkedIn">🔗</a>
-    </div>
-    <p>© 2026 XALT</p>
-  </div>
-  <div class="ftl">
-    <a href="/xalt_web/datenschutz/">Datenschutz</a>
-    <a href="/xalt_web/cookie-einstellungen/">Cookie-Einstellungen</a>
-    <a href="/xalt_web/impressum/">Impressum</a>
   </div>
 </footer>
 
-<!-- Site JS -->
-<script src="/xalt_web/js/main.js" type="module" defer></script>
+
+<!-- ===== JS ===== -->
+<script src="/js/main.js" type="module" defer></script>
 </body>
 </html>

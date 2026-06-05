@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="XALT Leistungen: Atlassian Beratung, Agile Transformation und DevOps Services.">
-  <title>Leistungen — XALT</title>
+  <meta name="description" content="XALT Leistungen: Atlassian Beratung, Jira/Confluence Optimierung, DevOps Services und Digitale Transformation.">
+  <title>Leistungen — XALT Atlassian Beratung &amp; DevOps — XALT</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
-  <link rel="stylesheet" href="/xalt_web/css/main.css">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
 
@@ -16,58 +16,28 @@
 <header class="header">
   <div class="hi">
     <!-- Logo -->
-    <a href="/xalt_web" class="logo" aria-label="XALT Startseite">
-      <span class="lx">XALT</span>
-      <span class="ld"></span>
+    <a href="/" class="logo" aria-label="XALT Startseite">
+      <span class="logo-x">X</span>ALT
+      <span class="logo-d"></span>
     </a>
 
     <!-- Desktop Navigation -->
     <nav class="nn" id="mainNav" aria-label="Hauptnavigation">
-      <div class="ni">
-        <span class="nl">Leistungen <span class="d">▾</span></span>
-        <div class="drop">
-          <a href="/xalt_web/leistungen/atlassian-beratung/">Atlassian Beratung</a>
-          <a href="/xalt_web/leistungen/digitale-transformation/">Digitale Transformation</a>
-          <a href="/xalt_web/leistungen/agile-coaching/">Agile Transformation</a>
-          <a href="/xalt_web/leistungen/platform-engineering/">Platform Engineering</a>
-          <a href="/xalt_web/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
-        </div>
-      </div>
-      <div class="ni">
-        <span class="nl">Lösungen <span class="d">▾</span></span>
-        <div class="drop">
-          <a href="/xalt_web/loesungen/digital-workplace/">Digital Workplace</a>
-          <a href="/xalt_web/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
-          <a href="/xalt_web/loesungen/cloud-infrastruktur/">Cloud Infrastruktur</a>
-        </div>
-      </div>
-      <a href="/xalt_web/blog/" class="nl">Blog</a>
-      <div class="ni">
-        <span class="nl">Ressourcen <span class="d">▾</span></span>
-        <div class="drop">
-          <a href="/xalt_web/ressourcen/whitepaper/">Whitepaper</a>
-          <a href="/xalt_web/ressourcen/webinar/">Webinar</a>
-          <a href="/xalt_web/ressourcen/dokumentation/">Dokumentation</a>
-        </div>
-      </div>
-      <div class="ni">
-        <span class="nl">Unternehmen <span class="d">▾</span></span>
-        <div class="drop">
-          <a href="/xalt_web/unternehmen/ueber-uns/">Über uns</a>
-          <a href="/xalt_web/unternehmen/karriere/">Karriere & Jobs</a>
-          <a href="/xalt_web/unternehmen/unsere-teams/">Unser Team</a>
-        </div>
-      </div>
+      <a href="/leistungen/" class="nl">Leistungen</a>
+      <a href="/loesungen/" class="nl">Lösungen</a>
+      <a href="/blog/" class="nl">Blog</a>
+      <a href="/ressourcen/" class="nl">Ressourcen</a>
+      <a href="/unternehmen/" class="nl">Unternehmen</a>
+      <a href="/apps/" class="nl">Apps</a>
     </nav>
 
-    <!-- Header Actions (Desktop: Search, Language, CTA) -->
+    <!-- Header Actions (Desktop) -->
     <div class="ha">
-      <span class="srch" aria-label="Suche">⌕</span>
-      <span class="lang" aria-label="Sprache wählen">🌐</span>
-      <a href="/xalt_web/kontakt/" class="cta">Kontakt</a>
+      <span class="lang active" aria-label="Deutsch">🇩🇪</span>
+      <a href="/kontakt/" class="cta">Kontakt →</a>
     </div>
 
-    <!-- Mobile Hamburger Button -->
+    <!-- Mobile Hamburger -->
     <button class="mt" id="menuToggle" aria-expanded="false" aria-controls="mobileDrop" aria-label="Menü öffnen">
       <span class="ml"></span>
       <span class="ml"></span>
@@ -75,41 +45,150 @@
     </button>
   </div>
 
-  <!-- Mobile Menu Dropdown (flat link list) -->
-  <div class="drop" id="mobileDrop" role="dialog" aria-label="Mobile Navigation" style="display:none">
-    <a href="/xalt_web/leistungen/atlassian-beratung/">Atlassian Beratung</a>
-    <a href="/xalt_web/leistungen/digitale-transformation/">Digitale Transformation</a>
-    <a href="/xalt_web/leistungen/agile-coaching/">Agile Transformation</a>
-    <a href="/xalt_web/leistungen/platform-engineering/">Platform Engineering</a>
-    <a href="/xalt_web/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
-    <a href="/xalt_web/loesungen/digital-workplace/">Digital Workplace</a>
-    <a href="/xalt_web/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
-    <a href="/xalt_web/loesungen/cloud-infrastruktur/">Cloud Infrastruktur</a>
-    <a href="/xalt_web/blog/">Blog</a>
-    <a href="/xalt_web/ressourcen/whitepaper/">Whitepaper</a>
-    <a href="/xalt_web/ressourcen/webinar/">Webinar</a>
-    <a href="/xalt_web/ressourcen/dokumentation/">Dokumentation</a>
-    <a href="/xalt_web/unternehmen/ueber-uns/">Über uns</a>
-    <a href="/xalt_web/unternehmen/karriere/">Karriere & Jobs</a>
-    <a href="/xalt_web/unternehmen/unsere-teams/">Unser Team</a>
-    <a href="/xalt_web/kontakt/">Kontakt</a>
+  <!-- Mobile Menu -->
+  <div id="mobileDrop" role="dialog" aria-label="Mobile Navigation">
+    <a href="/leistungen/">Leistungen</a>
+    <a href="/leistungen/atlassian-beratung/">Atlassian Beratung</a>
+    <a href="/leistungen/agile-coaching/">Agile Transformation</a>
+    <a href="/leistungen/devops-services/">DevOps Services</a>
+    <a href="/loesungen/">Lösungen</a>
+    <a href="/loesungen/digital-workplace/">Digital Workplace</a>
+    <a href="/loesungen/prozess-digitalisierung/">Prozess Digitalisierung</a>
+    <a href="/loesungen/cloud-infrastruktur/">Cloud Infrastruktur</a>
+    <a href="/blog/">Blog</a>
+    <a href="/ressourcen/">Ressourcen</a>
+    <a href="/unternehmen/">Unternehmen</a>
+    <a href="/unternehmen/ueber-uns/">Über uns</a>
+    <a href="/unternehmen/karriere/">Karriere</a>
+    <a href="/unternehmen/team/">Unser Team</a>
+    <a href="/apps/">Apps</a>
+    <a href="/kontakt/">Kontakt</a>
   </div>
 </header>
 
+
 <!-- ===== MAIN CONTENT ===== -->
-<section style="padding: 4rem 2rem; background: linear-gradient(135deg, var(--bg-surface), var(--bg-elevated));">
-  <div style="max-width: 1100px; margin: 0 auto; text-align: center;">
-    <span class="htag" style="color: var(--primary); font-size: 0.9rem; letter-spacing: 3px;">LEISTIGE</span>
-    <h1 style="font-size: 3rem; font-weight: 800; margin: 1rem 0;">XALT Leistungen</h1>
-    <p style="color: var(--mute); font-size: 1.15rem; max-width: 700px; margin: 0 auto; line-height: 1.7;">Vo de strategischen Atlassian-Beratig über agili Transformation bis hin zu DevOps-Consulting: XALT begleitet Unternehmen bi de Optimierung Ihre IT-Workflows.</p>
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hc">
+    <div class="ht">
+      <span class="htag">Unsere Leistungen</span>
+      <h1>Atlassian <span>Beratung</span> &amp; Digitale Transformation</h1>
+      <p class="hdesc">Wir unterstützen Ihr Unternehmen bein der effizienteren Verwendung von Atlassian Tools wie Jira und Confluence. Von der Strategieschen Planung bis zur praktischen Umsetzung begleiten wir Sie auf Ihrem Weg zur digitalen Transformation.</p>
+    </div>
   </div>
 </section>
-<section style="padding: 3rem 2rem;">
-  <div style="max-width: 1100px; margin: 0 auto;">
-    <div class="bgrid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
-      <a href="/leistungen/atlassian-beratung/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem; border-left: 4px solid var(--primary);"><h3>Atlassian Beratung</h3><p style="color: var(--mute);">Strategi Optimierung vo Ihre Jira- und Confluence-Infrastruktur.</p></div></a>
-      <a href="/leistungen/agile-coaching/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem; border-left: 4px solid var(--primary);"><h3>Agile Transformation</h3><p style="color: var(--mute);">Begleitung vo Ihrer Organisation zom mehr Agilität.</p></div></a>
-      <a href="/leistungen/devops-services/" style="text-decoration: none;"><div class="bcard" style="padding: 2rem; border-left: 4px solid var(--primary);"><h3>DevOps Services</h3><p style="color: var(--mute);">CI/CD-Pipeline-Optimierung, IaC und Continuous Improvement.</p></div></a>
+<!-- ===== SERVICES GRID ===== -->
+<section style="padding: 60px 0">
+  <div class="si">
+    <div class="cgrid" style="padding-bottom:0">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">ATLASSIAN</div>
+          <h2>Atlassian Beratung</h2>
+          <p>Strategische Optimierung Ihrer Jira- und Confluence-Infrastruktur. Wir analysieren Ihren aktuellen Zustand, identifizieren Optimierungspotenziale und entwickeln einen massgeschneiderten Fahrplan für Ihre Atlassian-Landschaft.</p>
+          <a href="/leistungen/atlassian-beratung/" class="card-cta">Mehr erfahren →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">TRANSFORMATION</div>
+          <h2>Agile Transformation</h2>
+          <p>Begleitung Ihrer Organisation auf dem Weg zu mehr Agilität. Wir schulen Ihre Teams in agilen Methoden, optimieren Ihre Workflows und helfen Ihnen, den vollen Nutzen aus Ihren Collaboration-Tools zu ziehen.</p>
+          <a href="/leistungen/agile-coaching/" class="card-cta">Mehr erfahren →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">DEVOPS</div>
+          <h2>DevOps Services</h2>
+          <p>CI/CD-Pipeline-Optimierung, Infrastructure as Code und Continuous Improvement. Wir helfen Ihnen, Ihre Softwareentwicklung zu beschleunigen und Ihre IT-Infrastruktur zu modernisieren.</p>
+          <a href="/leistungen/devops-services/" class="card-cta">Mehr erfahren →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===== ATLASIAN SERVICES DETAIL ===== -->
+<section class="section" style="background:rgba(0,0,0,0.1)">
+  <div class="si">
+    <div class="sh">
+      <span class="st">Atlassian Services</span>
+      <h2>Unsere Atlassian Leistungen im Detail</h2>
+    </div>
+    <div class="cgrid" style="padding-bottom:0">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">JIRA</div>
+          <h2>Jira – Agiles Projektmanagement</h2>
+          <p>Wir optimieren Ihre Jira-Instanz für maximale Effizienz. Von der Workflow-Design über Berechtigungsstrukturen bis hin zu individuellen Automatisierungen.</p>
+          <a href="/leistungen/atlassian-beratung/" class="card-cta">Zum Angebot →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">JSM</div>
+          <h2>Jira Service Management</h2>
+          <p>Einführung und Optimierung von IT Service Management-Lösungen mit Jira Service Management. Von der Definition Ihrer Services bis zur Integration mit bestehenden Systemen.</p>
+          <a href="/leistungen/atlassian-beratung/" class="card-cta">Zum Angebot →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">CONFLUENCE</div>
+          <h2>Confluence – Für besseres Teamwork</h2>
+          <p>Confluence als Intranet, Knowledge Base und Kollaborationsplattform. Wir helfen Ihnen, Ihre Wissenslandschaft zu strukturieren und zugänglich zu machen.</p>
+          <a href="/leistungen/atlassian-beratung/" class="card-cta">Zum Angebot →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">HOSTING</div>
+          <h2>Managed Atlassian Toolstack</h2>
+          <p>Professionelles Hosting und Management Ihrer Atlassian-Tools. Wir übernehmen Administration, Updates und Support, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.</p>
+          <a href="/leistungen/atlassian-beratung/" class="card-cta">Zum Angebot →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">MIGRATION</div>
+          <h2>Atlassian Cloud Migration</h2>
+          <p>Planung und Durchführung Ihrer Migration von Atlassian Server/Data Center zur Cloud. Wir begleiten Sie durch den gesamten Migrationsprozess und minimieren Risiken.</p>
+          <a href="/leistungen/atlassian-beratung/" class="card-cta">Zum Angebot →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">LICENZEN</div>
+          <h2>Atlassian Lizenzmanagement</h2>
+          <p>Optimierung Ihres Atlassian-Lizenzportfolios. Wir analysieren Ihre Nutzung, identifizieren Einsparpotenziale und sorgen dafür, dass Sie nur für das bezahlen, was Sie wirklich brauchen.</p>
+          <a href="/leistungen/atlassian-beratung/" class="card-cta">Zum Angebot →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">BERECHTIGUNGEN</div>
+          <h2>Berechtigungsmanagement</h2>
+          <p>Sicherheit und Zugriffsrechte für Jira und Confluence. Wir implementieren ein durchdachtes Berechtigungskonzept, das Sicherheit und Benutzerfreundlichkeit in Einklang bringt.</p>
+          <a href="/leistungen/atlassian-beratung/" class="card-cta">Zum Angebot →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">PLUGINS</div>
+          <h2>Atlassian Plugin Entwicklung</h2>
+          <p>Individuelle Plugins und Integrationen für Ihre Atlassian-Tools. Wir entwickeln maßgeschneiderte Lösungen, die Ihre spezifischen Anforderungen erfüllen.</p>
+          <a href="/leistungen/atlassian-beratung/" class="card-cta">Zum Angebot →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">SCHULUNGEN</div>
+          <h2>Atlassian Schulungen &amp; Workshops</h2>
+          <p>Umfassende Schulungen für Jira Administratoren, Confluence Administratoren und End-User. Wir bieten maßgeschneiderte Trainings für Ihr Team.</p>
+          <a href="/leistungen/agile-coaching/" class="card-cta">Zum Angebot →</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -117,59 +196,26 @@
 
 <!-- ===== FOOTER ===== -->
 <footer class="ft">
-  <div class="fgr">
-    <div class="fcol">
-      <h4>Leistungen</h4>
-      <a href="/xalt_web/leistungen/atlassian-beratung/">DevOps Transformation</a>
-      <a href="/xalt_web/leistungen/agile-coaching/">Agiles Projekt Management</a>
-      <a href="/xalt_web/leistungen/platform-engineering/">Continuous Integration &amp; Delivery</a>
-      <a href="/xalt_web/leistungen/digitale-transformation/">Digitalisierung von Geschäftsprozessen</a>
-      <a href="/xalt_web/leistungen/atlassian-cloud-migration/">Cloud Migration</a>
+  <div class="ft-inner">
+    <div class="ft-row">
+      <div class="ft-left">
+        <span class="ft-logo"><span class="ft-logo-x">X</span>ALT</span>
+        <span class="ft-copy">© 2026 XALT. Alle Rechte vorbehalten.</span>
+      </div>
+      <div class="ft-links">
+        <a href="/">xalt.de</a>
+        <a href="/leistungen/">Atlassian Services</a>
+        <a href="https://linkedin.com/company/xalt" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="/kontakt/">Contact</a>
+        <a href="/impressum/">Impressum</a>
+        <a href="/datenschutz/">Cookie-Einstellungen</a>
+      </div>
     </div>
-    <div class="fcol">
-      <h4>Produkte &amp; Lösungen</h4>
-      <a href="/xalt_web/loesungen/digital-workplace/">Confluence Beratung</a>
-      <a href="/xalt_web/loesungen/prozess-digitalisierung/">IT Service Management</a>
-      <a href="/xalt_web/loesungen/cloud-infrastruktur/">Managed Atlassian Hosting</a>
-      <a href="/xalt_web/apps/app-support/">App &amp; Plugin Support</a>
-    </div>
-    <div class="fcol">
-      <h4>Ressourcen</h4>
-      <a href="/xalt_web/ressourcen/success-stories/">Success Stories</a>
-      <a href="/xalt_web/ressourcen/case-studies/">Case Study</a>
-      <a href="/xalt_web/ressourcen/webinar/">Webinar</a>
-      <a href="/xalt_web/ressourcen/dokumentation/">Dokumentation</a>
-    </div>
-    <div class="fcol">
-      <h4>Unternehmen</h4>
-      <a href="/xalt_web/unternehmen/ueber-uns/">Über uns</a>
-      <a href="/xalt_web/unternehmen/karriere/">Karriere &amp; Jobs</a>
-      <a href="/xalt_web/unternehmen/unsere-teams/">Unser Team</a>
-      <a href="/xalt_web/newsletter/">Team XALT Newsletter</a>
-    </div>
-    <div class="fcol">
-      <h4>APPs</h4>
-      <a href="/xalt_web/apps/container8/">Container8 - DevSecOps</a>
-      <a href="/xalt_web/apps/advanced-issue-sync/">Advanced Issue Sync</a>
-      <a href="/xalt_web/apps/image-gallery/">Advanced Image Gallery</a>
-      <a href="/xalt_web/apps/intranet/">Intranet mit Confluence</a>
-    </div>
-  </div>
-  <div class="ftb">
-    <div class="soc">
-      <a href="#" aria-label="Instagram">📷</a>
-      <a href="#" aria-label="LinkedIn">🔗</a>
-    </div>
-    <p>© 2026 XALT</p>
-  </div>
-  <div class="ftl">
-    <a href="/xalt_web/datenschutz/">Datenschutz</a>
-    <a href="/xalt_web/cookie-einstellungen/">Cookie-Einstellungen</a>
-    <a href="/xalt_web/impressum/">Impressum</a>
   </div>
 </footer>
 
-<!-- Site JS -->
-<script src="/xalt_web/js/main.js" type="module" defer></script>
+
+<!-- ===== JS ===== -->
+<script src="/js/main.js" type="module" defer></script>
 </body>
 </html>

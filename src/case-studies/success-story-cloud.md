@@ -19,10 +19,10 @@ category: "case-studies"
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>100.000+ Issues in d Cloud</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Kunde:</strong> Grossunternehmen</p>
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Herausforderig:</strong> Es Gross-Unterneme benötigede d Migration vo sin On-Premise Atlassian-Instance mit Über 100.000 Issues und 500+ Plugins i de Cloud.</p>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Herausforderig:</strong> Es Gross-Unterneme benötigede d Migration vo sin On-Premise Atlassian-Instance mit Über 100.000 Issues und 500+ Plugins in der Cloud.</p>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Lösung:</strong> XALT plant und ausführte d Migrations mit minimalr Downtime und vollständiger Dateintegrität.
 </p>
-<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Ergebnisse:</strong> 0 Dateverlust, nume 4 Stunde Downtime, alli Plugins migriert und optimiert, 40% günstigeri Lizenzkosten.</p>
+<p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;"><strong>Ergebnisse:</strong> 0 Dateverlust, nume 4 Stunde Downtime, allin Plugins migriert und optimiert, 40% günstigerin Lizenzkosten.</p>
     <div style="margin-top: 3rem; text-align: center;">
       <a href="/kontakt/" style="background: var(--primary); color: #000; padding: 1rem 3rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; display: inline-block;">Cloud Migration anfordere</a>
     </div>

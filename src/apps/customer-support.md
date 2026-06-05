@@ -19,10 +19,10 @@ category: "apps"
   <div style="max-width: 900px; margin: 0 auto;">
 <h2>Ihr Support-Portal mit XALT</h2>
 <p style="color: var(--mute); font-size: 1.05rem; line-height: 1.8; margin: 1.5rem 0;">
-XALT's Customer Support Portal erstellt es professionelle Support-Kanal för Ihre Kunde basierend uf Jira Service Management mit Self-Service-Portal und SLA-Tracking.
+XALT's Customer Support Portal erstellt es professionelle Support-Kanal für Ihre Kunde basierend uf Jira Service Management mit Self-Service-Portal und SLA-Tracking.
 </p>
 <div class="bgrid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 3rem 0;">
-  <div class="bcard" style="padding: 1.5rem;"><h4>Self-Service Portal</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Kunde könne ihri Probleme selbschtständig melden und verfolgen.</p></div>
+  <div class="bcard" style="padding: 1.5rem;"><h4>Self-Service Portal</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Kunde könne ihrin Probleme selbschtständig melden und verfolgen.</p></div>
   <div class="bcard" style="padding: 1.5rem;"><h4>SLA-Tracking</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Automatisiertes SLA-Management mit Echtzeit-Monitoring.</p></div>
   <div class="bcard" style="padding: 1.5rem;"><h4>Knowlege Base</h4><p style="color: var(--mute); font-size: 0.95rem; line-height: 1.6;">Integrierta Knowledge Base für Self-Service-Support.</p></div>
 </div>
